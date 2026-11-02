@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modèle BTC</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f6f5f2;--card:#ffffff;--ink:#1d1d1b;--muted:#6b6a65;--line:#e4e2dc;--accent:#d9822b;--up:#2e7d4f;--down:#b8423a;--neutral:#8a8780;--band:rgba(217,130,43,.16);--chip:#f0eee8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151514;--card:#1f1f1d;--ink:#ecebe6;--muted:#a3a19a;--line:#33322f;--accent:#f0a04b;--up:#5fbf86;--down:#e2766c;--neutral:#9a978f;--band:rgba(240,160,75,.18);--chip:#2a2a27}}
+:root[data-theme="dark"]{--bg:#151514;--card:#1f1f1d;--ink:#ecebe6;--muted:#a3a19a;--line:#33322f;--accent:#f0a04b;--up:#5fbf86;--down:#e2766c;--neutral:#9a978f;--band:rgba(240,160,75,.18);--chip:#2a2a27}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;margin-bottom:18px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}h1 span{color:var(--accent)}
+.meta{color:var(--muted);font-size:13px}.pill{display:inline-block;padding:2px 9px;border-radius:99px;background:var(--chip);font-size:12px;margin-left:6px}
+.spot{font-size:28px;font-weight:650;font-variant-numeric:tabular-nums}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}@media(max-width:820px){.grid3{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h3{margin:0 0 2px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+.target{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;margin:4px 0 0}
+.chg{font-weight:600;font-variant-numeric:tabular-nums}.up{color:var(--up)}.down{color:var(--down)}
+.range{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.conf{margin-top:12px}.bar{height:8px;border-radius:99px;background:var(--chip);overflow:hidden;position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;background:var(--accent);border-radius:99px}
+.bar b{position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.chip{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--chip)}
+.chip.haussier{color:var(--up)}.chip.baissier{color:var(--down)}.chip.neutre{color:var(--neutral)}
+.chartbox{position:relative;height:380px}@media(max-width:600px){.chartbox{height:280px}}
+.tabs{display:flex;gap:4px;margin:26px 0 12px;border-bottom:1px solid var(--line);overflow-x:auto}
+.tabs button{background:none;border:0;color:var(--muted);font:inherit;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.tabs button.on{color:var(--ink);border-color:var(--accent);font-weight:600}
+.panel{display:none}.panel.on{display:block}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:820px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:13.5px}th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}td.n{font-variant-numeric:tabular-nums;text-align:right}th.n{text-align:right}
+.tblwrap{overflow-x:auto}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:14px}.kv dt{color:var(--muted)}.kv dd{margin:0;font-variant-numeric:tabular-nums}
+ul.pts{margin:6px 0 0;padding-left:18px}ul.pts li{margin:4px 0}
+.news a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--muted)}.news li{margin:6px 0}.src{color:var(--muted);font-size:12px}
+p.lead{color:var(--muted);margin:6px 0 0}.warn{border-left:3px solid var(--accent);padding:8px 12px;background:var(--chip);border-radius:6px;font-size:14px}
+select{font:inherit;padding:4px 8px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.empty{color:var(--muted);font-style:italic}
+.regime{display:grid;grid-template-columns:auto 1fr;gap:6px 20px;align-items:center;margin-top:14px}@media(max-width:820px){.regime{grid-template-columns:1fr}}
+.rlabel{font-size:26px;font-weight:700;letter-spacing:-.01em}.rscore{color:var(--muted);font-size:13px}
+.gauge{position:relative;height:14px;border-radius:99px;background:linear-gradient(90deg,var(--up) 0%,var(--up) 20%,var(--chip) 37%,var(--chip) 63%,var(--down) 80%,var(--down) 100%);margin:8px 0 4px}
+.gauge i{position:absolute;top:-4px;width:4px;height:22px;background:var(--ink);border-radius:2px;transform:translateX(-50%)}
+.gticks{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.comp{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);margin-top:6px}.comp b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+footer{margin-top:40px;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div><h1>Modèle <span>Bitcoin</span></h1><div class="meta" id="meta">Chargement…</div></div>
+  <div style="text-align:right"><div class="spot" id="spot">—</div><div class="meta" id="spotlbl"></div></div>
+</header>
+
+<div class="card" id="regimecard" style="display:none"></div>
+<div class="grid3" id="cards" style="margin-top:14px"></div>
+<div class="card" id="newscard" style="margin-top:14px;display:none"></div>
+
+<div class="card" style="margin-top:14px">
+  <h3>Prix, moyennes de cycle et fourchettes 80 % (cibles médianes semaine et mois)</h3>
+  <div class="chartbox"><canvas id="main"></canvas></div>
+</div>
+
+<nav class="tabs">
+  <button class="on" data-t="week">Synthèse hebdo</button>
+  <button data-t="regime">Régime de marché</button>
+  <button data-t="month">Bilan mensuel</button>
+  <button data-t="bt">Fiabilité historique</button>
+  <button data-t="method">Méthode</button>
+</nav>
+
+<section class="panel on" id="week"></section>
+<section class="panel" id="regime"></section>
+<section class="panel" id="month"></section>
+<section class="panel" id="bt"></section>
+<section class="panel" id="method">
+  <div class="grid2">
+  <div class="card"><h3>Les 3 piliers</h3>
+  <p><b>1. Cycles et analyse technique.</b> Multiple de Mayer (prix / moyenne 200 jours), écart à la moyenne 200 semaines, écart à la loi de puissance (régression log-log du prix sur le temps, recalculée sans regarder le futur), phase du cycle de halving, momentum 7 à 180 jours, RSI journalier et hebdomadaire, croisement MM50/MM200, drawdown depuis l'ATH, régime de volatilité.</p>
+  <p><b>2. Whales et on-chain.</b> Flux nets vers les exchanges, pics de dépôts, réserves des exchanges, MVRV, adresses actives, hashrate (CoinMetrics) et, si disponibles gratuitement, BTC détenus par les cohortes de whales, SOPR, position des détenteurs long terme (BGeometrics). Les flux nets des ETF spot américains (depuis janvier 2024) complètent ce pilier. Chaque variable passe un <b>test de causalité de Granger</b> sur 3 ans, dans les deux sens : la variable prévoit-elle le prix, et le prix prévoit-il la variable ? Seules celles qui améliorent significativement la prévision des rendements sont retenues dans le sous-modèle on-chain.</p>
+  <p><b>3. Informations de marché (quali).</b> Indice Fear &amp; Greed et taux de financement des dérivés dans le modèle ; titres d'actualité (CoinDesk, Cointelegraph, Bitcoin Magazine, Decrypt, Google News) lus chaque jour par <b>Gemini</b> (impact probable, importance, thème, résumé du jour) — ou, sans clé API, par un lexique financier. Le lundi, Gemini rédige une synthèse qui croise ces actualités avec les indicateurs chiffrés. La note d'actualité s'accumule jour après jour ; elle n'entrera dans le calcul des cibles qu'après un an d'historique et si elle passe le test de causalité de Granger.</p></div>
+  <div class="card"><h3>Calcul de la cible et de la confiance</h3>
+  <p><b>Ce qui est affiché.</b> Au jour : seulement une fourchette (pas de cible, pas de direction), car aucun signal testé n'a battu « prix inchangé » à cet horizon. Semaine et mois : fourchette d'abord, cible médiane et confiance ensuite, avec les résultats historiques de chaque horizon sous la carte. Le régime de marché, plus robuste, est en tête de page.</p>
+  <p>Un modèle de <b>régression quantile</b> (gradient boosting) estime les quantiles 10 %, 50 % et 90 % du rendement à l'horizon exact (fin de journée, dimanche, fin de mois), normalisé par la volatilité. Trois sous-modèles (technique, on-chain, sentiment) servent à vérifier la cohérence des signaux.</p>
+  <p>Le backtest walk-forward calibre ensuite le modèle : la cible est <b>rapprochée de la prévision naïve</b> (« le prix ne bouge pas ») dans la proportion qui a historiquement minimisé l'erreur, et l'intervalle est élargi pour contenir réellement 80 % des prix observés.</p>
+  <p><b>Régime de marché</b> : six indicateurs de valorisation long terme (loi de puissance, Mayer, MVRV, moyenne 200 semaines, drawdown, RSI hebdo) sont chacun convertis en percentile de leurs 4 dernières années, moyennés et lissés sur 14 jours. Le score va de −1 (accumulation profonde) à +1 (surchauffe). Il ne prédit pas le prix à court terme ; il situe le marché dans son cycle et son pouvoir discriminant n'apparaît qu'à 6–12 mois (onglet « Régime de marché »).</p>
+  <p><b>Indice de confiance</b> = probabilité, apprise sur l'historique, que le prix finisse du bon côté (hausse/baisse) par rapport au prix de référence. 50 = pile ou face. Il tient compte de la force du signal, de l'accord entre sous-modèles, du calme du marché, de l'horizon et de la qualité des données du jour.</p>
+  <div class="warn">Ce modèle est un outil d'aide à l'analyse, pas un conseil en investissement. Aucun modèle public et gratuit ne prévoit le prix du Bitcoin de façon fiable : consulte l'onglet « Fiabilité historique » avant de te fier à une cible.</div></div>
+  </div>
+</section>
+
+<footer>Données : CoinMetrics Community, Kraken, BGeometrics, alternative.me, flux RSS publics. Mise à jour automatique quotidienne via GitHub Actions.</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmt = (v, d=0) => v==null||isNaN(v) ? '—' : Number(v).toLocaleString('fr-FR',{maximumFractionDigits:d,minimumFractionDigits:d});
+const usd = v => v==null ? '—' : fmt(v) + ' $';
+const pct = (v, d=1) => v==null ? '—' : (v>0?'+':'') + fmt(v,d) + ' %';
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const get = async f => { try { const r = await fetch('data/'+f+'?v='+Date.now()); return r.ok ? (f.endsWith('.csv') ? r.text() : r.json()) : null } catch(e){ return null } };
+const esc = s => String(s??'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const dfr = s => s ? new Date(s+'T00:00:00Z').toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'}) : '';
+
+document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('on', x===b));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('on', p.id===b.dataset.t));
+});
+
+const NAMES = {jour:"Aujourd'hui", semaine:'Fin de semaine', mois:'Fin de mois'};
+
+function cards(L, B){
+  const R = (B && B.resultats) || {};
+  const hist = k => { const r = R[k]; if (!r) return '';
+    const g = r.gain_vs_naif_pct;
+    return `<p class="meta" style="margin:10px 0 0">Historique (${esc(B.periode_evaluation)}) : direction juste ${fmt(r.direction_ok_pct,0)} % (hausse dans ${fmt(r.taux_hausse_pct,0)} % des cas), fourchette respectée ${fmt(r.couverture_80_pct,0)} %, cible ${g>0?'meilleure':'pas meilleure'} que « prix inchangé » (${pct(g)}).</p>`; };
+  $('#cards').innerHTML = ['jour','semaine','mois'].map(k => {
+    const p = L.predictions[k];
+    const lo = 100*(p.bas_80/p.prix_reference-1), hi = 100*(p.haut_80/p.prix_reference-1);
+    const range = `<div class="target" style="font-size:26px">${fmt(p.bas_80)} – ${fmt(p.haut_80)} $</div>
+      <div class="range">Fourchette 80 % : <span class="down">${pct(lo,1)}</span> / <span class="up">${pct(hi,1)}</span> autour de ${usd(p.prix_reference)}</div>`;
+    if (k === 'jour' || p.cible_affichee === false) {
+      return `<div class="card"><h3>${NAMES[k]} · ${dfr(p.date_cible)}</h3>${range}
+        <p class="lead" style="margin-top:12px">Pas de cible chiffrée ni de direction : à 1 jour, le modèle n'a jamais fait mieux que « prix inchangé ». Seule la fourchette est fiable.</p>${hist(k)}</div>`;
+    }
+    const cls = p.variation_pct>=0?'up':'down', w = Math.max(0, Math.min(100, p.confiance));
+    return `<div class="card"><h3>${NAMES[k]} · ${dfr(p.date_cible)}</h3>${range}
+      <div style="margin-top:8px;font-size:14px">Cible médiane <b>${usd(p.cible)}</b> <span class="chg ${cls}">${pct(p.variation_pct,2)}</span></div>
+      <div class="conf"><div style="display:flex;justify-content:space-between;font-size:13px"><span>Confiance <b>${fmt(p.confiance,0)}</b>/100</span><span class="meta">${p.confiance_label} · proba. ${p.direction} ${fmt(p.confiance,0)} %</span></div>
+      <div class="bar"><i style="width:${w}%"></i><b title="50 = pile ou face"></b></div></div>
+      <div class="chips">${Object.entries(p.signaux).map(([g,s])=>`<span class="chip ${s}">${g} : ${s}</span>`).join('')}</div>${hist(k)}</div>`;
+  }).join('');
+}
+
+function mainChart(L, H){
+  const P = L.predictions, n = 365;
+  const d = H.dates.slice(-n), c = H.close.slice(-n), s2 = H.sma200.slice(-n), w2 = H.wma200.slice(-n);
+  const last = d[d.length-1], end = P.mois.date_cible;
+  const fut = []; let x = new Date(last+'T00:00:00Z');
+  while (x.toISOString().slice(0,10) < end) { x = new Date(x.getTime()+864e5); fut.push(x.toISOString().slice(0,10)); }
+  const labels = d.concat(fut), N = labels.length, nul = () => Array(N).fill(null);
+  const q50 = nul(), q10 = nul(), q90 = nul(); const i0 = d.length-1;
+  q50[i0] = q10[i0] = q90[i0] = c[i0];
+  for (const k of ['jour','semaine','mois']) { const i = labels.indexOf(P[k].date_cible); if (i>=0){ if (k!=='jour') q50[i]=P[k].cible; q10[i]=P[k].bas_80; q90[i]=P[k].haut_80; } }
+  const pad = a => a.concat(Array(fut.length).fill(null));
+  new Chart($('#main'), {type:'line', data:{labels, datasets:[
+    {label:'Prix', data:pad(c), borderColor:css('--ink'), borderWidth:1.6, pointRadius:0},
+    {label:'MM 200 jours', data:pad(s2), borderColor:css('--neutral'), borderWidth:1, borderDash:[4,3], pointRadius:0},
+    {label:'MM 200 semaines', data:pad(w2), borderColor:css('--up'), borderWidth:1, borderDash:[2,3], pointRadius:0},
+    {label:'Haut 80 %', data:q90, borderColor:'transparent', pointRadius:0, spanGaps:true, fill:'+1', backgroundColor:css('--band')},
+    {label:'Bas 80 %', data:q10, borderColor:'transparent', pointRadius:0, spanGaps:true},
+    {label:'Cible', data:q50, borderColor:css('--accent'), borderWidth:2, spanGaps:true, pointRadius:q50.map(v=>v==null?0:3.5), pointBackgroundColor:css('--accent')},
+  ]}, options:{maintainAspectRatio:false, interaction:{mode:'index',intersect:false},
+    plugins:{legend:{labels:{color:css('--muted'),boxWidth:12,filter:i=>!i.text.includes('80 %')}}, tooltip:{callbacks:{label:t=>t.raw==null?null:`${t.dataset.label} : ${usd(t.raw)}`}}},
+    scales:{x:{ticks:{color:css('--muted'),maxTicksLimit:8},grid:{display:false}}, y:{ticks:{color:css('--muted'),callback:v=>fmt(v/1000)+' k'},grid:{color:css('--line')}}}}});
+}
+
+function weekPanel(W){
+  if (!W) { $('#week').innerHTML = '<p class="empty">La première synthèse sera générée au prochain lundi.</p>'; return; }
+  const cy = W.cycle, oc = W.onchain, se = W.sentiment, sp = W.semaine_passee;
+  const news = (arr) => arr && arr.length ? `<ul class="news">${arr.map(n=>`<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="src">${esc(n.source)} · ${dfr(n.date)} · score ${fmt(n.score,2)}${n.tags.length?' · '+n.tags.join(', '):''}</span></li>`).join('')}</ul>` : '<p class="empty">Aucun titre.</p>';
+  const SR = W.synthese_redigee;
+  const redige = SR ? `<div class="card" style="margin-bottom:14px"><h3>Synthèse rédigée par Gemini · ${esc(W.semaine)}</h3>
+    <p style="font-size:17px;font-weight:600;margin:6px 0">${esc(SR.titre)}</p><p>${esc(SR.synthese).replace(/\n+/g,'</p><p>')}</p>
+    <div class="grid2"><div><b class="up">Facteurs haussiers</b><ul class="pts">${SR.facteurs_haussiers.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+    <div><b class="down">Facteurs baissiers</b><ul class="pts">${SR.facteurs_baissiers.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></div>
+    <p><b>À surveiller :</b> ${SR.a_surveiller.map(esc).join(' · ')}</p><p class="lead"><b>Actualités vs indicateurs :</b> ${esc(SR.coherence)}</p>
+    <p class="meta">Texte généré par ${esc(SR.modele||'Gemini')} à partir des titres de la semaine et des chiffres ci-dessous. Peut contenir des erreurs ; ce n'est pas un conseil d'investissement.</p></div>` : '';
+  $('#week').innerHTML = redige + `
+  <div class="card"><h3>Synthèse ${esc(W.semaine)} · générée le ${dfr(W.genere_le)}</h3>
+    <div class="grid2" style="margin-top:8px">
+     <div><b>Cible fin de semaine</b> (${dfr(W.previsions.semaine.date_cible)}) : ${usd(W.previsions.semaine.cible)} <span class="chg ${W.previsions.semaine.variation_pct>=0?'up':'down'}">${pct(W.previsions.semaine.variation_pct,2)}</span>, confiance ${fmt(W.previsions.semaine.confiance,0)} (${W.previsions.semaine.confiance_label})<br>
+     <b>Cible fin de mois</b> (${dfr(W.previsions.mois.date_cible)}) : ${usd(W.previsions.mois.cible)} <span class="chg ${W.previsions.mois.variation_pct>=0?'up':'down'}">${pct(W.previsions.mois.variation_pct,2)}</span>, confiance ${fmt(W.previsions.mois.confiance,0)} (${W.previsions.mois.confiance_label})</div>
+     <div><b>Points d'attention</b><ul class="pts">${W.points_attention.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
+    </div></div>
+  <div class="grid2" style="margin-top:14px">
+   <div class="card"><h3>1 · Cycles et technique</h3><p class="lead">${esc(cy.lecture)}</p>
+    <dl class="kv" style="margin-top:10px">
+     <dt>Jours depuis le halving</dt><dd>${cy.jours_depuis_halving} (${fmt(cy.phase_cycle_pct,1)} % du cycle)</dd>
+     <dt>Multiple de Mayer</dt><dd>${fmt(cy.multiple_mayer,2)}</dd>
+     <dt>Écart moyenne 200 semaines</dt><dd>${pct(cy.ecart_200_semaines_pct)}</dd>
+     <dt>Loi de puissance</dt><dd>${usd(cy.prix_loi_puissance)} (écart ${pct(cy.ecart_loi_puissance_pct)}, percentile ${fmt(cy.percentile_loi_puissance)})</dd>
+     <dt>Écart à l'ATH</dt><dd>${pct(cy.ecart_ath_pct)} (ATH ${usd(cy.ath)})</dd>
+     <dt>RSI jour / semaine</dt><dd>${fmt(cy.rsi_jour,0)} / ${fmt(cy.rsi_hebdo,0)}</dd>
+     <dt>Performance 7 j / 30 j</dt><dd>${pct(cy.perf_7j_pct)} / ${pct(cy.perf_30j_pct)}</dd>
+    </dl></div>
+   <div class="card"><h3>3 · Sentiment et actualité</h3><p class="lead">${esc(se.lecture)}</p>
+    <div class="chips">${Object.entries(se.themes||{}).map(([k,v])=>`<span class="chip">${esc(k)} · ${v}</span>`).join('')}</div>
+    <p style="margin:12px 0 0"><b>Titres importants</b></p>${news(se.titres_importants)}</div>
+  </div>
+  <div class="card" style="margin-top:14px"><h3>2 · Whales, on-chain et ETF — causalité de Granger (3 ans)</h3><p class="lead">${esc(oc.lecture)}</p>
+   <div class="tblwrap"><table style="margin-top:8px"><tr><th>Variable</th><th class="n">p-value</th><th class="n">p (Holm)</th><th class="n">Retard</th><th class="n">Corr. 7 j</th><th class="n">z (1 an)</th><th class="n" title="Le prix passé aide-t-il à prévoir cette variable ? (p-value)">Prix → var.</th><th>Situation</th><th>Lecture si hausse</th></tr>
+   ${oc.variables.map(v=>`<tr><td>${v.significatif?'<b>':''}${esc(v.libelle)}${v.significatif?'</b>':''}</td><td class="n">${fmt(v.p_value,3)}</td><td class="n">${fmt(v.p_holm,3)}</td><td class="n">${v.retard_jours??'—'} j</td><td class="n">${fmt(v.corr_rendement_7j,2)}</td><td class="n">${fmt(v.z_1an,2)}</td><td class="n">${fmt(v.p_prix_vers_variable,3)}${v.suit_le_prix?' <span class="chip">suit le prix</span>':''}</td><td>${esc(v.tendance)}</td><td class="meta">${esc(v.lecture_si_hausse)}</td></tr>`).join('')}
+   </table></div></div>
+  <div class="grid2" style="margin-top:14px">
+   <div class="card"><h3>Titres les plus positifs</h3>${news(se.titres_positifs)}</div>
+   <div class="card"><h3>Titres les plus négatifs</h3>${news(se.titres_negatifs)}</div>
+  </div>
+  <div class="card" style="margin-top:14px"><h3>Semaine passée</h3>${sp ? `<p>Erreur moyenne des cibles journalières : <b>${fmt(sp.erreur_moyenne_pct,2)} %</b> · prix réel dans l'intervalle 80 % : <b>${fmt(sp.dans_intervalle_pct)} %</b> des jours.</p>` : '<p class="empty">Pas encore de prévisions passées à évaluer.</p>'}</div>`;
+}
+
+function statsTable(S){
+  return `<div class="tblwrap"><table><tr><th>Horizon</th><th class="n">Nb</th><th class="n">Erreur modèle</th><th class="n">Erreur naïve</th><th class="n">Gain vs naïf</th><th class="n">Direction juste</th><th class="n">Taux de hausse</th><th class="n">Dans l'intervalle 80 %</th><th class="n">Confiance moy.</th></tr>
+  ${['jour','semaine','mois'].filter(k=>S[k]).map(k=>{const s=S[k];return `<tr><td>${NAMES[k]}</td><td class="n">${s.n}</td><td class="n">${fmt(s.mape_modele,2)} %</td><td class="n">${fmt(s.mape_naif,2)} %</td><td class="n ${s.gain_vs_naif_pct>0?'up':'down'}">${pct(s.gain_vs_naif_pct)}</td><td class="n">${fmt(s.direction_ok_pct,1)} %</td><td class="n">${fmt(s.taux_hausse_pct,1)} %</td><td class="n">${fmt(s.couverture_80_pct,1)} %</td><td class="n">${fmt(s.confiance_moyenne,0)}</td></tr>`}).join('')}</table></div>
+  <p class="meta">Erreur = écart absolu moyen entre la cible et le prix réel. « Naïf » = on prédit que le prix ne bouge pas. « Taux de hausse » = part des cas où le prix a monté (à comparer à « Direction juste »).</p>`;
+}
+
+
+function regimeCard(R){
+  if (!R) return;
+  const pos = Math.max(0, Math.min(100, (R.score + 1) * 50));
+  const comps = Object.entries(R.composantes).map(([k,v])=>`<span>${esc(k.replace(/_/g,' '))} <b>${v>0?'+':''}${fmt(v,2)}</b></span>`).join('');
+  $('#regimecard').style.display = '';
+  $('#regimecard').innerHTML = `<h3>Régime de marché · depuis le ${dfr(R.depuis)} (${R.jours_dans_regime} j)</h3>
+   <div class="regime"><div><div class="rlabel">${esc(R.regime)}</div><div class="rscore">score ${R.score>0?'+':''}${fmt(R.score,2)} (−1 → +1), lissé sur 14 j</div></div>
+   <div><div class="gauge"><i style="left:${pos}%"></i></div><div class="gticks"><span>accumulation profonde</span><span>neutre</span><span>surchauffe</span></div></div></div>
+   <p class="lead" style="margin-top:10px">${esc(R.lecture)}</p><div class="comp">${comps}</div>`;
+}
+
+function newsCard(N, L){
+  if (!N) return;
+  const g = (L.sources||{}).gemini || {};
+  const fresh = N.date >= (L.genere_le||'').slice(0,10);
+  $('#newscard').style.display = '';
+  $('#newscard').innerHTML = `<h3>Actualité du jour · analyse Gemini${fresh?'':' (dernière disponible : '+dfr(N.date)+')'}</h3>
+   <div class="grid2" style="margin-top:6px"><div><ul class="pts">${N.resume.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+   <p class="meta">Ton global des titres : <b class="${N.ton_global>=0?'up':'down'}">${N.ton_global>0?'+':''}${fmt(N.ton_global,2)}</b> (−1 → +1) · modèle ${esc(N.modele||'')}</p></div>
+   <div>${N.evenements_a_surveiller.length?`<b>À surveiller</b><ul class="pts">${N.evenements_a_surveiller.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+   <p class="meta">Résumé généré automatiquement à partir des seuls titres RSS : il peut contenir des erreurs. Cette note n'entre pas dans le calcul des cibles tant qu'elle n'a pas montré, sur au moins un an, qu'elle aide à prévoir le prix.</p></div></div>`;
+}
+
+let rChart;
+function regimePanel(R){
+  if (!R) { $('#regime').innerHTML = '<p class="empty">Pas de données de régime.</p>'; return; }
+  const V = R.validation, order = ['accumulation profonde','accumulation','neutre','échauffement','surchauffe','toutes_periodes'];
+  const tbl = h => `<div class="tblwrap"><table><tr><th>Régime</th><th class="n">Jours</th><th class="n">Épisodes</th><th class="n">Rendement médian</th><th class="n">% positif</th><th class="n">Pire cas (5 %)</th><th class="n">Meilleur cas (95 %)</th></tr>
+    ${order.filter(k=>V[h][k]).map(k=>{const r=V[h][k];const cur=k===R.regime;return `<tr style="${cur?'font-weight:600':''}"><td>${k==='toutes_periodes'?'<i>Toutes périodes</i>':esc(k)}${cur?' ◀':''}</td><td class="n">${r.n_jours}</td><td class="n">${r.n_episodes??'—'}</td><td class="n ${r.rendement_median_pct>=0?'up':'down'}">${pct(r.rendement_median_pct)}</td><td class="n">${fmt(r.pct_positif,0)} %</td><td class="n down">${pct(r.pire_cas_pct)}</td><td class="n up">${pct(r.meilleur_cas_pct)}</td></tr>`}).join('')}</table></div>`;
+  $('#regime').innerHTML = `<div class="card"><h3>Que s'est-il passé, historiquement, après chaque régime ?</h3>
+   <p class="lead">Pour chaque jour depuis 2011 où le marché était dans un régime donné, on regarde le rendement réalisé 90, 180 et 365 jours plus tard. Le régime est calculé uniquement avec les données disponibles ce jour-là.</p>
+   <h3 style="margin-top:14px">À 1 an</h3>${tbl('365')}<h3 style="margin-top:14px">À 6 mois</h3>${tbl('180')}<h3 style="margin-top:14px">À 3 mois</h3>${tbl('90')}
+   <div class="warn" style="margin-top:12px">Lecture : à 3 mois, le régime ne discrimine presque rien. À 1 an, les écarts sont nets (surchauffe vs accumulation profonde) mais reposent sur une poignée d'épisodes : les jours d'un même épisode ne sont pas des observations indépendantes. Le Bitcoin ayant monté sur la période, « % positif » est élevé partout ; comparer à la ligne « Toutes périodes ».</div>
+   <div class="chartbox" style="height:260px;margin-top:14px"><canvas id="rch"></canvas></div><p class="meta">Score de régime sur 2 ans.</p></div>`;
+  const H = R.historique;
+  rChart && rChart.destroy();
+  rChart = new Chart($('#rch'), {type:'line', data:{labels:H.dates, datasets:[{label:'Score', data:H.score, borderColor:css('--accent'), borderWidth:1.8, pointRadius:0, fill:{target:{value:0}, above:'rgba(184,66,58,.12)', below:'rgba(46,125,79,.12)'}}]},
+    options:{maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{color:css('--muted'),maxTicksLimit:8},grid:{display:false}}, y:{min:-1,max:1,ticks:{color:css('--muted'),stepSize:.5},grid:{color:css('--line')}}}}});
+}
+
+let mChart;
+async function monthPanel(idx){
+  const months = (idx && idx.monthly) || [];
+  if (!months.length) { $('#month').innerHTML = '<p class="empty">Le premier bilan sera généré le 1er du mois qui suit la première prévision. En attendant, l\'onglet « Fiabilité historique » montre la performance sur le passé.</p>'; return; }
+  $('#month').innerHTML = `<div class="card"><h3>Bilan du mois <select id="msel">${months.slice().reverse().map(m=>`<option>${m}</option>`).join('')}</select></h3><div id="mbody"></div></div>`;
+  const load = async m => {
+    const M = await get('monthly/'+m+'.json'); if (!M) return;
+    $('#mbody').innerHTML = `<p class="lead">Prix réel en fin de mois : <b>${usd(M.prix_fin_de_mois_reel)}</b></p><ul class="pts">${M.lecture.map(l=>`<li>${esc(l)}</li>`).join('')}</ul>${statsTable(M.statistiques)}<div class="chartbox" style="height:300px;margin-top:10px"><canvas id="mch"></canvas></div>`;
+    const D = M.detail_journalier, T = M.trajectoire_prevision_fin_de_mois;
+    mChart && mChart.destroy();
+    mChart = new Chart($('#mch'), {type:'line', data:{labels:D.map(x=>x.date), datasets:[
+      {label:'Prix réel', data:D.map(x=>x.reel), borderColor:css('--ink'), pointRadius:2},
+      {label:'Cible du jour', data:D.map(x=>x.cible), borderColor:css('--accent'), pointRadius:2},
+      {label:'Haut', data:D.map(x=>x.haut_80), borderColor:'transparent', pointRadius:0, fill:'+1', backgroundColor:css('--band')},
+      {label:'Bas', data:D.map(x=>x.bas_80), borderColor:'transparent', pointRadius:0},
+      {label:'Prévision de fin de mois (faite ce jour-là)', data:D.map(x=>{const t=T.find(y=>y.date_prevision===x.date);return t?t.cible:null}), borderColor:css('--up'), borderDash:[4,3], pointRadius:0, spanGaps:true},
+    ]}, options:{maintainAspectRatio:false, plugins:{legend:{labels:{color:css('--muted'),boxWidth:12,filter:i=>!['Haut','Bas'].includes(i.text)}}}, scales:{x:{ticks:{color:css('--muted')}}, y:{ticks:{color:css('--muted'),callback:v=>fmt(v/1000,1)+' k'},grid:{color:css('--line')}}}}});
+  };
+  $('#msel').onchange = e => load(e.target.value); load(months[months.length-1]);
+}
+
+function btPanel(B){
+  if (!B) { $('#bt').innerHTML = '<p class="empty">Backtest pas encore disponible.</p>'; return; }
+  const cal = B.calibration.horizons;
+  $('#bt').innerHTML = `<div class="card"><h3>Backtest walk-forward hors échantillon · ${esc(B.periode_evaluation)}</h3>
+   <p class="lead">Le modèle est ré-entraîné tous les 3 mois en n'utilisant que les données disponibles à cette date, puis évalué sur les mois suivants. Calibration apprise sur ${esc(B.periode_calibration)}, jamais sur la période évaluée.</p>
+   ${statsTable(B.resultats)}
+   <div class="warn" style="margin-top:10px">Lecture honnête : si « Gain vs naïf » est négatif ou proche de zéro, la cible chiffrée ne fait pas mieux que de supposer que le prix ne bouge pas. Une « Direction juste » proche du « Taux de hausse » signifie que le modèle capte surtout la tendance de fond. L'intérêt principal du modèle est alors l'intervalle (fourchette réaliste) et la synthèse des signaux, pas la cible ponctuelle.</div>
+   <p class="meta" style="margin-top:10px">Calibration en production — rétrécissement vers la prévision naïve k (1 = cible brute du modèle, 0 = prix inchangé) : jour ${cal['1']?.k}, semaine ${cal['7']?.k}, mois ${cal['30']?.k}. Facteur d'élargissement des intervalles : ${cal['1']?.c} / ${cal['7']?.c} / ${cal['30']?.c}.</p>
+   <div class="chartbox" style="height:320px;margin-top:10px"><canvas id="btch"></canvas></div><p class="meta">Prévisions à 30 jours du backtest (cible et intervalle 80 %) comparées au prix réalisé 30 jours plus tard.</p></div>`;
+  const S = B.serie;
+  new Chart($('#btch'), {type:'line', data:{labels:S.map(x=>x.t), datasets:[
+    {label:'Prix réalisé à J+30', data:S.map(x=>x.actual), borderColor:css('--ink'), pointRadius:0, borderWidth:1.5},
+    {label:'Cible J+30', data:S.map(x=>x.q50), borderColor:css('--accent'), pointRadius:0, borderWidth:1.5},
+    {label:'Haut', data:S.map(x=>x.q90), borderColor:'transparent', pointRadius:0, fill:'+1', backgroundColor:css('--band')},
+    {label:'Bas', data:S.map(x=>x.q10), borderColor:'transparent', pointRadius:0},
+  ]}, options:{maintainAspectRatio:false, interaction:{mode:'index',intersect:false}, plugins:{legend:{labels:{color:css('--muted'),boxWidth:12,filter:i=>!['Haut','Bas'].includes(i.text)}}}, scales:{x:{ticks:{color:css('--muted'),maxTicksLimit:8}}, y:{type:'logarithmic',ticks:{color:css('--muted'),callback:v=>fmt(v/1000)+' k'},grid:{color:css('--line')}}}}});
+}
+
+(async () => {
+  const [L, H, W, B, idx, RG, NT] = await Promise.all([get('latest.json'), get('history.json'), get('weekly_latest.json'), get('backtest.json'), get('index.json'), get('regime.json'), get('news_today.json')]);
+  if (!L) { $('#meta').textContent = "Aucune donnée : lance le workflow « Prévision quotidienne » dans l'onglet Actions de GitHub."; return; }
+  const dq = Math.round(100*L.qualite_donnees);
+  $('#meta').innerHTML = `Mis à jour le ${new Date(L.genere_le).toLocaleString('fr-FR')} · dernière clôture ${dfr(L.date_derniere_cloture)} <span class="pill" title="Part des sources de données disponibles aujourd'hui">données ${dq} %</span> <span class="pill" title="${esc((L.sources.gemini||{}).raison||'')}">actualité : ${(L.sources.gemini||{}).ok && (L.sources.gemini||{}).modele ? 'Gemini' : 'lexique'}</span>`;
+  $('#spot').textContent = usd(L.prix_spot ?? L.prix_cloture_veille);
+  $('#spotlbl').textContent = L.prix_spot ? 'prix au moment du calcul (Kraken)' : 'clôture de la veille';
+  cards(L, B); regimeCard(RG); newsCard(NT, L); if (H) mainChart(L, H); weekPanel(W); regimePanel(RG); monthPanel(idx); btPanel(B);
+})();
+</script>
+</body>
+</html>
