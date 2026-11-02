@@ -137,7 +137,7 @@ def load_bgeometrics():
                 df = pd.DataFrame(j)
                 field = [c for c in df.columns if c not in ("d", "unixTs")][0]
                 s = pd.Series(pd.to_numeric(df[field], errors="coerce").values,
-                              index=pd.to_datetime(df["d"]).dt.normalize(), name="value").dropna()
+                              index=pd.to_datetime(df["d"].astype(str).str[:10]), name="value").dropna()
                 s = s.groupby(level=0).sum() if name in C.BGEO_SUM else s.groupby(level=0).mean()
                 if cached is not None:
                     s = pd.concat([cached, s])
