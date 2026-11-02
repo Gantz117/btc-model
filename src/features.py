@@ -62,7 +62,7 @@ def tech_features(close):
     f["rsi_w"] = rsi(close.resample("W").last()).reindex(close.index, method="ffill")
     vol = ewma_vol(lr)
     f["vol_ratio"] = np.log(vol / vol.rolling(365, min_periods=90).mean())
-    f["dow"] = close.index.dayofweek
+    f["dow"] = close.index.day_of_week
     return f
 
 
