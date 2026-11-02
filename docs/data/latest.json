@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-02T20:30:09.416754+00:00",
+ "genere_le": "2026-11-02T20:42:30.703804+00:00",
  "regime": {
   "score": -0.191,
   "regime": "neutre",
@@ -9,7 +9,7 @@
  },
  "date_derniere_cloture": "2026-11-01",
  "prix_cloture_veille": 78239.2,
- "prix_spot": 76871.3,
+ "prix_spot": 76748.6,
  "volatilite_jour_pct": 1.65,
  "qualite_donnees": 0.979,
  "sources": {
@@ -19,19 +19,22 @@
   },
   "kraken": {
    "ok": true,
-   "spot": 76871.3
+   "spot": 76748.6
   },
   "bgeo:whales_10k": {
    "ok": true,
-   "last": "2026-11-01"
+   "last": "2026-11-01",
+   "cache": true
   },
   "bgeo:whales_1k_10k": {
    "ok": true,
-   "last": "2026-11-01"
+   "last": "2026-11-01",
+   "cache": true
   },
   "bgeo:sharks_100_1k": {
    "ok": true,
-   "last": "2026-11-01"
+   "last": "2026-11-01",
+   "cache": true
   },
   "bgeo:sopr": {
    "ok": true,
@@ -39,7 +42,8 @@
   },
   "bgeo:lth_netpos": {
    "ok": true,
-   "last": "2026-11-01"
+   "last": "2026-11-01",
+   "cache": true
   },
   "bgeo:funding_rate": {
    "ok": false,
@@ -62,8 +66,9 @@
    "items": 170
   },
   "gemini": {
-   "ok": false,
-   "raison": "pas de clé API : analyse par lexique"
+   "modele": "gemini-3.5-flash-lite",
+   "ok": true,
+   "n_notes": 80
   }
  },
  "predictions": {

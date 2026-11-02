@@ -1,7 +1,27 @@
 {
  "semaine": "2026-S45",
  "genere_le": "2026-11-02",
- "synthese_redigee": null,
+ "synthese_redigee": {
+  "titre": "Semaine contrastée pour Bitcoin entre craintes de piratage, sorties sur les ETF et achats institutionnels",
+  "synthese": "Le marché du Bitcoin évolue cette semaine autour de 78 239 dollars, dans un climat marqué par l'incertitude et la prudence. Les actualités ont été dominées par les répercussions de failles de sécurité et de piratages survenus sur des plateformes d'échange comme Binance et Mercado Bitcoin, entraînant d'importants retraits de fonds et des tensions sur la liquidité. Parallèlement, le marché subit des pressions vendeuses via les ETF spot qui enregistrent des flux négatifs notables, tandis que le sentiment général s'enfonce en zone de peur avec un indice Fear & Greed à 37. Du côté des indicateurs quantitatifs, le régime de marché est qualifié de neutre avec un score de -0,19, et l'écart par rapport à l'ATH atteint -37,3 %. Malgré un contexte technique jugé baissier et une volatilité accrue liée aux échéances électorales aux États-Unis, certains acteurs institutionnels continuent d'accumuler, à l'instar de Strategy et Strive qui poursuivent leurs achats de tokens. Il convient de rappeler que les indicateurs on-chain et les flux d'ETF suivent souvent le mouvement du prix plutôt qu'ils ne l'anticipent, et que les prévisions chiffrées des modèles n'ont historiquement pas surpassé la simple hypothèse d'un prix inchangé.",
+  "facteurs_haussiers": [
+   "Poursuite des achats institutionnels par des entreprises comme Strategy et Strive",
+   "Accumulation continue par les portefeuilles intermédiaires (adresses de 100 à 1 000 BTC)",
+   "Hashrate en hausse sur 30 jours, témoignant de la solidité du réseau"
+  ],
+  "facteurs_baissiers": [
+   "Sorties massives et tensions sur les ETF spot Bitcoin",
+   "Incidences et retraits massifs consécutifs aux incidents de sécurité sur les exchanges (Binance, Mercado Bitcoin)",
+   "Indice Fear & Greed en zone de peur à 37 et sentiment de marché dégradé"
+  ],
+  "a_surveiller": [
+   "Le comportement du prix autour du seuil critique des 76 000 à 78 000 dollars",
+   "L'évolution des flux nets sur les ETF spot et la stabilisation des retraits sur les plateformes",
+   "Les impacts potentiels des élections de mi-mandat aux États-Unis sur la volatilité du marché"
+  ],
+  "coherence": "Les actualités de la semaine, marquées par des sorties de capitaux sur les ETF et des incidents sur les exchanges, confirment le climat de prudence et le régime de marché neutre à tendance baissière indiqué par les scores quantitatifs.",
+  "modele": "gemini-3.5-flash-lite"
+ },
  "prix_reference": 78239.2,
  "previsions": {
   "semaine": {
@@ -368,16 +388,16 @@
   },
   "actualites": {
    "n": 155,
-   "score_moyen": -0.112
+   "score_moyen": -0.09
   },
   "themes": {
-   "Sécurité": 33,
-   "Institutionnels": 23,
+   "Sécurité": 41,
+   "Institutionnels": 29,
+   "Macro / Fed": 23,
    "ETF": 13,
-   "Macro / Fed": 10,
-   "Dérivés": 4,
-   "Régulation": 4,
-   "Whales": 2,
+   "Dérivés": 5,
+   "Régulation": 5,
+   "Whales": 3,
    "Mining": 2
   },
   "titres_negatifs": [
@@ -387,26 +407,6 @@
     "source": "news.google.com",
     "date": "2026-11-01",
     "score": -1.0,
-    "tags": [
-     "Sécurité"
-    ]
-   },
-   {
-    "title": "Binance Reopens Withdrawals as Hack Recovery Enters Second Week",
-    "link": "https://bitcoinmagazine.com/news/binance-reopens-withdrawals-hack",
-    "source": "bitcoinmagazine.com",
-    "date": "2026-11-02",
-    "score": -0.999,
-    "tags": [
-     "Sécurité"
-    ]
-   },
-   {
-    "title": "Morning Minute: Binance Hack Leads to Mass Outflows While FBI Opens Probe",
-    "link": "https://decrypt.co/382332/morning-minute-the-binance-hack-leads-to-mass-outflows-while-fbi-opens-probe",
-    "source": "decrypt.co",
-    "date": "2026-11-02",
-    "score": -0.996,
     "tags": [
      "Sécurité"
     ]
@@ -431,19 +431,30 @@
      "ETF",
      "Sécurité"
     ]
+   },
+   {
+    "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+    "link": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+    "source": "decrypt.co",
+    "date": "2026-10-30",
+    "score": -0.964,
+    "tags": [
+     "Sécurité"
+    ]
+   },
+   {
+    "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+    "link": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+    "source": "cointelegraph.com",
+    "date": "2026-10-30",
+    "score": -0.95,
+    "tags": [
+     "Sécurité",
+     "Dérivés"
+    ]
    }
   ],
   "titres_positifs": [
-   {
-    "title": "Adam Back: Pension Funds Are Bitcoin’s “Third Wave” of Adoption",
-    "link": "https://bitcoinmagazine.com/videos/adam-back-pension-funds-are-bitcoins-third-wave-of-adoption",
-    "source": "bitcoinmagazine.com",
-    "date": "2026-11-02",
-    "score": 0.905,
-    "tags": [
-     "Institutionnels"
-    ]
-   },
    {
     "title": "Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run",
     "link": "https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run",
@@ -472,112 +483,115 @@
     "tags": []
    },
    {
-    "title": "Bitcoin Price Analysis: Is the September Rally Structure in Danger as BTC Hangs by a Thread? - CryptoPotato",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOC1ITzhpaTJ2TlVaVk56emRnc081X3dWdEtHRHFVamRXdzIxRmk2RzVUc3dpNFFpMDNDS01wRk1SQ0tzRXZXOEFObUtMOHRJX3lfYkljSWNLa2JVelZleFh1MmoxcGtqMldNT19ZNHVOMTJEWXM2bVM4WnFKRUZpcWk0NzlDOHJpalNzSk5XcW9keHNKMnB3eXFMWUFqM2hFajhjWXNaSXZ2bDF1OFRNVGJETlZLbE0?oc=5",
+    "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
+    "link": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+    "source": "cointelegraph.com",
+    "date": "2026-10-27",
+    "score": 0.823,
+    "tags": []
+   },
+   {
+    "title": "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP rebound as November begins after a losing October - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdnEzQW9WX0pnWmhPY0hNNmlpV3NDSEp4N1FwaVRoNWZPTUloVGFzMldPdU55TVNVN1VPREVOWGdxY3hrWVl3bEtkQVRyQnVCSE1hQkdPaF93SkVsazdJNFhxVXJfc3J3OEt0bG10UEtPcWNkSkRzbEZBRVNJS3dmclg5VmZsZHdldUVyUldWUmpaRFA0RnZpNWZqQS04Mzl3MFZUU0c5SHNuWlpqMTI2VjQzWkgwZlhKd2NUbk1PNE9PX1Q0TXpXUWtmMF9ZdUxaT0lxSkI1WkVCdHp6NC0xNnJjRldqVjJ3ZW9JN3Njc3pkUjhHQld1ODNKUmFocmVlZXhv?oc=5",
     "source": "news.google.com",
     "date": "2026-11-02",
-    "score": 0.87,
+    "score": 0.762,
     "tags": []
    }
   ],
   "titres_importants": [
    {
-    "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
-    "link": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
-    "source": "decrypt.co",
-    "date": "2026-11-01",
-    "score": -0.974,
+    "title": "Bitcoin ETFs Lost $643 Million in One Day: Most of 2026’s Gains Gone - CryptoTicker.io",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMTIyMTd3bnBZcWp5RHk2aXZ2RTB0aFh5aG41dVBBREpDLXZBM1dzNGV5ZkxQaXpMXzZEYkZhNkRfdk9aS1JkOVBmbFQ4dkdrMHEyQVFmcXlXaDRoTUpfQ3dGb0t1a1F0T3dsdnJyWGR6clNXcWZQZjFkemo4eUpzQUlB?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-02",
+    "score": -0.6,
     "tags": [
-     "ETF",
-     "Sécurité"
+     "ETF"
     ],
-    "llm_importance": null
+    "llm_importance": 0.8
+   },
+   {
+    "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+    "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+    "source": "coindesk.com",
+    "date": "2026-11-02",
+    "score": 0.4,
+    "tags": [
+     "Macro / Fed",
+     "Whales"
+    ],
+    "llm_importance": 0.7
+   },
+   {
+    "title": "Bitcoin Faces a Critical Test at $78K: Could a Short Squeeze Trigger a Rally Towards $85K? - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jZnN0ZlYxR1hZVG9HZ1FJdzlGVnR1YXRySnV5dzQtd2I2LTlZc1Jfd1ZsLWE1OEgwTGNHVWk1eWdiMUtBaWxFR2d5YjJYWl8zeDNDQUhBNFY?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-02",
+    "score": 0.5,
+    "tags": [
+     "Dérivés"
+    ],
+    "llm_importance": 0.7
+   },
+   {
+    "title": "Strategy And Strive Buy 935 BTC Through November 1, With Strategy Buying 811 BTC: 7 outlets compared - NewsCord",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTWU4SzNCYkVNZ3gtUGF0NFBNcW91ZlV2SF90cFBYVTRFMFZnenZoTXM1LWNIekRYc1BoM2JYTUk1c1JCYnh0d3lpVU9FUEFlQmJNV2NHSk1nTHhua1g0MENGQUZuZjBUMXFOUjlvZE1KbGg2bDBLZ0JZSE5aSG91M1lVWXhJcjRMVnZCcV9RbzhRbHRMSWw2SU9kV3lWNktjUi1hRVVRTE9PUkg5TjQwX3BWdGVOOW1rY3hqWDFxekFIMWdxNWpfcXhNcVFVbWw2SC1ldHlhcFhjeXd4QjA5RlJfOE1ZdEZ2?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-02",
+    "score": 0.4,
+    "tags": [
+     "Institutionnels"
+    ],
+    "llm_importance": 0.7
+   },
+   {
+    "title": "Strategy Makes Its Largest Bitcoin Purchase Since September, Keeps Buying Back More STRC - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeEZ0SFBPSThLT1VWWUFUci12VnNVN0h2YzRvMWloVHcxd2hIZVNKVW15Y3pFY0NyLS1KT096azd1ZkNsbDdHNGNnMUtDTmNNN1cyNkpKaHByOEdEN1JEMWdtQlVkb1BmX09pVHQyZUR2ME0wTTEya2V4WFdLODh3bzNkc25fS3BMTjNRVVhMQUVSSDNIMnBtSDNuOXg2QjFrUnUyMkxVN3ZsVHFOZGNVZExFMEFYdHZ3SmJVM2NnZ25fMzJ0UGxMSHl3NW02ODIyUE5aNTJjZ2s2dk9WdGxoVkNR?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-02",
+    "score": 0.4,
+    "tags": [
+     "Institutionnels"
+    ],
+    "llm_importance": 0.7
    },
    {
     "title": "Bitcoin giant Strategy, unfazed by Binance hack, adds over $65 million BTC to its holdings - Fortune",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdzRvQVRhODNTNWE2MVE4ZEN0bk4yanR2NmVaek5IWFJFS3J5TTVqWmRqQ0VlblpwSnNGaUZDUUxDVkJpWkpKMkJiYnpxcHB0dnEweEZpMExDdEZaSWJLTjZSclByV1lReWpTQThQdVk3c2dBRjhzWjR0RWZUMDdubkdPUTVnUmNBRXRDTThsTFA?oc=5",
     "source": "news.google.com",
     "date": "2026-11-02",
-    "score": -0.931,
+    "score": 0.4,
     "tags": [
      "Institutionnels",
      "Sécurité"
     ],
-    "llm_importance": null
+    "llm_importance": 0.7
    },
    {
-    "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
-    "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-etfs-lost-usd643-million-in-outflows-friday-and-2026-is-barely-green-now",
-    "source": "coindesk.com",
-    "date": "2026-11-02",
-    "score": -0.931,
-    "tags": [
-     "ETF",
-     "Sécurité"
-    ],
-    "llm_importance": null
-   },
-   {
-    "title": "Bitcoin Price Exhibits Significant Resilience Following Unprecedented Binance Hack - Crowdfund Insider",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2dpd2tfYVlXcm5BbndEaTQ1b0NsU0ZhRXVLR1dEQUdPNHZVSURnVzVSblhfUnU2UkJ1eVhVOHllSmFmX2hfZzRRdFpaMUNFQ1pyUWlFdmVPaFd1NzI1cXZfU2xISGNaeHB1cUNWRmRqNGJWbDQ4c2JGNEN5RGlfNFFUOWVwd0thVk9jQm9UcVZjWjZPWUVoYV9rMmR3bk5Wc2lsYWpHbkFwWi1oWkQ2dTUxcFVSNGx5azFEeFIySnQxeFlNRDl2RzJ2aw?oc=5",
+    "title": "Strategy Resumes Bitcoin Buying, Adding 811 Tokens To Its Holdings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZnl3Z0ZWN0ttX25OMUMtbW5kMFY4UktKdnhWcVNrQ294TUhlVk1VbkEtZEt5T1l5NUpKR2ZRcTIyNlFvTmFDVnVqYUhhZGdHdGVSZzVZdTI3Vm1GaGppV0hmWlhnZ1c5N0JQejM1bFUzVU53S19VNC12T0ZRa3hIR3lYdXBVWF9lbGltS3hFT0xnaDFURGcxMkF5OVByeE5NVU1RQ3lR?oc=5",
     "source": "news.google.com",
-    "date": "2026-11-01",
-    "score": -0.931,
-    "tags": [
-     "ETF",
-     "Sécurité"
-    ],
-    "llm_importance": null
-   },
-   {
-    "title": "Morning Minute: Binance’s $6.4B Hack Overshadows Hyperliquid’s Biggest Day",
-    "link": "https://decrypt.co/382225/morning-minute-binances-6-4b-hack-overshadows-hyperliquids-biggest-day",
-    "source": "decrypt.co",
-    "date": "2026-10-30",
-    "score": -0.931,
-    "tags": [
-     "Régulation",
-     "Sécurité"
-    ],
-    "llm_importance": null
-   },
-   {
-    "title": "Adam Back: Pension Funds Are Bitcoin’s “Third Wave” of Adoption",
-    "link": "https://bitcoinmagazine.com/videos/adam-back-pension-funds-are-bitcoins-third-wave-of-adoption",
-    "source": "bitcoinmagazine.com",
     "date": "2026-11-02",
-    "score": 0.905,
+    "score": 0.4,
     "tags": [
      "Institutionnels"
     ],
-    "llm_importance": null
+    "llm_importance": 0.7
    },
    {
-    "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
-    "link": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-    "source": "cointelegraph.com",
-    "date": "2026-11-02",
-    "score": -0.87,
-    "tags": [
-     "ETF",
-     "Sécurité"
-    ],
-    "llm_importance": null
-   },
-   {
-    "title": "Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run",
-    "link": "https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run",
+    "title": "Strategy (MSTR) Adds 811 Bitcoin, Strive (ASST) Follows Suit With 124 as Both Keep Stacking",
+    "link": "https://bitcoinmagazine.com/news/strategy-mstr-adds-811-bitcoin-strive-too",
     "source": "bitcoinmagazine.com",
-    "date": "2026-10-31",
-    "score": 0.87,
+    "date": "2026-11-02",
+    "score": 0.4,
     "tags": [
-     "Macro / Fed",
      "Institutionnels"
     ],
-    "llm_importance": null
+    "llm_importance": 0.7
    }
   ],
-  "lecture": "Fear & Greed à 37 (peur), contre 50 il y a 7 jours. Ton des 155 titres de la semaine (notés par lexique) : plutôt négatif. Thèmes dominants : Sécurité, Institutionnels, ETF. Le score d'actualité n'entre pas encore dans le calcul de la cible (pas d'historique suffisant pour le valider) ; il est fourni à titre qualitatif."
+  "lecture": "Fear & Greed à 37 (peur), contre 50 il y a 7 jours. Ton des 155 titres de la semaine (notés par Gemini) : plutôt négatif. Thèmes dominants : Sécurité, Institutionnels, Macro / Fed. Le score d'actualité n'entre pas encore dans le calcul de la cible (pas d'historique suffisant pour le valider) ; il est fourni à titre qualitatif."
  },
  "semaine_passee": {
   "n": 7,

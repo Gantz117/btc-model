@@ -1,0 +1,14 @@
+{
+ "date": "2026-11-02",
+ "resume": [
+  "Des sorties massives ont touché les ETF Bitcoin et des retraits importants ont eu lieu sur les plateformes d'échange suite à des incidents de sécurité.",
+  "Plusieurs rapports soulignent des pertes et des hackings notables, notamment l'incident sur la bourse brésilienne Mercado Bitcoin et les conséquences du piratage de Binance.",
+  "Malgré ces turbulences et une pression baissière liée aux incertitudes politiques, des acheteurs institutionnels majeurs comme Strategy et Strive continuent d'accumuler du Bitcoin.",
+  "Les élections de mi-mandat aux États-Unis sont identifiées comme un catalyseur de volatilité potentielle pour les marchés."
+ ],
+ "ton_global": -0.2,
+ "evenements_a_surveiller": [
+  "US Midterms Tomorrow"
+ ],
+ "modele": "gemini-3.5-flash-lite"
+}
