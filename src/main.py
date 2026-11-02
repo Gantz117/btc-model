@@ -31,7 +31,7 @@ def data_quality():
 def predict_at(model, X, close, vol, vol_pct, t0, calib, dq):
     """Prévisions faites au lendemain de la clôture t0 : clôture du jour, du dimanche, de fin de mois."""
     p0 = float(close.loc[t0])
-    week_end = t0 + pd.Timedelta(days=((6 - t0.dayofweek) % 7) or 7)
+    week_end = t0 + pd.Timedelta(days=((6 - t0.day_of_week) % 7) or 7)
     month_end = t0 + pd.offsets.MonthEnd(1)
     targets = {"jour": t0 + pd.Timedelta(days=1), "semaine": week_end, "mois": month_end}
     xrow = X.loc[[t0]]
@@ -109,7 +109,7 @@ def main(argv):
 
     # 3) Backtest / calibration (chaque lundi, ou s'il n'existe pas encore)
     bt_f = C.OUT / "backtest.json"
-    if "--force-backtest" in argv or not bt_f.exists() or today.dayofweek == 0:
+    if "--force-backtest" in argv or not bt_f.exists() or today.day_of_week == 0:
         print("Backtest walk-forward en cours (quelques minutes)…")
         bt = B.full(X, close, vol, groups)
         bt["genere_le"] = now.isoformat()
@@ -155,7 +155,7 @@ def main(argv):
     # 7) Synthèse hebdomadaire (le lundi, ou si celle de la semaine manque)
     iso = today.isocalendar()
     wk_f = C.OUT / "weekly" / f"{iso.year}-S{iso.week:02d}.json"
-    if today.dayofweek == 0 or not wk_f.exists():
+    if today.day_of_week == 0 or not wk_f.exists():
         wk = R.weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime)
         jdump(wk, wk_f)
         jdump(wk, C.OUT / "weekly_latest.json")
