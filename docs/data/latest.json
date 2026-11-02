@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-02T20:42:30.703804+00:00",
+ "genere_le": "2026-11-02T20:47:54.129084+00:00",
  "regime": {
   "score": -0.191,
   "regime": "neutre",
@@ -9,9 +9,9 @@
  },
  "date_derniere_cloture": "2026-11-01",
  "prix_cloture_veille": 78239.2,
- "prix_spot": 76748.6,
+ "prix_spot": 76844.0,
  "volatilite_jour_pct": 1.65,
- "qualite_donnees": 0.979,
+ "qualite_donnees": 1.0,
  "sources": {
   "coinmetrics": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "kraken": {
    "ok": true,
-   "spot": 76748.6
+   "spot": 76844.0
   },
   "bgeo:whales_10k": {
    "ok": true,
@@ -46,9 +46,8 @@
    "cache": true
   },
   "bgeo:funding_rate": {
-   "ok": false,
-   "error": "unconverted data remains when parsing with format \"%Y-%m-%d %H:%M:%S\": \".001\". You might want to try:\n    - passing `format` if your strings have a co",
-   "cache": false
+   "ok": true,
+   "last": "2026-10-25"
   },
   "bgeo:etf_flow": {
    "ok": true,
@@ -68,7 +67,7 @@
   "gemini": {
    "modele": "gemini-3.5-flash-lite",
    "ok": true,
-   "n_notes": 80
+   "n_notes": 45
   }
  },
  "predictions": {
@@ -76,11 +75,11 @@
    "date_cible": "2026-11-02",
    "horizon_jours": 1,
    "prix_reference": 78239.2,
-   "cible": 78224.0,
-   "bas_80": 75596.0,
-   "haut_80": 80591.0,
-   "variation_pct": -0.02,
-   "confiance": 49.0,
+   "cible": 78232.0,
+   "bas_80": 75587.0,
+   "haut_80": 80143.0,
+   "variation_pct": -0.01,
+   "confiance": 51.0,
    "confiance_label": "faible",
    "direction": "baisse",
    "signaux": {
@@ -91,14 +90,14 @@
    "signaux_z": {
     "technique": -0.156,
     "onchain": 0.549,
-    "sentiment": 0.009
+    "sentiment": -0.041
    },
    "composantes_confiance": {
-    "force_signal": 0.061,
-    "accord_sous_modeles": 0.333,
+    "force_signal": 0.033,
+    "accord_sous_modeles": 0.667,
     "calme_marche": 0.801,
     "log_h": 0.0,
-    "proba_hausse_brute": 0.47
+    "proba_hausse_brute": 0.483
    },
    "cible_affichee": false
   },
@@ -106,41 +105,11 @@
    "date_cible": "2026-11-08",
    "horizon_jours": 7,
    "prix_reference": 78239.2,
-   "cible": 78141.0,
-   "bas_80": 70782.0,
-   "haut_80": 85169.0,
-   "variation_pct": -0.13,
-   "confiance": 52.2,
-   "confiance_label": "faible",
-   "direction": "baisse",
-   "signaux": {
-    "technique": "baissier",
-    "onchain": "haussier",
-    "sentiment": "haussier"
-   },
-   "signaux_z": {
-    "technique": -0.165,
-    "onchain": 0.612,
-    "sentiment": 0.07
-   },
-   "composantes_confiance": {
-    "force_signal": 0.061,
-    "accord_sous_modeles": 0.333,
-    "calme_marche": 0.801,
-    "log_h": 1.946,
-    "proba_hausse_brute": 0.469
-   },
-   "cible_affichee": true
-  },
-  "mois": {
-   "date_cible": "2026-11-30",
-   "horizon_jours": 29,
-   "prix_reference": 78239.2,
-   "cible": 77783.0,
-   "bas_80": 61992.0,
-   "haut_80": 96108.0,
-   "variation_pct": -0.58,
-   "confiance": 54.6,
+   "cible": 78190.0,
+   "bas_80": 70561.0,
+   "haut_80": 83836.0,
+   "variation_pct": -0.06,
+   "confiance": 54.2,
    "confiance_label": "moyenne",
    "direction": "baisse",
    "signaux": {
@@ -149,16 +118,46 @@
     "sentiment": "neutre"
    },
    "signaux_z": {
-    "technique": -0.164,
-    "onchain": 0.722,
-    "sentiment": 0.027
+    "technique": -0.165,
+    "onchain": 0.612,
+    "sentiment": -0.027
    },
    "composantes_confiance": {
-    "force_signal": 0.085,
-    "accord_sous_modeles": 0.333,
+    "force_signal": 0.033,
+    "accord_sous_modeles": 0.667,
+    "calme_marche": 0.801,
+    "log_h": 1.946,
+    "proba_hausse_brute": 0.484
+   },
+   "cible_affichee": true
+  },
+  "mois": {
+   "date_cible": "2026-11-30",
+   "horizon_jours": 29,
+   "prix_reference": 78239.2,
+   "cible": 77937.0,
+   "bas_80": 61496.0,
+   "haut_80": 92590.0,
+   "variation_pct": -0.39,
+   "confiance": 56.6,
+   "confiance_label": "moyenne",
+   "direction": "baisse",
+   "signaux": {
+    "technique": "baissier",
+    "onchain": "haussier",
+    "sentiment": "baissier"
+   },
+   "signaux_z": {
+    "technique": -0.164,
+    "onchain": 0.722,
+    "sentiment": -0.056
+   },
+   "composantes_confiance": {
+    "force_signal": 0.06,
+    "accord_sous_modeles": 0.667,
     "calme_marche": 0.801,
     "log_h": 3.367,
-    "proba_hausse_brute": 0.457
+    "proba_hausse_brute": 0.47
    },
    "cible_affichee": true
   }
@@ -382,7 +381,8 @@
  "variables_sentiment": [
   "fng",
   "fng_7d_chg",
-  "fng_30d_mean"
+  "fng_30d_mean",
+  "funding_7d"
  ],
  "test_actualite_ia": null,
  "jours_historique_actualite_ia": 0

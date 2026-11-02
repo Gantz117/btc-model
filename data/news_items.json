@@ -1169,7 +1169,10 @@
 "tags": [
 "Sécurité"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.2,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-02",
@@ -1179,7 +1182,10 @@
 "source": "news.google.com",
 "score": 0.0,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-02",
@@ -1187,11 +1193,14 @@
 "title": "Bitcoin Price Today: BTC Battles for $77K After Binance Hack as Pepeto Offers 0% Trading Fees - TechBullion",
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNnI5R3Nqb3AyYUptUXlDTmhWVzVaR0NJVEVIbzljekdueHFUVVd3S0staHhjLW1mSURqZ1lsdlo2SGpYcXVqNFJ4ck9KeGJiUE0yN1pwMU1pT0NsclBuZ2pPSk1RTVBqU19mLXZWZ1AtbjNIT1FOaXhGeDd2Y01ELVo1NG0wTjVTTzVPdVNlZTM5bUI3X0FVNXFSWjEySGN6bWdtcS1WdnNXQkRWTHdScXotTDRWUQ?oc=5",
 "source": "news.google.com",
-"score": -0.931,
+"score": -0.3,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.931
+"score_lexique": -0.931,
+"llm_impact": -0.3,
+"llm_importance": 0.8,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-02",
@@ -1199,9 +1208,14 @@
 "title": "Bitcoin Forecast: $78,677 Resistance Keeps Bears in Control - Daily Forex",
 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZG43X1libmJ6ajJPV3BMZU1hcGFjNDJhZXVub2RfS19VV3pQWXpzd21pYVNLam1kS29ndUVsN2pmT2xSYjdRVUU0QnRUNTNLRTNVSzFsWU9NNXdxNUNOd1loU3pWRzlMTHM1N25zS3ZiMXZzcFZROHljYWxTUVM5WThfblItSE9wal9NVGFTNTBCU28xWnlBTEdETzg?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": -0.2,
+"tags": [
+"Dérivés"
+],
+"score_lexique": 0.0,
+"llm_impact": -0.2,
+"llm_importance": 0.5,
+"llm_theme": "Dérivés"
 },
 {
 "date": "2026-11-02",
@@ -1209,9 +1223,14 @@
 "title": "Bitcoin Bulls See Light At The End Of The Correction As Michaël Van de Poppe Says Midterm Elections Are 'Priced In' - Yahoo Finance",
 "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0JWa3VjbTNqTnI0dVp2Ni1BVmZjaEZ1R1lCZHFmLWZ1SlZGaVRiTmo3R2d6T2JvWDZqZ3didS01b08wZVhLTlF3bnk0emllV0p3d3dqOERuU25FREE5RXlKOTI5MHBlTWNlR2FaUTlJM1BYdXExNUNaVFVMdExhVTZVV1RvMWdUcktlaDNTQXQ3X3ZvTTQ0?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": 0.2,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": 0.0,
+"llm_impact": 0.2,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-02",
@@ -1219,9 +1238,14 @@
 "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
 "link": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
 "source": "cointelegraph.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": -0.1,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": 0.0,
+"llm_impact": -0.1,
+"llm_importance": 0.7,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-02",
@@ -1229,9 +1253,14 @@
 "title": "Bitcoin and XRP Price Predictions: Will US Midterm Elections Trigger Another November Crash? - CoinGape",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUS1RcmIzWXlfRVZSZ3FMTW5mOEFLWUNOaThCQ1BrWGZuZ01uN3l4b2xxeEFCTnVJUXYycnVfYi10dmhPeDZBa2gwWm1EVmlhUk13YmtqTm96d0JwbVRWR2dKd0J4Qzlja1FoQWMwRmN1OVpTQnFhZk9URVdWZldIVm1OVTVwdlM0dWFRb1hDWHBZUnF5RUwtaFQ5T0hCOVJrZXVlTV8zeThoQzdFTkZlWERXR0g3dGxhMWdMNQ?oc=5",
 "source": "news.google.com",
-"score": -0.931,
-"tags": [],
-"score_lexique": -0.931
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": -0.931,
+"llm_impact": -0.2,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-02",
@@ -1239,12 +1268,15 @@
 "title": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead",
 "link": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
 "source": "coindesk.com",
-"score": -0.682,
+"score": -0.2,
 "tags": [
 "Macro / Fed",
 "Sécurité"
 ],
-"score_lexique": -0.682
+"score_lexique": -0.682,
+"llm_impact": -0.2,
+"llm_importance": 0.8,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-02",
@@ -1252,11 +1284,29 @@
 "title": "Live updates: Bitcoin bounce fades as Binance exploit continues to weigh",
 "link": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
 "source": "coindesk.com",
-"score": -0.823,
+"score": -0.4,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.823
+"score_lexique": -0.823,
+"llm_impact": -0.4,
+"llm_importance": 0.8,
+"llm_theme": "Sécurité"
+},
+{
+"date": "2026-11-02",
+"ts": "2026-11-02T08:49:30+00:00",
+"title": "Live updates: Bitcoin bounce fades as Binance exploit, AI unwind continue to weigh",
+"link": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
+"source": "coindesk.com",
+"score": -0.4,
+"tags": [
+"Sécurité"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.8,
+"llm_theme": "Sécurité",
+"score_lexique": -0.583
 },
 {
 "date": "2026-11-02",
@@ -1264,9 +1314,14 @@
 "title": "China’s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
 "link": "https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
 "source": "coindesk.com",
-"score": -0.583,
-"tags": [],
-"score_lexique": -0.583
+"score": -0.3,
+"tags": [
+"Régulation"
+],
+"score_lexique": -0.583,
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Régulation"
 },
 {
 "date": "2026-11-02",
@@ -1274,12 +1329,15 @@
 "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
 "link": "https://www.coindesk.com/business/2026/11/02/why-crypto-exchange-hacks-can-be-harder-to-contain-versus-global-banks",
 "source": "coindesk.com",
-"score": 0.0,
+"score": -0.2,
 "tags": [
 "Institutionnels",
 "Sécurité"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.2,
+"llm_importance": 0.5,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-02",
@@ -1287,12 +1345,15 @@
 "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
 "link": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
 "source": "cointelegraph.com",
-"score": -0.87,
+"score": -0.5,
 "tags": [
 "ETF",
 "Sécurité"
 ],
-"score_lexique": -0.87
+"score_lexique": -0.87,
+"llm_impact": -0.5,
+"llm_importance": 0.9,
+"llm_theme": "ETF"
 },
 {
 "date": "2026-11-02",
@@ -1300,11 +1361,14 @@
 "title": "Bitcoin price rebounds after Binance hack, but can it reclaim $80K? - Crypto News",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVZmUmZTTGtzeWJaTWYtM3RmdmJFS2NVLVB1TlNTZGNFcEs5ODBxd3hfa2tJTEtERDVvN3RQZUZ4d1RfdE1HTFlRM3dERnd0bE5NcjdjdzZzRWZFZkZlWC15MlZwQ3p6MzFQMzRud3RFZzVFQjAzbG9FT25UTTZEU19Gc3VWZzFacURNNGNn?oc=5",
 "source": "news.google.com",
-"score": -0.931,
+"score": 0.1,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.931
+"score_lexique": -0.931,
+"llm_impact": 0.1,
+"llm_importance": 0.5,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-02",
@@ -1312,12 +1376,15 @@
 "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
 "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-etfs-lost-usd643-million-in-outflows-friday-and-2026-is-barely-green-now",
 "source": "coindesk.com",
-"score": -0.931,
+"score": -0.5,
 "tags": [
 "ETF",
 "Sécurité"
 ],
-"score_lexique": -0.931
+"score_lexique": -0.931,
+"llm_impact": -0.5,
+"llm_importance": 0.9,
+"llm_theme": "ETF"
 },
 {
 "date": "2026-11-02",
@@ -1325,11 +1392,14 @@
 "title": "Bitcoin price at $78,443: October's spot ETF flows - CryptoTicker.io",
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc28zZmVXMTMyYXd2M0dyN1J2MF93UWxSeW5HSHVaaFdTMVE5SWc4OWRCcmhsNlhWZ1lFTzA3VFVLWG15bVQ4eVpmOFF5VFdIWS10Wi1PWlotcDNOR3lSRVBMNi1xd0RfUWJXcTRjYXk2cm9nTGRhXzRfMi1UVUNVSTVCOWQ?oc=5",
 "source": "news.google.com",
-"score": 0.0,
+"score": -0.3,
 "tags": [
 "ETF"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "ETF"
 },
 {
 "date": "2026-11-02",
@@ -1337,9 +1407,14 @@
 "title": "BTC Price Prediction: Pinned Below Every Key Average as Taker Sellers Drive Price Discovery - Blockchain News",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRzdvSDY0WHFBYzlkWkhqeFdIU3AtUlp4UlRHQ3FVQTNma1ljenJCRS1RZ3VMclFrVmFMMnlTNGlMc2R5N045YnVJZWgxOFFVc3h6ZkQ3WER6Z1FBS1cxMWdfTWRNVFQ4VkVxczRGU01xYXYwbHljMElhUjBMTVN3V0Jtcm4zMmh5SFNLOC1aRFdsZnhxSl8wbkpINnptOTg?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": -0.3,
+"tags": [
+"Dérivés"
+],
+"score_lexique": 0.0,
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés"
 },
 {
 "date": "2026-11-02",
@@ -1347,9 +1422,14 @@
 "title": "BTCPay Server warns of hot wallet thefts running on outdated software",
 "link": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
 "source": "cointelegraph.com",
-"score": -0.322,
-"tags": [],
-"score_lexique": -0.322
+"score": -0.3,
+"tags": [
+"Sécurité"
+],
+"score_lexique": -0.322,
+"llm_impact": -0.3,
+"llm_importance": 0.7,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-02",
@@ -1357,12 +1437,15 @@
 "title": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
 "link": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
 "source": "coindesk.com",
-"score": 0.0,
+"score": -0.1,
 "tags": [
 "Macro / Fed",
 "Sécurité"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.1,
+"llm_importance": 0.3,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-02",
@@ -1370,9 +1453,12 @@
 "title": "Bitcoin Price Prediction: A Bull Trap All Along? BTC Risks Sub $70K as AlphaPepe Passes $3.26M Raised - StreetInsider",
 "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcHFkUFRBUFI0eVhVdU1kaWhKSmVDbnk2U0Y3b21MQXFoOGVUQzBqQjEzZDhUTTNWclR1a3NxUW04bXhXT21hWGlZLVItTGpBQkFVbHUxSWNKZ29WSEFtRGNKejM4b0RNU3BtSjhEQk9QRTNPY0RCN0hCQmZ4blpCOVdtaHBzdVBMWUpSSXhKbUJIeXpWYnJZVElwZkpGaDNLNUJZRjBaS0JOTVZ3cGhzSGhfdmF1M0lFcV9xdGZ2YXlJUHdoelNkNDBvdGpVd29jUVZEemk4R3VKU1lVSFNRZ1Jmb0pIRDl5UWtDRDBZQ042UWFLS2FGajNB?oc=5",
 "source": "news.google.com",
-"score": 0.762,
+"score": -0.4,
 "tags": [],
-"score_lexique": 0.762
+"score_lexique": 0.762,
+"llm_impact": -0.4,
+"llm_importance": 0.5,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-02",
@@ -1380,11 +1466,14 @@
 "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
 "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
 "source": "coindesk.com",
-"score": -0.682,
+"score": 0.1,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.682
+"score_lexique": -0.682,
+"llm_impact": 0.1,
+"llm_importance": 0.7,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-02",
@@ -1392,9 +1481,14 @@
 "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
 "link": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
 "source": "coindesk.com",
-"score": -0.322,
-"tags": [],
-"score_lexique": -0.322
+"score": -0.3,
+"tags": [
+"Sécurité"
+],
+"score_lexique": -0.322,
+"llm_impact": -0.3,
+"llm_importance": 0.7,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-02",
@@ -1402,9 +1496,12 @@
 "title": "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP rebound as November begins after a losing October - FXStreet",
 "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdnEzQW9WX0pnWmhPY0hNNmlpV3NDSEp4N1FwaVRoNWZPTUloVGFzMldPdU55TVNVN1VPREVOWGdxY3hrWVl3bEtkQVRyQnVCSE1hQkdPaF93SkVsazdJNFhxVXJfc3J3OEt0bG10UEtPcWNkSkRzbEZBRVNJS3dmclg5VmZsZHdldUVyUldWUmpaRFA0RnZpNWZqQS04Mzl3MFZUU0c5SHNuWlpqMTI2VjQzWkgwZlhKd2NUbk1PNE9PX1Q0TXpXUWtmMF9ZdUxaT0lxSkI1WkVCdHp6NC0xNnJjRldqVjJ3ZW9JN3Njc3pkUjhHQld1ODNKUmFocmVlZXhv?oc=5",
 "source": "news.google.com",
-"score": 0.762,
+"score": 0.1,
 "tags": [],
-"score_lexique": 0.762
+"score_lexique": 0.762,
+"llm_impact": 0.1,
+"llm_importance": 0.4,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-02",
@@ -1412,11 +1509,15 @@
 "title": "Bitcoin Price Outlook: BTC Recovery in Focus as U.S. Elections and Strategy Buying Offer Hope - FXLeaders",
 "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbERkYXhCemRVSWFFb3E3Q1pWMzV5akRMUUhLdk1odXdlbE9KUlE3cl9fYlRTOVhMd0pGNlpIY1JXb3lBM3lHal9kZ3hxSTJ0VkFRNzVEZWYzdG52Vm1pZS1qSnozbjE3R2doS0JmYmVnWFFVQW5TTlMzcDAzODBFZ2xVWEVMTWYxVVRIWTAtMmEtZUxYeU54alNidnppSkc4OGFGa0huVzl0OXlkaWhNUl9JNVp4cUx6bEdYRVdLR1ZZVE9LSVV0bkd6aEVBd1E?oc=5",
 "source": "news.google.com",
-"score": 0.0,
+"score": 0.2,
 "tags": [
+"Macro / Fed",
 "Institutionnels"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.2,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-02",
@@ -1424,9 +1525,12 @@
 "title": "Survey shows 72% bullish on Bitcoin if Republic... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWDYzUmNtTmotNmxIWEV0YWR1MG5QQXMzUDBrejUxNUx4clJCVlVlVWtkT01oZXRNM1c1alh1QkdfNUVMZWlpcDlOd09HYnZiWjFmVGVVQ0E5cmgxcjZLeDc2OFpNb3JRY0hJU2VGbWVlSW9qUmdEWlFiekwwY015ci1LQ0NxRkVJYTJ4cUcxVzhsZVZQT3ZLZ1Fpcw?oc=5",
 "source": "news.google.com",
-"score": 0.87,
+"score": 0.2,
 "tags": [],
-"score_lexique": 0.87
+"score_lexique": 0.87,
+"llm_impact": 0.2,
+"llm_importance": 0.4,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-01",
@@ -1434,9 +1538,12 @@
 "title": "$100 a Week Into Bitcoin Since Its $126,000 Record High: What Would It Be Worth Now? - Yahoo Finance",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVUFHOEtDUUg4OXZfQVRXV3A1akRrQ0tmdGtBS3YzV203dU45Z2x1TzBzbUUyLTR6cTdjNDJHUFhObVE0QmFqZWctZV8xNF81V243VHI2NXJzQlhJSzd0N0cxVENzNHgxQ1ZUNFhVdWhZWTZfRFZkQTExc1djdFN3Z1FMSVMtbGllS2tSa0s5U0Raa2pWMnc?oc=5",
 "source": "news.google.com",
-"score": 0.87,
+"score": 0.0,
 "tags": [],
-"score_lexique": 0.87
+"score_lexique": 0.87,
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-01",
@@ -1444,11 +1551,14 @@
 "title": "Bitcoin price prediction: will $77,370 hold without a futures premium? - CryptoTicker.io",
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWEJESE14akQyX01UU2gyQjlwUWVvTHAwSG1qWWphV211LThpVUZVRm53djBVRGRzT2szWnZtNUx6VTZPaDBzN3hEUTBoSUhNQUFQYmZ4OVJnQUpxTHY0bzRLRGhHOU10NEYyQTkxdzByMTVKSWFLXzlHMEpYbS1GSGduU2p5cG1vcld2VGxrbkZKejVvREUtWA?oc=5",
 "source": "news.google.com",
-"score": 0.0,
+"score": -0.2,
 "tags": [
 "Dérivés"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.2,
+"llm_importance": 0.4,
+"llm_theme": "Dérivés"
 },
 {
 "date": "2026-11-01",
@@ -1458,7 +1568,10 @@
 "source": "news.google.com",
 "score": 0.0,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-01",
@@ -1468,7 +1581,10 @@
 "source": "news.google.com",
 "score": 0.0,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-01",
@@ -1476,9 +1592,14 @@
 "title": "Bitcoin Price Prediction This Week: What to Expect Ahead of US Midterm Elections - CoinGape",
 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM2NENWpWZVNXT0Y1S1BLV3hXSjVCVVNhbmd5YWMzZDZRaENwNmt1cTBjV3NqMVp5a1BlSExrRWEzMExqTnJWTFNCQV9TUTFFbldVRlBwLVhTMTBQMlI3bm9qR3lDZDJaT1llQ2I5WV9xWjI3VHZBRWp2STNtZXRka3JIcHYzWW9hN1k3VXR3MVdSMXoybXVkMW1jeFdqcTlKQklGeXVGbVNfVEF3cHc?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": -0.1,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": 0.0,
+"llm_impact": -0.1,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-01",
@@ -1486,12 +1607,15 @@
 "title": "Bitcoin Price Exhibits Significant Resilience Following Unprecedented Binance Hack - Crowdfund Insider",
 "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2dpd2tfYVlXcm5BbndEaTQ1b0NsU0ZhRXVLR1dEQUdPNHZVSURnVzVSblhfUnU2UkJ1eVhVOHllSmFmX2hfZzRRdFpaMUNFQ1pyUWlFdmVPaFd1NzI1cXZfU2xISGNaeHB1cUNWRmRqNGJWbDQ4c2JGNEN5RGlfNFFUOWVwd0thVk9jQm9UcVZjWjZPWUVoYV9rMmR3bk5Wc2lsYWpHbkFwWi1oWkQ2dTUxcFVSNGx5azFEeFIySnQxeFlNRDl2RzJ2aw?oc=5",
 "source": "news.google.com",
-"score": -0.931,
+"score": 0.1,
 "tags": [
 "ETF",
 "Sécurité"
 ],
-"score_lexique": -0.931
+"score_lexique": -0.931,
+"llm_impact": 0.1,
+"llm_importance": 0.6,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-01",
@@ -1501,9 +1625,13 @@
 "source": "coindesk.com",
 "score": 0.0,
 "tags": [
+"Macro / Fed",
 "Régulation"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.4,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-01",
@@ -1511,9 +1639,14 @@
 "title": "US Midterm Election Countdown: Can Bitcoin Price Break $100,000? - TradingKey",
 "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORmljN3hpVU1zeWFSRE5ncjU5YnhzVWJWd1luU1pXVy1TUGRXYXlERGJvN3k2WVgzUGh0ZGRSOGdiWUM5YnN0ZUd0VW0xMHZlVFhNSVpoSFpHR2U4SGhlSWlZY25xdjJYWHBrN3hac05lVjRReHdmVnNmdjlWV0JIdEJMN296NWRhb2k1NEY5NkRselRIdkt1c1lBUS1OUm1IWlBfWEFfM3JTOWxzSnRoVThvR0lJM0Q4X25VUnVUTkhkaHQtQVpueWpRWTdzZzRkLWl0TUhJbE5lWjlGc3JySnRNQ1RxTFls?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": 0.1,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": 0.0,
+"llm_impact": 0.1,
+"llm_importance": 0.4,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-01",
@@ -1521,9 +1654,12 @@
 "title": "Bitcoin's $80,000 level is critical; prolonged ... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZlFvdHd4VW5ZZkxfVy04YXloc0piWU5iUTQtVzJkNnJNU1ZmUW9SZXZndXVZcVZLcGZycmdjY2dfX25xSFpiNFdDNzVtbkU4YVFvemw2RENmbkRDS2ljWXA3ZzZ6R0NETHU3bjBJVzQxVDQ0VEZXbUZ4ZnlkS3ZybDZVQV9xVXdCa1MxdXpCRQ?oc=5",
 "source": "news.google.com",
-"score": 0.0,
+"score": -0.1,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.1,
+"llm_importance": 0.5,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-01",
@@ -1531,9 +1667,14 @@
 "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
 "link": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
 "source": "coindesk.com",
-"score": 0.7,
-"tags": [],
-"score_lexique": 0.7
+"score": -0.1,
+"tags": [
+"Technologie"
+],
+"score_lexique": 0.7,
+"llm_impact": -0.1,
+"llm_importance": 0.4,
+"llm_theme": "Technologie"
 },
 {
 "date": "2026-11-01",
@@ -1541,12 +1682,15 @@
 "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
 "link": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
 "source": "decrypt.co",
-"score": -0.974,
+"score": -0.5,
 "tags": [
 "ETF",
 "Sécurité"
 ],
-"score_lexique": -0.974
+"score_lexique": -0.974,
+"llm_impact": -0.5,
+"llm_importance": 0.9,
+"llm_theme": "ETF"
 },
 {
 "date": "2026-11-01",
@@ -1554,9 +1698,12 @@
 "title": "Bitcoin price gap between Coinbase and Binance ... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZm03ZC1QRllZcm95RmNzcUtLRjhEY3hSMEhPRkpYSXdWZDVfT2p4SjVlZVFZcEc5eHJ2MEpXUlAwNU15Uzk3N3pBTVdfM2c3SWJzZlZYQVMwWlhZZERNRFZVeGFNV1ZkY2w0VV9IVVNTTzdET2c3ZnpqY21OZ0h6ZExfc2VKYi10eU91YkN4SXdnd2ZuZVAtMQ?oc=5",
 "source": "news.google.com",
-"score": 0.0,
+"score": -0.1,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.1,
+"llm_importance": 0.4,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-01",
@@ -1564,11 +1711,14 @@
 "title": "Elon Musk Issues Serious Hack Warning Amid Bitcoin And Crypto Price Crash Fear - Forbes",
 "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMGVtZWZOemduWHo0dWxNVmllNjd1TE5NZnZCalo2Ty1sYXMzSDFNaTFBR2dhUEppRmxuaXlSdTdfVVdYdTl6NnF0N1BCNmR4b2JjY25LdEtHOVoyV1pZSGN2ck1KTXRXUER4dEI0YUpXNXVoY0tnLWZ0N0F6QXhjOW9Hbkxnb0hrMURJejdLbExRak1FN0Q3d3VkdHFjODVkOUliLWw0RXB3RWpLbmc3M3duQzQ0SmdCZVgwancxUmF1dGhIRV96ZDFWRlVkeWNtdFE3Y2pRTDFvRWJ5dTBEeVFoeE5ZRWllWFE?oc=5",
 "source": "news.google.com",
-"score": -1.0,
+"score": -0.3,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -1.0
+"score_lexique": -1.0,
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-11-01",
@@ -1576,9 +1726,14 @@
 "title": "Bitwise Just Boosted Its 10-Year Bitcoin Price Target to $1.6 Million. That Would Likely Make Bitcoin the Top-Performing Asset of the Next Decade. - The Motley Fool",
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUxhZUtKdFM3NEZzaHdZOHRtR1RFRFJ6ZVVrX3Y1blFvd25ZMVBBTTNnMjh5SjJ2ODNBSU5qbFVhZmREdU1TU0ZUdFF1RDdtZ0w2OXdNbGdfcUZoZGFBWWdfN3ZjUzByNko1MHIzZ2tQSDQ4ZXJZbEVkLXVpS1VDYkZjb1BZcTRSczlyQWw0YlhPT3FFUFRNag?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": 0.2,
+"tags": [
+"Institutionnels"
+],
+"score_lexique": 0.0,
+"llm_impact": 0.2,
+"llm_importance": 0.5,
+"llm_theme": "Institutionnels"
 },
 {
 "date": "2026-11-01",
@@ -1586,9 +1741,14 @@
 "title": "Bitcoin's price drop limited after Binance's $6... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRE9HMkpVeHpQRk5jbU14M2I2VzZzdVRKaW1qZDhaS2psRzN6dTJ2Yk5McHlETzI0SVlqT2RGa3IzRXp3WUZFUm9sOHM3a0ZvQ3Q2ejJraHRTMzNTNzFad2NNLWE0WFkzQ2NTOXN5Z3FYSGk3blE2V0RaaWM2aUVoTmJpS2pFSWZvNmRPMkxmSGdsMlF3QUUzcDBGQmdFQkU?oc=5",
 "source": "news.google.com",
-"score": -0.583,
-"tags": [],
-"score_lexique": -0.583
+"score": -0.1,
+"tags": [
+"Sécurité"
+],
+"score_lexique": -0.583,
+"llm_impact": -0.1,
+"llm_importance": 0.6,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-10-31",
@@ -1596,11 +1756,14 @@
 "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
 "link": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
 "source": "decrypt.co",
-"score": -0.682,
+"score": -0.4,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.682
+"score_lexique": -0.682,
+"llm_impact": -0.4,
+"llm_importance": 0.8,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-10-31",
@@ -1608,11 +1771,14 @@
 "title": "Bitcoin turns 18: Has the original rebel grown up?",
 "link": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
 "source": "cointelegraph.com",
-"score": -0.87,
+"score": 0.0,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.87
+"score_lexique": -0.87,
+"llm_impact": 0.0,
+"llm_importance": 0.2,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-10-31",
@@ -1624,7 +1790,10 @@
 "tags": [
 "Institutionnels"
 ],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.4,
+"llm_theme": "Institutionnels"
 },
 {
 "date": "2026-10-31",
@@ -1632,12 +1801,15 @@
 "title": "Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run",
 "link": "https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run",
 "source": "bitcoinmagazine.com",
-"score": 0.87,
+"score": 0.1,
 "tags": [
 "Macro / Fed",
 "Institutionnels"
 ],
-"score_lexique": 0.87
+"score_lexique": 0.87,
+"llm_impact": 0.1,
+"llm_importance": 0.4,
+"llm_theme": "Institutionnels"
 },
 {
 "date": "2026-10-31",
@@ -1645,11 +1817,14 @@
 "title": "What to Know About the $6.3 Billion Binance Hack",
 "link": "https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack",
 "source": "bitcoinmagazine.com",
-"score": -0.99,
+"score": -0.4,
 "tags": [
 "Sécurité"
 ],
-"score_lexique": -0.99
+"score_lexique": -0.99,
+"llm_impact": -0.4,
+"llm_importance": 0.8,
+"llm_theme": "Sécurité"
 },
 {
 "date": "2026-10-30",

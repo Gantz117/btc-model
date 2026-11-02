@@ -1,14 +1,15 @@
 {
  "date": "2026-11-02",
  "resume": [
-  "Des sorties massives ont touché les ETF Bitcoin et des retraits importants ont eu lieu sur les plateformes d'échange suite à des incidents de sécurité.",
-  "Plusieurs rapports soulignent des pertes et des hackings notables, notamment l'incident sur la bourse brésilienne Mercado Bitcoin et les conséquences du piratage de Binance.",
-  "Malgré ces turbulences et une pression baissière liée aux incertitudes politiques, des acheteurs institutionnels majeurs comme Strategy et Strive continuent d'accumuler du Bitcoin.",
-  "Les élections de mi-mandat aux États-Unis sont identifiées comme un catalyseur de volatilité potentielle pour les marchés."
+  "Impact du piratage de Binance pesant sur le marché et entraînant des sorties massives sur les ETF Bitcoin (643 millions de dollars de retraits).",
+  "Résilience relative du prix du Bitcoin qui tente de se maintenir autour des zones de 77K$-79K$ malgré l'exploit de sécurité et des pressions vendeuses.",
+  "Approche des élections de mi-mandat (midterms) aux États-Unis constituant un événement macroéconomique majeur à surveiller pour le marché crypto.",
+  "Vigilance accrue sur la sécurité suite à des alertes sur des portables et des outils de paiement comme BTCPay Server."
  ],
- "ton_global": -0.2,
+ "ton_global": -0.3,
  "evenements_a_surveiller": [
-  "US Midterms Tomorrow"
+  "Élections de mi-mandat (US midterms)",
+  "Rapport sur l'emploi américain (Jobs report)"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
