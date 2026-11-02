@@ -1,0 +1,52 @@
+name: Prévision quotidienne
+
+on:
+  schedule:
+    - cron: "35 2 * * *"   # chaque jour à 02:35 UTC (03:35 à Paris en hiver), après la publication des données on-chain de la veille
+  workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
+    inputs:
+      backtest:
+        description: "Refaire le backtest complet"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prevision
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Calculer les prévisions
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # facultatif : sans clé, analyse des titres par lexique
+        run: |
+          if [ "${{ github.event.inputs.backtest }}" = "true" ]; then
+            python -m src.main --force-backtest
+          else
+            python -m src.main
+          fi
+
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "btc-model-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data docs/data
+          git diff --cached --quiet || git commit -m "Prévision du $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash || true
+          git push
