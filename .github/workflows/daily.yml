@@ -2,7 +2,11 @@ name: Prévision quotidienne
 
 on:
   schedule:
-    - cron: "35 2 * * *"   # chaque jour à 02:35 UTC (03:35 à Paris en hiver), après la publication des données on-chain de la veille
+    # Heures en UTC (Paris = UTC+1 en hiver, UTC+2 en été). GitHub peut retarder ou sauter une tâche planifiée :
+    # les deux lancements suivants sont des secours, ignorés si le calcul du jour a déjà réussi.
+    - cron: "35 2 * * *"   # 03:35 à Paris en hiver, après la publication des données on-chain de la veille
+    - cron: "35 5 * * *"   # secours : 06:35 à Paris en hiver
+    - cron: "35 9 * * *"   # secours : 10:35 à Paris en hiver
   workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
     inputs:
       backtest:
@@ -38,6 +42,8 @@ jobs:
         run: |
           if [ "${{ github.event.inputs.backtest }}" = "true" ]; then
             python -m src.main --force-backtest
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            python -m src.main --si-pas-fait
           else
             python -m src.main
           fi
