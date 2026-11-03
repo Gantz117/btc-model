@@ -82,6 +82,15 @@ def main(argv):
     now = datetime.now(timezone.utc)
     today = pd.Timestamp(now.date())
     print(f"=== Modèle BTC — exécution du {now:%Y-%m-%d %H:%M} UTC")
+    # Lancements de secours : on ne refait pas le calcul s'il a déjà réussi aujourd'hui.
+    latest_f = C.OUT / "latest.json"
+    if "--si-pas-fait" in argv and latest_f.exists():
+        try:
+            if json.loads(latest_f.read_text()).get("genere_le", "")[:10] == str(today.date()):
+                print("Calcul déjà fait aujourd'hui : rien à faire.")
+                return
+        except Exception:
+            pass
 
     # 1) Données
     cm = DS.load_coinmetrics()
