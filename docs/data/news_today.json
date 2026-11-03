@@ -1,15 +1,14 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "resume": [
-  "Impact du piratage de Binance pesant sur le marché et entraînant des sorties massives sur les ETF Bitcoin (643 millions de dollars de retraits).",
-  "Résilience relative du prix du Bitcoin qui tente de se maintenir autour des zones de 77K$-79K$ malgré l'exploit de sécurité et des pressions vendeuses.",
-  "Approche des élections de mi-mandat (midterms) aux États-Unis constituant un événement macroéconomique majeur à surveiller pour le marché crypto.",
-  "Vigilance accrue sur la sécurité suite à des alertes sur des portables et des outils de paiement comme BTCPay Server."
+  "Le Bitcoin est retombé sous les 77 000 dollars, sous l'effet combiné de sorties sur les ETF, d'une faiblesse des valeurs technologiques et d'incertitudes géopolitiques et électorales aux États-Unis.",
+  "Des tensions macroéconomiques et géopolitiques, incluant des frappes en Iran et l'incertitude liée aux élections américaines, pèsent lourdement sur le marché crypto.",
+  "Binance a dépensé une importante partie de ses bitcoins du fonds SAFU (environ 580 millions de dollars), ce qui soulève des inquiétudes et s'ajoute à des craintes de piratages et de retraits.",
+  "Les liquidations de positions longues s'accumulent (plusieurs millions de dollars) alors que le prix teste des supports techniques clés autour de 76 000 à 77 000 dollars."
  ],
- "ton_global": -0.3,
+ "ton_global": -0.6,
  "evenements_a_surveiller": [
-  "Élections de mi-mandat (US midterms)",
-  "Rapport sur l'emploi américain (Jobs report)"
+  "Élections de mi-mandat aux États-Unis (vote le 3 novembre 2026)"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
