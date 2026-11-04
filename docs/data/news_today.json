@@ -1,14 +1,15 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "resume": [
-  "Le Bitcoin est retombé sous les 77 000 dollars, sous l'effet combiné de sorties sur les ETF, d'une faiblesse des valeurs technologiques et d'incertitudes géopolitiques et électorales aux États-Unis.",
-  "Des tensions macroéconomiques et géopolitiques, incluant des frappes en Iran et l'incertitude liée aux élections américaines, pèsent lourdement sur le marché crypto.",
-  "Binance a dépensé une importante partie de ses bitcoins du fonds SAFU (environ 580 millions de dollars), ce qui soulève des inquiétudes et s'ajoute à des craintes de piratages et de retraits.",
-  "Les liquidations de positions longues s'accumulent (plusieurs millions de dollars) alors que le prix teste des supports techniques clés autour de 76 000 à 77 000 dollars."
+  "Les élections de mi-mandat aux États-Unis et la poussée des démocrates au Congrès ont provoqué une brève volatilité, faisant chuter le Bitcoin sous les 76 000 $ avant une reprise en V vers 77 000$-78 000 $.",
+  "Des sorties massives ont touché les ETF Bitcoin, atteignant plus d'un milliard de dollars sur plusieurs jours.",
+  "L'incertitude politique pèse sur l'avenir de projets de loi réglementaires clés comme le CLARITY Act.",
+  "Tether a déclaré détenir 150 000 bitcoins, soit une quantité supérieure à ce qu'indiquaient ses rapports de réserves."
  ],
- "ton_global": -0.6,
+ "ton_global": -0.1,
  "evenements_a_surveiller": [
-  "Élections de mi-mandat aux États-Unis (vote le 3 novembre 2026)"
+  "NFP Report (Etats-Unis)",
+  "Décembre (Lancement du trading Bitcoin et USDT sur la bourse de Moscou)"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
