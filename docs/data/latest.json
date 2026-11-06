@@ -1,158 +1,159 @@
 {
- "genere_le": "2026-11-05T09:47:06.923613+00:00",
+ "genere_le": "2026-11-06T09:45:21.789196+00:00",
  "regime": {
-  "score": -0.236,
-  "regime": "neutre",
-  "depuis": "2026-08-30",
-  "jours_dans_regime": 67,
-  "lecture": "Score -0.24 : neutre. Valorisation dans la moyenne : les indicateurs de cycle ne donnent pas de signal directionnel net. C'est le régime le plus fréquent. Rappel : trois cycles observés seulement, et les régimes extrêmes ne reviennent que quelques fois par décennie."
+  "score": -0.251,
+  "regime": "accumulation",
+  "depuis": "2026-11-05",
+  "jours_dans_regime": 1,
+  "lecture": "Score -0.25 : accumulation. Valorisation basse par rapport aux 4 dernières années. Historiquement favorable à un horizon de 6–12 mois, sans garantie sur le court terme. Rappel : trois cycles observés seulement, et les régimes extrêmes ne reviennent que quelques fois par décennie."
  },
- "date_derniere_cloture": "2026-11-04",
- "prix_cloture_veille": 80440.8,
- "prix_spot": 80252.8,
- "volatilite_jour_pct": 1.86,
+ "date_derniere_cloture": "2026-11-05",
+ "prix_cloture_veille": 75979.9,
+ "prix_spot": 76010.0,
+ "volatilite_jour_pct": 2.28,
  "qualite_donnees": 1.0,
  "sources": {
   "coinmetrics": {
    "ok": true,
-   "last": "2026-11-04"
+   "last": "2026-11-05"
   },
   "kraken": {
    "ok": true,
-   "spot": 80252.8
+   "spot": 76010.0
   },
   "bgeo:whales_10k": {
    "ok": true,
-   "last": "2026-11-04"
+   "last": "2026-11-05"
   },
   "bgeo:whales_1k_10k": {
    "ok": true,
-   "last": "2026-11-04"
+   "last": "2026-11-05"
   },
   "bgeo:sharks_100_1k": {
    "ok": true,
-   "last": "2026-11-04"
+   "last": "2026-11-05"
   },
   "bgeo:sopr": {
    "ok": true,
-   "last": "2026-10-29"
+   "last": "2026-10-30"
   },
   "bgeo:lth_netpos": {
    "ok": true,
-   "last": "2026-11-04"
+   "last": "2026-11-05"
   },
   "bgeo:funding_rate": {
    "ok": true,
-   "last": "2026-10-28"
+   "last": "2026-10-29"
   },
   "bgeo:etf_flow": {
    "ok": true,
-   "last": "2026-11-02"
+   "last": "2026-11-03"
   },
   "fear_greed": {
    "ok": true,
-   "last": "2026-11-05",
-   "value": 50.0
+   "last": "2026-11-06",
+   "value": 28.0
   },
   "news": {
    "ok": true,
    "feeds_ok": 5,
    "feeds": 5,
-   "items": 170
+   "items": 176
   },
   "gemini": {
-   "ok": false,
-   "raison": "erreur : gemini-2.5-flash indisponible (404) — repli sur le lexique"
+   "modele": "gemini-3.5-flash-lite",
+   "ok": true,
+   "n_notes": 80
   }
  },
  "predictions": {
   "jour": {
-   "date_cible": "2026-11-05",
+   "date_cible": "2026-11-06",
    "horizon_jours": 1,
-   "prix_reference": 80440.8,
-   "cible": 80421.0,
-   "bas_80": 78789.0,
-   "haut_80": 82308.0,
-   "variation_pct": -0.02,
-   "confiance": 50.9,
+   "prix_reference": 75979.9,
+   "cible": 75953.0,
+   "bas_80": 74841.0,
+   "haut_80": 78098.0,
+   "variation_pct": -0.04,
+   "confiance": 48.8,
    "confiance_label": "faible",
    "direction": "baisse",
    "signaux": {
-    "technique": "baissier",
-    "onchain": "haussier",
-    "sentiment": "baissier"
+    "technique": "haussier",
+    "onchain": "baissier",
+    "sentiment": "neutre"
    },
    "signaux_z": {
-    "technique": -0.191,
-    "onchain": 0.089,
-    "sentiment": -0.094
+    "technique": 0.089,
+    "onchain": -0.196,
+    "sentiment": 0.046
    },
    "composantes_confiance": {
-    "force_signal": 0.115,
-    "accord_sous_modeles": 0.667,
-    "calme_marche": 0.645,
+    "force_signal": 0.171,
+    "accord_sous_modeles": 0.333,
+    "calme_marche": 0.414,
     "log_h": 0.0,
-    "proba_hausse_brute": 0.442
+    "proba_hausse_brute": 0.414
    },
    "cible_affichee": false
   },
   "semaine": {
    "date_cible": "2026-11-08",
-   "horizon_jours": 4,
-   "prix_reference": 80440.8,
-   "cible": 80342.0,
-   "bas_80": 76799.0,
-   "haut_80": 84547.0,
-   "variation_pct": -0.12,
-   "confiance": 53.2,
-   "confiance_label": "moyenne",
+   "horizon_jours": 3,
+   "prix_reference": 75979.9,
+   "cible": 75862.0,
+   "bas_80": 73761.0,
+   "haut_80": 79996.0,
+   "variation_pct": -0.16,
+   "confiance": 50.7,
+   "confiance_label": "faible",
    "direction": "baisse",
    "signaux": {
-    "technique": "baissier",
-    "onchain": "haussier",
-    "sentiment": "baissier"
+    "technique": "haussier",
+    "onchain": "baissier",
+    "sentiment": "haussier"
    },
    "signaux_z": {
-    "technique": -0.191,
-    "onchain": 0.097,
-    "sentiment": -0.101
+    "technique": 0.089,
+    "onchain": -0.195,
+    "sentiment": 0.053
    },
    "composantes_confiance": {
-    "force_signal": 0.115,
-    "accord_sous_modeles": 0.667,
-    "calme_marche": 0.645,
-    "log_h": 1.386,
-    "proba_hausse_brute": 0.442
+    "force_signal": 0.171,
+    "accord_sous_modeles": 0.333,
+    "calme_marche": 0.414,
+    "log_h": 1.099,
+    "proba_hausse_brute": 0.414
    },
    "cible_affichee": true
   },
   "mois": {
    "date_cible": "2026-11-30",
-   "horizon_jours": 26,
-   "prix_reference": 80440.8,
-   "cible": 79884.0,
-   "bas_80": 71441.0,
-   "haut_80": 93276.0,
-   "variation_pct": -0.69,
-   "confiance": 56.3,
+   "horizon_jours": 25,
+   "prix_reference": 75979.9,
+   "cible": 75410.0,
+   "bas_80": 71322.0,
+   "haut_80": 90372.0,
+   "variation_pct": -0.75,
+   "confiance": 54.2,
    "confiance_label": "moyenne",
    "direction": "baisse",
    "signaux": {
-    "technique": "baissier",
-    "onchain": "haussier",
-    "sentiment": "baissier"
+    "technique": "haussier",
+    "onchain": "baissier",
+    "sentiment": "haussier"
    },
    "signaux_z": {
-    "technique": -0.214,
-    "onchain": 0.147,
-    "sentiment": -0.147
+    "technique": 0.144,
+    "onchain": -0.119,
+    "sentiment": 0.106
    },
    "composantes_confiance": {
-    "force_signal": 0.165,
-    "accord_sous_modeles": 0.667,
-    "calme_marche": 0.645,
-    "log_h": 3.258,
-    "proba_hausse_brute": 0.417
+    "force_signal": 0.201,
+    "accord_sous_modeles": 0.333,
+    "calme_marche": 0.414,
+    "log_h": 3.219,
+    "proba_hausse_brute": 0.399
    },
    "cible_affichee": true
   }
@@ -160,15 +161,15 @@
  "variables_onchain_retenues": [
   "exch_inflow_z",
   "etf_flow_30d",
-  "sharks_100_1k_30d"
+  "exch_netflow_30d"
  ],
  "granger": [
   {
    "variable": "exch_inflow_z",
-   "p_value": 0.146,
-   "p_brute": 0.0292,
+   "p_value": 0.1063,
+   "p_brute": 0.0213,
    "lag": 5,
-   "corr_7j": 0.065,
+   "corr_7j": 0.066,
    "significatif": false,
    "p_prix_vers_variable": 1.0,
    "suit_le_prix": false,
@@ -176,8 +177,8 @@
   },
   {
    "variable": "etf_flow_30d",
-   "p_value": 0.2721,
-   "p_brute": 0.0544,
+   "p_value": 0.2317,
+   "p_brute": 0.0463,
    "lag": 1,
    "corr_7j": 0.144,
    "significatif": false,
@@ -186,55 +187,77 @@
    "p_holm": 1.0
   },
   {
-   "variable": "sharks_100_1k_30d",
-   "p_value": 0.3819,
-   "p_brute": 0.0764,
+   "variable": "exch_netflow_30d",
+   "p_value": 0.4541,
+   "p_brute": 0.0908,
    "lag": 7,
-   "corr_7j": -0.046,
+   "corr_7j": 0.036,
    "significatif": false,
-   "p_prix_vers_variable": 0.297,
+   "p_prix_vers_variable": 0.0016,
+   "suit_le_prix": true,
+   "p_holm": 1.0
+  },
+  {
+   "variable": "sharks_100_1k_30d",
+   "p_value": 0.4733,
+   "p_brute": 0.0947,
+   "lag": 7,
+   "corr_7j": -0.045,
+   "significatif": false,
+   "p_prix_vers_variable": 0.2783,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
-   "variable": "exch_netflow_30d",
-   "p_value": 0.5906,
-   "p_brute": 0.1181,
-   "lag": 7,
-   "corr_7j": 0.036,
+   "variable": "mvrv_30d",
+   "p_value": 0.6741,
+   "p_brute": 0.1348,
+   "lag": 1,
+   "corr_7j": 0.108,
    "significatif": false,
-   "p_prix_vers_variable": 0.0015,
+   "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "whales_10k_30d",
-   "p_value": 0.6181,
-   "p_brute": 0.1236,
+   "p_value": 0.6783,
+   "p_brute": 0.1357,
    "lag": 3,
    "corr_7j": -0.015,
    "significatif": false,
-   "p_prix_vers_variable": 0.0387,
+   "p_prix_vers_variable": 0.0376,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "hashrate_30d",
-   "p_value": 0.64,
-   "p_brute": 0.128,
+   "p_value": 0.6869,
+   "p_brute": 0.1374,
    "lag": 1,
-   "corr_7j": 0.114,
+   "corr_7j": 0.113,
    "significatif": false,
    "p_prix_vers_variable": 1.0,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
-   "variable": "mvrv_30d",
-   "p_value": 0.7726,
-   "p_brute": 0.1545,
-   "lag": 1,
-   "corr_7j": 0.109,
+   "variable": "exch_reserve_30d",
+   "p_value": 0.8194,
+   "p_brute": 0.1639,
+   "lag": 7,
+   "corr_7j": 0.029,
+   "significatif": false,
+   "p_prix_vers_variable": 0.0144,
+   "suit_le_prix": true,
+   "p_holm": 1.0
+  },
+  {
+   "variable": "etf_flow_7d",
+   "p_value": 0.8896,
+   "p_brute": 0.1779,
+   "lag": 7,
+   "corr_7j": 0.108,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -242,32 +265,32 @@
   },
   {
    "variable": "lth_netpos_z",
-   "p_value": 0.7866,
-   "p_brute": 0.1573,
+   "p_value": 0.9111,
+   "p_brute": 0.1822,
    "lag": 1,
    "corr_7j": -0.03,
    "significatif": false,
-   "p_prix_vers_variable": 0.952,
+   "p_prix_vers_variable": 0.7942,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
-   "variable": "etf_flow_7d",
-   "p_value": 0.8591,
-   "p_brute": 0.1718,
-   "lag": 7,
-   "corr_7j": 0.107,
+   "variable": "whales_1k_10k_7d",
+   "p_value": 0.917,
+   "p_brute": 0.1834,
+   "lag": 5,
+   "corr_7j": -0.071,
    "significatif": false,
-   "p_prix_vers_variable": 0.0,
+   "p_prix_vers_variable": 0.0102,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "active_addr_30d",
-   "p_value": 0.9488,
-   "p_brute": 0.1898,
+   "p_value": 0.9857,
+   "p_brute": 0.1971,
    "lag": 7,
-   "corr_7j": 0.014,
+   "corr_7j": 0.013,
    "significatif": false,
    "p_prix_vers_variable": 1.0,
    "suit_le_prix": false,
@@ -276,29 +299,18 @@
   {
    "variable": "exch_netflow_7d",
    "p_value": 1.0,
-   "p_brute": 0.275,
+   "p_brute": 0.3306,
    "lag": 1,
    "corr_7j": -0.085,
    "significatif": false,
-   "p_prix_vers_variable": 0.0706,
+   "p_prix_vers_variable": 0.0613,
    "suit_le_prix": false,
-   "p_holm": 1.0
-  },
-  {
-   "variable": "exch_reserve_30d",
-   "p_value": 1.0,
-   "p_brute": 0.2147,
-   "lag": 7,
-   "corr_7j": 0.029,
-   "significatif": false,
-   "p_prix_vers_variable": 0.005,
-   "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "mvrv",
    "p_value": 1.0,
-   "p_brute": 0.4,
+   "p_brute": 0.4251,
    "lag": 1,
    "corr_7j": 0.001,
    "significatif": false,
@@ -309,51 +321,40 @@
   {
    "variable": "whales_10k_7d",
    "p_value": 1.0,
-   "p_brute": 0.3418,
+   "p_brute": 0.3443,
    "lag": 7,
    "corr_7j": 0.032,
    "significatif": false,
-   "p_prix_vers_variable": 0.0024,
-   "suit_le_prix": true,
-   "p_holm": 1.0
-  },
-  {
-   "variable": "whales_1k_10k_7d",
-   "p_value": 1.0,
-   "p_brute": 0.2022,
-   "lag": 7,
-   "corr_7j": -0.071,
-   "significatif": false,
-   "p_prix_vers_variable": 0.0112,
+   "p_prix_vers_variable": 0.0025,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "whales_1k_10k_30d",
    "p_value": 1.0,
-   "p_brute": 0.2658,
+   "p_brute": 0.2699,
    "lag": 1,
-   "corr_7j": 0.086,
+   "corr_7j": 0.085,
    "significatif": false,
-   "p_prix_vers_variable": 0.1803,
+   "p_prix_vers_variable": 0.1576,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
    "variable": "sharks_100_1k_7d",
    "p_value": 1.0,
-   "p_brute": 0.4801,
+   "p_brute": 0.4581,
    "lag": 1,
-   "corr_7j": 0.034,
+   "corr_7j": 0.035,
    "significatif": false,
-   "p_prix_vers_variable": 0.027,
+   "p_prix_vers_variable": 0.0261,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "sopr_7d",
    "p_value": 1.0,
-   "p_brute": 0.6019,
+   "p_brute": 0.5453,
    "lag": 1,
    "corr_7j": 0.04,
    "significatif": false,
@@ -364,8 +365,8 @@
   {
    "variable": "etf_flow_z",
    "p_value": 1.0,
-   "p_brute": 0.3889,
-   "lag": 7,
+   "p_brute": 0.367,
+   "lag": 5,
    "corr_7j": 0.101,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
@@ -380,5 +381,5 @@
   "funding_7d"
  ],
  "test_actualite_ia": null,
- "jours_historique_actualite_ia": 2
+ "jours_historique_actualite_ia": 3
 }

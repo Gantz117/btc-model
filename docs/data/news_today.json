@@ -1,15 +1,15 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-06",
  "resume": [
-  "Les élections de mi-mandat aux États-Unis et la poussée des démocrates au Congrès ont provoqué une brève volatilité, faisant chuter le Bitcoin sous les 76 000 $ avant une reprise en V vers 77 000$-78 000 $.",
-  "Des sorties massives ont touché les ETF Bitcoin, atteignant plus d'un milliard de dollars sur plusieurs jours.",
-  "L'incertitude politique pèse sur l'avenir de projets de loi réglementaires clés comme le CLARITY Act.",
-  "Tether a déclaré détenir 150 000 bitcoins, soit une quantité supérieure à ce qu'indiquaient ses rapports de réserves."
+  "Chute marquée du Bitcoin sous les 76 000 - 80 000 $ dans le sillage de la baisse des marchés actions américains et du secteur technologique.",
+  "Destruction massive de positions acheteuses (longs) avec plus d'un milliard de dollars de liquidations sur le marché des dérivés.",
+  "Fortes sorties de capitaux sur les ETF Bitcoin spot (notamment via Fidelity), effaçant les gains post-électoraux.",
+  "Mutation structurelle chez certains acteurs du mining (comme Core Scientific) qui se tournent vers l'intelligence artificielle et quittent le minage de Bitcoin."
  ],
- "ton_global": -0.1,
+ "ton_global": -0.7,
  "evenements_a_surveiller": [
-  "NFP Report (Etats-Unis)",
-  "Décembre (Lancement du trading Bitcoin et USDT sur la bourse de Moscou)"
+  "Mouvement des 4 259 BTC par Trump Media avant le 30 novembre 2026",
+  "Cotation du Bitcoin sur la bourse de Moscou (sanctionnée par les États-Unis) prévue le 1er décembre 2026"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
