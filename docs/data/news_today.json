@@ -1,15 +1,14 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "resume": [
-  "Chute marquée du Bitcoin sous les 76 000 - 80 000 $ dans le sillage de la baisse des marchés actions américains et du secteur technologique.",
-  "Destruction massive de positions acheteuses (longs) avec plus d'un milliard de dollars de liquidations sur le marché des dérivés.",
-  "Fortes sorties de capitaux sur les ETF Bitcoin spot (notamment via Fidelity), effaçant les gains post-électoraux.",
-  "Mutation structurelle chez certains acteurs du mining (comme Core Scientific) qui se tournent vers l'intelligence artificielle et quittent le minage de Bitcoin."
+  "Chute marquée du prix du Bitcoin sous les 75 000 - 76 000 dollars, s'accompagnant d'un sentiment de peur extrême sur le marché.",
+  "Des sorties massives sur les ETF Bitcoin spot (plus de 430 millions à 1,3 milliard de dollars selon les sources) pèsent lourdement sur la tendance.",
+  "Des liquidations de positions sur les produits dérivés dépassant le milliard de dollars témoignent d'un net repli de l'effet de levier et de la participation des traders.",
+  "Sur le plan réglementaire et répressif, le Trésor américain a coupé l'accès de l'échange MEXC au système financier américain, tandis que la SEC thaïlandaise sévit contre Bitget."
  ],
- "ton_global": -0.7,
+ "ton_global": -0.6,
  "evenements_a_surveiller": [
-  "Mouvement des 4 259 BTC par Trump Media avant le 30 novembre 2026",
-  "Cotation du Bitcoin sur la bourse de Moscou (sanctionnée par les États-Unis) prévue le 1er décembre 2026"
+  "Dec. 5 access block for Bitget following Thailand SEC criminal complaint"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
