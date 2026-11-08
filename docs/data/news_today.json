@@ -1,14 +1,14 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "resume": [
-  "Chute marquée du prix du Bitcoin sous les 75 000 - 76 000 dollars, s'accompagnant d'un sentiment de peur extrême sur le marché.",
-  "Des sorties massives sur les ETF Bitcoin spot (plus de 430 millions à 1,3 milliard de dollars selon les sources) pèsent lourdement sur la tendance.",
-  "Des liquidations de positions sur les produits dérivés dépassant le milliard de dollars témoignent d'un net repli de l'effet de levier et de la participation des traders.",
-  "Sur le plan réglementaire et répressif, le Trésor américain a coupé l'accès de l'échange MEXC au système financier américain, tandis que la SEC thaïlandaise sévit contre Bitget."
+  "Sorties massives sur les ETF Bitcoin Spot avec des retraits de l'ordre de 430 millions de dollars.",
+  "Pression réglementaire accrue avec l'action du Trésor américain contre l'échange MEXC et des fermetures en Europe.",
+  "Le Bitcoin oscille autour de la zone des 75 000 - 76 000 dollars, s'efforçant de tenir ses supports malgré une tendance hebdomadare baissière.",
+  "Mutations dans le secteur du mining avec Core Scientific qui réoriente une grande partie de ses revenus vers l'intelligence artificielle."
  ],
- "ton_global": -0.6,
+ "ton_global": -0.35,
  "evenements_a_surveiller": [
-  "Dec. 5 access block for Bitget following Thailand SEC criminal complaint"
+  "Mercado Bitcoin réouverture en mode lecture seule le 9 novembre 2026"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
