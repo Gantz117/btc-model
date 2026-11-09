@@ -1,14 +1,15 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "resume": [
-  "Sorties massives sur les ETF Bitcoin Spot avec des retraits de l'ordre de 430 millions de dollars.",
-  "Pression réglementaire accrue avec l'action du Trésor américain contre l'échange MEXC et des fermetures en Europe.",
-  "Le Bitcoin oscille autour de la zone des 75 000 - 76 000 dollars, s'efforçant de tenir ses supports malgré une tendance hebdomadare baissière.",
-  "Mutations dans le secteur du mining avec Core Scientific qui réoriente une grande partie de ses revenus vers l'intelligence artificielle."
+  "Chute marquée du prix du Bitcoin sous la barre des 74 000 $ et des 75 000 $, déclenchant plus d'un milliard de dollars de liquidations sur le marché des dérivés.",
+  "Sorties massives sur les ETF Bitcoin spot, avec des retraits hebdomadaires historiques avoisinant les 1,3 milliard de dollars.",
+  "Pression baissière accentuée par des inquiétudes macroéconomiques, l'incertitude autour de l'inflation américaine et des tensions géopolitiques.",
+  "Le Bitcoin évolue désormais sous le prix d'achat moyen de porteurs institutionnels majeurs et de certaines stratégies d'entreprise, accroissant la nervosité du marché."
  ],
- "ton_global": -0.35,
+ "ton_global": -0.6,
  "evenements_a_surveiller": [
-  "Mercado Bitcoin réouverture en mode lecture seule le 9 novembre 2026"
+  "Publication des données d'inflation américaine (CPI)",
+  "Annonces sur les taux directeurs et réunions de la Fed"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
