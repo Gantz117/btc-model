@@ -1,15 +1,14 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "resume": [
-  "Pression baissière sur le Bitcoin sous les 75 000 $ liée aux craintes macroéconomiques et aux anticipations de hausse des taux de la Fed.",
-  "Sorties massives de capitaux des ETF Bitcoin et liquidations importantes sur les marchés de dérivés.",
-  "Comportement partagé entre la vente des mineurs (comme MARA) et des liquidations de particuliers d'une part, et des achats continus de gros institutionnels (Strategy, Trump Media) d'autre part.",
-  "L'attention du marché est focalisée sur les publications imminentes des rapports d'inflation aux États-Unis (CPI)."
+  "La publication d'un rapport d'inflation CPI américain supérieur aux attentes alimente les craintes de hausses de taux de la Fed et pèse fortement sur le prix du Bitcoin.",
+  "Les ETF Bitcoin subissent d'importantes sorties de capitaux (notamment des flux négatifs massifs et des sorties sur l'IBIT), accentuant la pression vendeuse.",
+  "Plusieurs sociétés et mineurs (comme MARA) rapportent des ventes importantes de Bitcoin, tandis que les liquidations sur le marché des dérivés s'accumulent.",
+  "Le Bitcoin repasse sous le seuil des 74 000 $ et teste des zones de support critiques, fragilisant le sentiment de marché qui bascule vers le pessimisme."
  ],
- "ton_global": -0.4,
+ "ton_global": -0.7,
  "evenements_a_surveiller": [
-  "US CPI Report Today (2026-11-10)",
-  "Binance to Close Accounts in Four EU Countries Dec. 31, Charging Idle Balances From Nov. 29 (2026-11-29/2026-12-31)"
+  "US CPI Report (11 novembre 2026)"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
