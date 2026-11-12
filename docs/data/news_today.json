@@ -1,14 +1,16 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "resume": [
-  "La publication d'un rapport d'inflation CPI américain supérieur aux attentes alimente les craintes de hausses de taux de la Fed et pèse fortement sur le prix du Bitcoin.",
-  "Les ETF Bitcoin subissent d'importantes sorties de capitaux (notamment des flux négatifs massifs et des sorties sur l'IBIT), accentuant la pression vendeuse.",
-  "Plusieurs sociétés et mineurs (comme MARA) rapportent des ventes importantes de Bitcoin, tandis que les liquidations sur le marché des dérivés s'accumulent.",
-  "Le Bitcoin repasse sous le seuil des 74 000 $ et teste des zones de support critiques, fragilisant le sentiment de marché qui bascule vers le pessimisme."
+  "Pression baissière liée aux sorties de fonds sur les ETF Bitcoin et aux données d'inflation américaine plus élevées que prévu.",
+  "Risque de ventes forcées massives sur le Bitcoin suite à l'exclusion de Strategy (MSTR) des indices MSCI.",
+  "Flux sortants importants et transferts de BTC à perte vers les exchanges par les détenteurs à court terme.",
+  "Signes positifs d'adoption institutionnelle avec l'activation de la conservation crypto par Deutsche Bank et l'ouverture du trading en Russie."
  ],
- "ton_global": -0.7,
+ "ton_global": -0.4,
  "evenements_a_surveiller": [
-  "US CPI Report (11 novembre 2026)"
+  "2026-11-22: Ouverture du trading de Bitcoin et crypto par la Banque centrale de Russie",
+  "2026-11-23: Lancement des actions tokenisées par ICE et OKX",
+  "2026-11-30: Date limite pour la vente forcée de Strategy (MSTR) par les fonds indiciels suite à son retrait de l'indice MSCI"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
