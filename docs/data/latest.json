@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-14T10:01:34.160169+00:00",
+ "genere_le": "2026-11-14T10:08:56.077508+00:00",
  "regime": {
   "score": -0.377,
   "regime": "accumulation",
@@ -9,7 +9,7 @@
  },
  "date_derniere_cloture": "2026-11-13",
  "prix_cloture_veille": 68235.9,
- "prix_spot": 67316.6,
+ "prix_spot": 67233.4,
  "volatilite_jour_pct": 2.32,
  "qualite_donnees": 1.0,
  "sources": {
@@ -19,43 +19,52 @@
   },
   "kraken": {
    "ok": true,
-   "spot": 67316.6
+   "spot": 67233.4
   },
   "bgeo:whales_10k": {
    "ok": true,
-   "last": "2026-11-13"
+   "last": "2026-11-13",
+   "cache": true
   },
   "bgeo:whales_1k_10k": {
    "ok": true,
-   "last": "2026-11-13"
+   "last": "2026-11-13",
+   "cache": true
   },
   "bgeo:sharks_100_1k": {
    "ok": true,
-   "last": "2026-11-13"
+   "last": "2026-11-13",
+   "cache": true
   },
   "bgeo:sopr": {
    "ok": true,
-   "last": "2026-11-07"
+   "last": "2026-11-07",
+   "cache": true
   },
   "bgeo:lth_netpos": {
    "ok": true,
-   "last": "2026-11-13"
+   "last": "2026-11-13",
+   "cache": true
   },
   "bgeo:funding_rate": {
    "ok": true,
-   "last": "2026-11-06"
+   "last": "2026-11-06",
+   "cache": true
   },
   "bgeo:etf_flow": {
    "ok": true,
-   "last": "2026-11-11"
+   "last": "2026-11-11",
+   "cache": true
   },
   "bgeo:sth_cost_basis": {
    "ok": true,
-   "last": "2026-11-07"
+   "last": "2026-11-07",
+   "cache": true
   },
   "bgeo:true_market_mean": {
    "ok": true,
-   "last": "2026-11-07"
+   "last": "2026-11-07",
+   "cache": true
   },
   "fear_greed": {
    "ok": true,
@@ -69,8 +78,9 @@
    "items": 177
   },
   "gemini": {
-   "ok": false,
-   "raison": "erreur : gemini-2.5-flash indisponible (404) — repli sur le lexique"
+   "modele": "gemini-3.5-flash-lite",
+   "ok": true,
+   "n_notes": 80
   },
   "glassnode_pulse": {
    "erreurs": [

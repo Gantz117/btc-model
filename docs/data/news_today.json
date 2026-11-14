@@ -1,14 +1,15 @@
 {
  "date": "2026-11-14",
  "resume": [
-  "Le Bitcoin chute sous les 67 000 dollars, atteignant des plus bas de plusieurs mois, pénalisé par des sorties massives sur les ETF américains (plus de 2,3 milliards de dollars en deux semaines).",
-  "Le marché subit une vague importante de liquidations de positions longues (plus de 1,3 milliard de dollars) dans un contexte de tensions macroéconomiques, de craintes liées aux taux de la Fed et de la vigueur du dollar.",
-  "L'attrait pour la liquidité lié à l'actualité des introductions en bourse (IPO) dans l'intelligence artificielle (notamment Anthropic) draine des capitaux hors du marché crypto.",
-  "Du côté de l'offre et du réseau, la difficulté de minage a enregistré une baisse notable de 9,1 %, tandis que certains mineurs font face à des pressions concurrentielles de l'IA (comme au Paraguay)."
+  "Chute marquée du Bitcoin sous les seuils de 70 000 $ et 69 000 $, testant des zones de support plus basses sur fond de liquidations massives dépassant 1,2 à 1,6 milliard de dollars.",
+  "Pression macroéconomique exercée par la force du dollar (indice DXY à un plus haut de plusieurs mois) et les perspectives de taux d'intérêt de la Fed.",
+  "Sorties nettes massives sur les ETF Bitcoin et liquidité en baisse sur les marchés.",
+  "Difficultés financières pour certaines entreprises liées au secteur (comme Nakamoto et ses dettes envers Kraken)."
  ],
  "ton_global": -0.7,
  "evenements_a_surveiller": [
-  "2027: Paraguay's Miners Face Power Deadline as AI Deals Advance"
+  "2026-11-13",
+  "2026-11-14"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
