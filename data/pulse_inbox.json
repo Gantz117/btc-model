@@ -1,0 +1,122 @@
+{
+ "titre": "BTC Market Pulse: Week 46",
+ "lien": "https://research.glassnode.com/btc-market-pulse-week-46-2026/",
+ "publie_le": "2026-11-09",
+ "indicateurs": [
+  {
+   "nom": "Price Momentum",
+   "zones": "below its low band ; bottom of its range",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Spot CVD",
+   "zones": "lower part of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Spot Volume",
+   "zones": "upper part of its range",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Futures Open Interest",
+   "zones": "upper part of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Long-Side Funding Payment",
+   "zones": "well above its high band",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Perpetual CVD",
+   "zones": "bottom of its range",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Options Open Interest",
+   "zones": "below its low band ; bottom of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Volatility Spread",
+   "zones": "below its high band",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Options 25-Delta Skew",
+   "zones": "above its high band",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "US Spot ETF Netflow (Weekly)",
+   "zones": "below its low band",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "US Spot ETF Trade Volume (Weekly)",
+   "zones": "above its high band ; top of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "US Spot ETF MVRV",
+   "zones": "below its low band",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Total Fee Volume",
+   "zones": "middle of its range",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Entity-Adjusted Transfer Volume",
+   "zones": "above its high band",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Daily Active Address Count",
+   "zones": "above its high band",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Realized Cap Change (Monthly)",
+   "zones": "upper part of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "STH to LTH Supply Ratio",
+   "zones": "above its high band",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Hot Capital Share",
+   "zones": "well above its high band",
+   "verbe": "Increased"
+  },
+  {
+   "nom": "Percent Supply in Profit",
+   "zones": "middle of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Net Unrealized Profit to Loss Ratio",
+   "zones": "middle of its range",
+   "verbe": "Decreased"
+  },
+  {
+   "nom": "Realized Profit to Loss Ratio",
+   "zones": "bottom of its range",
+   "verbe": "Decreased"
+  }
+ ],
+ "resume": {
+  "resume": "Le Bitcoin est retombé vers 75 000 $ après un échec au-dessus de 80 000 $, sa plus basse clôture depuis août. Les ETF ont connu leur plus forte semaine de sorties depuis début juillet, et le marché des dérivés reste chargé en levier et en demande de protection. Selon Glassnode, une partie du levier a été purgée et la dynamique ne confirme plus la baisse, mais les ventes des ETF et la fragilité des acheteurs récents continuent de peser.",
+  "points_cles": [
+   "Sorties d'ETF les plus fortes depuis début juillet ; les acheteurs d'ETF voient leur profit latent fondre",
+   "Levier encore élevé sur les contrats à terme malgré des liquidations",
+   "Forte activité on-chain et offre qui passe vers des détenteurs récents, désormais proches de l'équilibre"
+  ],
+  "modele": "Claude (lecture hebdomadaire depuis le PC)"
+ },
+ "lu_le": "2026-11-14"
+}
