@@ -78,14 +78,13 @@ def zone_of(text):
 
 
 def direction_of(text):
+    """Sens de la variation sur 7 jours : le premier verbe du paragraphe (« Increased by… », « Decreased by… »)."""
     t = text[:220].lower()
-    if re.search(r"roughly (level|flat|unchanged)|\bunchanged\b|\bflat\b", t):
-        return "stable"
-    if re.search(r"\b(increased|rose|climbed|rebounded|jumped|grew|turned higher)\b", t):
-        return "hausse"
-    if re.search(r"\b(decreased|fell|declined|dropped|slipped|eased|turned lower)\b", t):
-        return "baisse"
-    return "?"
+    pats = [(r"roughly (level|flat|unchanged)|\bunchanged\b|\bflat\b", "stable"),
+            (r"\b(increased|rose|climbed|rebounded|jumped|grew|turned higher)\b", "hausse"),
+            (r"\b(decreased|fell|declined|dropped|slipped|eased|turned lower)\b", "baisse")]
+    hits = [(m.start(), lab) for pat, lab in pats for m in [re.search(pat, t)] if m]
+    return min(hits)[1] if hits else "?"
 
 
 def parse_issue(content_html):
