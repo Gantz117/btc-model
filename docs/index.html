@@ -59,6 +59,7 @@ footer{margin-top:40px;color:var(--muted);font-size:12.5px}
 
 <div class="card" id="regimecard" style="display:none"></div>
 <div class="grid3" id="cards" style="margin-top:14px"></div>
+<div class="card" id="levelscard" style="margin-top:14px;display:none"></div>
 <div class="card" id="newscard" style="margin-top:14px;display:none"></div>
 
 <div class="card" style="margin-top:14px">
@@ -90,6 +91,7 @@ footer{margin-top:40px;color:var(--muted);font-size:12.5px}
   <p>Le backtest walk-forward calibre ensuite le modèle : la cible est <b>rapprochée de la prévision naïve</b> (« le prix ne bouge pas ») dans la proportion qui a historiquement minimisé l'erreur, et l'intervalle est élargi pour contenir réellement 80 % des prix observés.</p>
   <p><b>Régime de marché</b> : six indicateurs de valorisation long terme (loi de puissance, Mayer, MVRV, moyenne 200 semaines, drawdown, RSI hebdo) sont chacun convertis en percentile de leurs 4 dernières années, moyennés et lissés sur 14 jours. Le score va de −1 (accumulation profonde) à +1 (surchauffe). Il ne prédit pas le prix à court terme ; il situe le marché dans son cycle et son pouvoir discriminant n'apparaît qu'à 6–12 mois (onglet « Régime de marché »).</p>
   <p><b>Indice de confiance</b> = probabilité, apprise sur l'historique, que le prix finisse du bon côté (hausse/baisse) par rapport au prix de référence. 50 = pile ou face. Il tient compte de la force du signal, de l'accord entre sous-modèles, du calme du marché, de l'horizon et de la qualité des données du jour.</p>
+  <p><b>Niveaux clés et Glassnode.</b> Les prix de revient moyens (acheteurs récents, coins actifs, ensemble du marché) et la lecture hebdomadaire du « BTC Market Pulse » de Glassnode (positions de 21 indicateurs, dont options et profits/pertes) servent de repères de lecture. Ils n'entrent pas dans la prévision tant qu'un test sur l'historique ne l'a pas justifié.</p>
   <div class="warn">Ce modèle est un outil d'aide à l'analyse, pas un conseil en investissement. Aucun modèle public et gratuit ne prévoit le prix du Bitcoin de façon fiable : consulte l'onglet « Fiabilité historique » avant de te fier à une cible.</div></div>
   </div>
 </section>
@@ -171,7 +173,7 @@ function weekPanel(W){
     <div><b class="down">Facteurs baissiers</b><ul class="pts">${SR.facteurs_baissiers.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></div>
     <p><b>À surveiller :</b> ${SR.a_surveiller.map(esc).join(' · ')}</p><p class="lead"><b>Actualités vs indicateurs :</b> ${esc(SR.coherence)}</p>
     <p class="meta">Texte généré par ${esc(SR.modele||'Gemini')} à partir des titres de la semaine et des chiffres ci-dessous. Peut contenir des erreurs ; ce n'est pas un conseil d'investissement.</p></div>` : '';
-  $('#week').innerHTML = redige + `
+  $('#week').innerHTML = redige + pulseBlock(W.glassnode_pulse) + `
   <div class="card"><h3>Synthèse ${esc(W.semaine)} · générée le ${dfr(W.genere_le)}</h3>
     <div class="grid2" style="margin-top:8px">
      <div><b>Cible fin de semaine</b> (${dfr(W.previsions.semaine.date_cible)}) : ${usd(W.previsions.semaine.cible)} <span class="chg ${W.previsions.semaine.variation_pct>=0?'up':'down'}">${pct(W.previsions.semaine.variation_pct,2)}</span>, confiance ${fmt(W.previsions.semaine.confiance,0)} (${W.previsions.semaine.confiance_label})<br>
@@ -232,6 +234,26 @@ function newsCard(N, L){
    <p class="meta">Ton global des titres : <b class="${N.ton_global>=0?'up':'down'}">${N.ton_global>0?'+':''}${fmt(N.ton_global,2)}</b> (−1 → +1) · modèle ${esc(N.modele||'')}</p></div>
    <div>${N.evenements_a_surveiller.length?`<b>À surveiller</b><ul class="pts">${N.evenements_a_surveiller.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
    <p class="meta">Résumé généré automatiquement à partir des seuls titres RSS : il peut contenir des erreurs. Cette note n'entre pas dans le calcul des cibles tant qu'elle n'a pas montré, sur au moins un an, qu'elle aide à prévoir le prix.</p></div></div>`;
+}
+
+function levelsCard(L){
+  const N = L.niveaux_cles || []; if (!N.length) return;
+  $('#levelscard').style.display = '';
+  $('#levelscard').innerHTML = `<h3>Niveaux clés · prix de revient moyens</h3>
+   <p class="lead" style="margin-top:6px">Au-dessus d'un niveau, les détenteurs concernés sont en profit en moyenne ; en dessous, en perte, et certains vendent souvent à l'équilibre lors d'un rebond.</p>
+   <div class="tblwrap"><table style="margin-top:8px"><tr><th>Niveau</th><th class="n">Valeur</th><th class="n">Écart du prix</th><th>Position</th><th>Donnée du</th></tr>
+   ${N.map(l=>`<tr><td>${esc(l.nom)}${l.franchi_7j?` <span class="chip">franchi ${esc(l.franchi_7j)} cette semaine</span>`:''}</td><td class="n">${usd(l.valeur)}</td><td class="n ${l.ecart_pct>=0?'up':'down'}">${pct(l.ecart_pct)}</td><td>${esc(l.position)}</td><td class="meta">${dfr(l.date)}${l.retard_jours>2?` (${l.retard_jours} j de retard, ${esc(l.source)} gratuit)`:` · ${esc(l.source)}`}</td></tr>`).join('')}
+   </table></div><p class="meta">Repères de lecture, pas des prévisions : ils n'entrent pas dans le calcul des fourchettes.</p>`;
+}
+
+function pulseBlock(G){
+  if (!G) return '';
+  const C = G.categories || {}, R = G.resume || {};
+  return `<div class="card" style="margin-bottom:14px"><h3>Glassnode · BTC Market Pulse (publié le ${dfr(G.publie_le)})</h3>
+   ${R.resume?`<p style="margin:8px 0">${esc(R.resume)}</p>`:''}
+   <div class="chips">${Object.entries(C).map(([c,v])=>`<span class="chip">${esc(c)} : ${esc(v.niveau)}${v.tendance&&v.tendance!=='—'?', '+esc(v.tendance):''}</span>`).join('')}</div>
+   ${(G.extremes||[]).length?`<p style="margin:12px 0 0"><b>En zone extrême</b></p><ul class="pts">${G.extremes.map(e=>`<li>${esc(e.nom_fr)} : ${esc(e.zone)} (${esc(e.direction)} sur 7 j)</li>`).join('')}</ul>`:''}
+   <p class="meta">Niveau par catégorie calculé par le modèle à partir des positions décrites par Glassnode (bornes habituelles, méthode non publiée). Contexte uniquement : n'entre pas dans la prévision. <a href="${esc(G.lien)}" target="_blank" rel="noopener">Lire l'article complet</a></p></div>`;
 }
 
 let rChart;
@@ -297,7 +319,7 @@ function btPanel(B){
   $('#meta').innerHTML = `Mis à jour le ${new Date(L.genere_le).toLocaleString('fr-FR')} · dernière clôture ${dfr(L.date_derniere_cloture)} <span class="pill" title="Part des sources de données disponibles aujourd'hui">données ${dq} %</span> <span class="pill" title="${esc((L.sources.gemini||{}).raison||'')}">actualité : ${(L.sources.gemini||{}).ok && (L.sources.gemini||{}).modele ? 'Gemini' : 'lexique'}</span>`;
   $('#spot').textContent = usd(L.prix_spot ?? L.prix_cloture_veille);
   $('#spotlbl').textContent = L.prix_spot ? 'prix au moment du calcul (Kraken)' : 'clôture de la veille';
-  cards(L, B); regimeCard(RG); newsCard(NT, L); if (H) mainChart(L, H); weekPanel(W); regimePanel(RG); monthPanel(idx); btPanel(B);
+  cards(L, B); levelsCard(L); regimeCard(RG); newsCard(NT, L); if (H) mainChart(L, H); weekPanel(W); regimePanel(RG); monthPanel(idx); btPanel(B);
 })();
 </script>
 </body>
