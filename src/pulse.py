@@ -139,18 +139,58 @@ def fetch_latest():
     return best
 
 
+def from_inbox():
+    """Numéro déposé depuis le PC de Federico (data/pulse_inbox.json) quand le flux RSS est bloqué pour
+    les serveurs GitHub. Le fichier ne contient pas le texte de Glassnode : seulement, par indicateur,
+    les expressions de position relevées (« below its low band »…) et le verbe de variation, plus un
+    résumé rédigé en français lors de la lecture."""
+    f = C.DATA / "pulse_inbox.json"
+    if not f.exists():
+        return None
+    try:
+        j = json.loads(f.read_text())
+        inds = []
+        for it in j.get("indicateurs", []):
+            name = it.get("nom")
+            if name not in INDICATORS:
+                continue
+            zone, score = zone_of(it.get("zones", ""))
+            fr, cat = INDICATORS[name]
+            inds.append({"nom": name, "nom_fr": fr, "categorie": cat, "zone": zone, "score": score,
+                         "direction": direction_of(it.get("verbe", ""))})
+        res = j.get("resume")
+        return {"titre": j["titre"], "lien": j["lien"], "date": pd.Timestamp(j["publie_le"]),
+                "inds": inds, "resume": res if isinstance(res, dict) else None, "via": "lecture depuis le PC"}
+    except Exception as e:
+        STATUS["inbox"] = f"fichier illisible : {str(e)[:120]}"
+        return None
+
+
 def update():
-    """Récupère le dernier Pulse s'il est nouveau. Renvoie (pulse_dict ou None, nouveau: bool)."""
+    """Récupère le dernier Pulse s'il est nouveau (flux RSS, sinon dépôt depuis le PC).
+    Renvoie (pulse_dict ou None, nouveau: bool)."""
     out_f = C.OUT / "pulse_latest.json"
     prev = json.loads(out_f.read_text()) if out_f.exists() else None
+    cands = []
     issue = fetch_latest()
-    if not issue:
-        STATUS.update(ok=False, raison="flux Glassnode indisponible")
+    if issue:
+        cands.append({"titre": issue["titre"], "lien": issue["lien"], "date": pd.Timestamp(issue["date"]).tz_localize(None)
+                      if pd.Timestamp(issue["date"]).tzinfo else pd.Timestamp(issue["date"]), "html": issue["html"], "via": "flux RSS"})
+    inbox = from_inbox()
+    if inbox:
+        cands.append(inbox)
+    if not cands:
+        STATUS.update(ok=False, raison="flux Glassnode indisponible et aucun dépôt depuis le PC")
         return prev, False
-    if prev and prev.get("lien") == issue["lien"] and prev.get("indicateurs"):
-        STATUS.update(ok=True, semaine=prev.get("titre"), nouveau=False)
+    best = max(cands, key=lambda c: c["date"])
+    if prev and prev.get("lien") == best["lien"] and prev.get("indicateurs"):
+        STATUS.update(ok=True, semaine=prev.get("titre"), nouveau=False, via=best["via"])
         return prev, False
-    inds, overview = parse_issue(issue["html"])
+    if "html" in best:
+        inds, overview = parse_issue(best["html"])
+        resume = None
+    else:
+        inds, overview, resume = best["inds"], "", best["resume"]
     if len(inds) < 12:  # format changé : on ne publie rien de douteux
         STATUS.update(ok=False, raison=f"format inattendu ({len(inds)} indicateurs reconnus sur {len(INDICATORS)})")
         return prev, False
@@ -160,11 +200,13 @@ def update():
         for c, v in cats.items():
             old = prev["categories"].get(c, {}).get("score")
             v["tendance"] = "—" if old is None else ("en hausse" if v["score"] - old > 0.25 else "en baisse" if old - v["score"] > 0.25 else "stable")
-    resume = llm.summarize_pulse(overview) if overview else None
-    pulse = {"titre": issue["titre"], "lien": issue["lien"], "publie_le": issue["date"].strftime("%Y-%m-%d"),
+    if resume is None and overview:
+        resume = llm.summarize_pulse(overview)
+    pulse = {"titre": best["titre"], "lien": best["lien"], "publie_le": best["date"].strftime("%Y-%m-%d"),
              "categories": cats, "extremes": extremes,
              "indicateurs": [{k: i[k] for k in ("nom_fr", "categorie", "zone", "direction")} for i in inds],
-             "resume": resume, "source": "Glassnode, BTC Market Pulse (lecture automatique, positions uniquement)"}
+             "resume": resume, "via": best["via"],
+             "source": "Glassnode, BTC Market Pulse (lecture automatique, positions uniquement)"}
     out_f.write_text(json.dumps(pulse, ensure_ascii=False, indent=1))
     # historique des positions (sans les valeurs de Glassnode), pour juger dans un an ou deux
     hf = C.DATA / "pulse_zones.csv"
@@ -173,5 +215,5 @@ def update():
     hist = pd.read_csv(hf) if hf.exists() else pd.DataFrame(columns=rows.columns)
     hist = pd.concat([hist[hist.publie_le != pulse["publie_le"]], rows]).sort_values(["publie_le", "indicateur"])
     hist.to_csv(hf, index=False)
-    STATUS.update(ok=True, semaine=issue["titre"], nouveau=True, indicateurs=len(inds))
+    STATUS.update(ok=True, semaine=best["titre"], nouveau=True, indicateurs=len(inds), via=best["via"])
     return pulse, True
