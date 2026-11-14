@@ -6,6 +6,7 @@ from . import config as C
 from .backtest import evaluate
 from .features import expanding_powerlaw, halving_phase
 from . import llm
+from .levels import attention_points as level_points
 
 LABELS = {
     "exch_netflow_7d": "Flux net vers les exchanges (7 j)",
@@ -171,7 +172,7 @@ def past_week_perf(close, log, today):
             "detail": [{"date": str(r.target_date.date()), "cible": r.q50, "reel": round(r.actual, 0)} for r in l.itertuples()]}
 
 
-def weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime=None):
+def weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime=None, niveaux=None, pulse=None):
     cyc = cycle_summary(close, X)
     oc = onchain_summary(X, granger)
     se = sentiment_summary(fng, news, today)
@@ -196,6 +197,10 @@ def weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime=No
     for v in oc["variables"]:
         if v["significatif"] and abs(v["z_1an"] or 0) > 1.5:
             pts.append(f"{v['libelle']} anormalement {('élevé' if v['z_1an'] > 0 else 'bas')} (z = {v['z_1an']}).")
+    pts += level_points(niveaux or [])
+    if pulse and pulse.get("extremes"):
+        ext = [f"{e['nom_fr']} ({e['zone']})" for e in pulse["extremes"][:4]]
+        pts.append(f"Glassnode Market Pulse ({pulse['publie_le']}) : indicateurs en zone extrême : " + " ; ".join(ext) + ".")
     sig = p["semaine"]["signaux"]
     pts.append("Signaux des sous-modèles (semaine) : " + ", ".join(f"{k} {v}" for k, v in sig.items()) + ".")
     start = (today - pd.Timedelta(days=7)).strftime("%Y-%m-%d")
@@ -205,14 +210,19 @@ def weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime=No
              "onchain_etf": [{k: v[k] for k in ("libelle", "z_1an", "tendance", "significatif", "suit_le_prix")} for v in oc["variables"][:10]],
              "fear_greed": se.get("fear_greed"), "previsions": {k: {kk: p[k][kk] for kk in ("date_cible", "cible", "bas_80", "haut_80", "confiance")}
                                                                 for k in ("semaine", "mois")},
-             "points_attention": pts}
+             "points_attention": pts,
+             "niveaux_cles": [{k: l[k] for k in ("nom", "valeur", "date", "ecart_pct", "position")} for l in (niveaux or [])],
+             "glassnode_market_pulse": {"publie_le": pulse["publie_le"], "categories": pulse["categories"],
+                                        "extremes": pulse["extremes"], "resume": (pulse.get("resume") or {}).get("resume")}
+             if pulse else None}
     redige = llm.weekly_narrative([n for n in news if n["date"] >= start], facts)
     return {"semaine": f"{today.isocalendar().year}-S{today.isocalendar().week:02d}", "genere_le": str(today.date()),
             "synthese_redigee": redige,
             "prix_reference": latest["prix_cloture_veille"],
             "previsions": {k: {kk: p[k][kk] for kk in ("date_cible", "cible", "bas_80", "haut_80", "variation_pct",
                                                      "confiance", "confiance_label", "signaux")} for k in ("semaine", "mois")},
-            "points_attention": pts, "cycle": cyc,
+            "points_attention": pts, "cycle": cyc, "niveaux_cles": niveaux or [],
+            "glassnode_pulse": pulse,
             "regime": {k: regime[k] for k in ("score", "regime", "depuis", "jours_dans_regime", "composantes", "lecture")} if regime else None, "onchain": oc, "sentiment": se,
             "semaine_passee": past_week_perf(close, log, today), "qualite_donnees": latest["qualite_donnees"]}
 
