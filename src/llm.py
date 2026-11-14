@@ -35,6 +35,7 @@ def _call(prompt, schema, temperature=0.2):
             "generationConfig": {"temperature": temperature, "responseMimeType": "application/json",
                                  "responseSchema": schema}}
     last = None
+    errs = []
     for model in C.GEMINI_MODELS:
         for attempt in range(3):
             try:
@@ -44,10 +45,12 @@ def _call(prompt, schema, temperature=0.2):
                     last = f"{model} indisponible (404)"
                     break
                 if r.status_code in (429, 500, 503):
-                    last = f"{model} : {r.status_code}"
+                    last = f"{model} : {r.status_code} {r.text[:150]}"
                     time.sleep(10 * (attempt + 1))
                     continue
-                r.raise_for_status()
+                if r.status_code >= 400:          # clé refusée, requête invalide… : modèle suivant
+                    last = f"{model} : {r.status_code} {r.text[:150]}"
+                    break
                 j = r.json()
                 text = j["candidates"][0]["content"]["parts"][0]["text"]
                 STATUS["modele"] = model
@@ -58,7 +61,8 @@ def _call(prompt, schema, temperature=0.2):
             except requests.RequestException as e:
                 last = f"{model} : {str(e)[:120]}"
                 time.sleep(5)
-    raise RuntimeError(last or "échec Gemini")
+        errs.append(str(last))
+    raise RuntimeError(" | ".join(errs) or "échec Gemini")
 
 
 SYSTEM = ("Tu es un analyste de marché crypto rigoureux et prudent. Tu réponds en français. "
@@ -121,7 +125,7 @@ def score_headlines(items, max_items=80):
     try:
         out = _call(prompt, SCORE_SCHEMA)
     except Exception as e:
-        STATUS.update(ok=False, raison=f"erreur : {str(e)[:150]} — repli sur le lexique")
+        STATUS.update(ok=False, raison=f"erreur : {str(e)[:600]} — repli sur le lexique")
         return None
     for t in out.get("titres", []):
         i = t.get("id")
