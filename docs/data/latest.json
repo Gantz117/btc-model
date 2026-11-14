@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-14T10:08:56.077508+00:00",
+ "genere_le": "2026-11-14T17:18:51.016458+00:00",
  "regime": {
   "score": -0.377,
   "regime": "accumulation",
@@ -9,7 +9,7 @@
  },
  "date_derniere_cloture": "2026-11-13",
  "prix_cloture_veille": 68235.9,
- "prix_spot": 67233.4,
+ "prix_spot": 65201.1,
  "volatilite_jour_pct": 2.32,
  "qualite_donnees": 1.0,
  "sources": {
@@ -19,7 +19,7 @@
   },
   "kraken": {
    "ok": true,
-   "spot": 67233.4
+   "spot": 65201.1
   },
   "bgeo:whales_10k": {
    "ok": true,
@@ -75,7 +75,7 @@
    "ok": true,
    "feeds_ok": 5,
    "feeds": 5,
-   "items": 177
+   "items": 176
   },
   "gemini": {
    "modele": "gemini-3.5-flash-lite",
@@ -87,8 +87,11 @@
     "https://research.glassnode.com/rss/ : 403 Client Error: Forbidden for url: https://research.glassnode.com/rss/",
     "https://research.glassnode.com/tag/market-pulse/rss/ : 403 Client Error: Forbidden for url: https://research.glassnode.com/tag/market-pulse/rss/"
    ],
-   "ok": false,
-   "raison": "flux Glassnode indisponible"
+   "ok": true,
+   "semaine": "BTC Market Pulse: Week 46",
+   "nouveau": true,
+   "indicateurs": 21,
+   "via": "lecture depuis le PC"
   }
  },
  "predictions": {
