@@ -124,18 +124,23 @@ def load_bgeometrics():
     out = {}
     today = pd.Timestamp(datetime.now(timezone.utc).date())
     calls = 0
+    log_f = C.DATA / "bgeo_fetch.json"           # date du dernier appel réussi par série
+    fetched = json.loads(log_f.read_text()) if log_f.exists() else {}
     for ep, name in C.BGEO_SERIES.items():
         f = C.DATA / f"bgeo_{name}.csv"
         cached = pd.read_csv(f, parse_dates=["time"]).set_index("time")["value"] if f.exists() else None
-        fresh = cached is not None and cached.index.max() >= today - timedelta(days=1)
-        if not fresh and calls < 8:
+        last_call = pd.Timestamp(fetched[name]) if name in fetched else None
+        fresh = cached is not None and last_call is not None and \
+            (today - last_call).days < getattr(C, "BGEO_MAX_AGE", {}).get(name, 1)
+        if not fresh and calls < getattr(C, "BGEO_MAX_CALLS", 8):
             calls += 1
             try:
                 j = _get(f"https://bitcoin-data.com/v1/{ep}", retries=0).json()
                 if isinstance(j, dict):
                     j = [j]
                 df = pd.DataFrame(j)
-                field = [c for c in df.columns if c not in ("d", "unixTs")][0]
+                cands = [c for c in df.columns if c not in ("d", "unixTs", "delayed", "message")]
+                field = max(cands, key=lambda c: pd.to_numeric(df[c], errors="coerce").notna().sum())
                 s = pd.Series(pd.to_numeric(df[field], errors="coerce").values,
                               index=pd.to_datetime(df["d"].astype(str).str[:10]), name="value").dropna()
                 s = s.groupby(level=0).sum() if name in C.BGEO_SUM else s.groupby(level=0).mean()
@@ -146,6 +151,8 @@ def load_bgeometrics():
                 s.index.name = "time"
                 s.to_frame().to_csv(f)
                 cached = s
+                fetched[name] = str(today.date())
+                log_f.write_text(json.dumps(fetched, indent=0))
                 STATUS[f"bgeo:{name}"] = {"ok": True, "last": str(s.index.max().date())}
             except Exception as e:
                 STATUS[f"bgeo:{name}"] = {"ok": False, "error": str(e)[:150], "cache": cached is not None}
