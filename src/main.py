@@ -13,6 +13,8 @@ from . import causality as G
 from . import backtest as B
 from . import reports as R
 from . import regime as RG
+from . import levels as LV
+from . import pulse as PU
 from .model import BTCModel, conf_features, confidence_index, apply_calibration, label
 
 
@@ -118,7 +120,8 @@ def main(argv):
 
     # 3) Backtest / calibration (chaque lundi, ou s'il n'existe pas encore)
     bt_f = C.OUT / "backtest.json"
-    if "--force-backtest" in argv or not bt_f.exists() or today.day_of_week == 0:
+    bt_today = bt_f.exists() and json.loads(bt_f.read_text()).get("genere_le", "")[:10] == str(today.date())
+    if "--force-backtest" in argv or not bt_f.exists() or (today.day_of_week == 0 and not bt_today):
         print("Backtest walk-forward en cours (quelques minutes)…")
         bt = B.full(X, close, vol, groups)
         bt["genere_le"] = now.isoformat()
@@ -135,12 +138,16 @@ def main(argv):
 
     regime = RG.current(X, close)
     jdump(regime, C.OUT / "regime.json")
+    niveaux = LV.compute(close, cm, bgeo)
+    pulse, pulse_nouveau = PU.update()          # BTC Market Pulse de Glassnode (contexte, hors prévision)
+    DS.STATUS["glassnode_pulse"] = dict(PU.STATUS)
     latest = {"genere_le": now.isoformat(), "regime": {k: regime[k] for k in ("score", "regime", "depuis", "jours_dans_regime", "lecture")}, "date_derniere_cloture": str(t0.date()), "prix_cloture_veille": round(p0, 2),
               "prix_spot": kr.get("spot"), "volatilite_jour_pct": round(100 * float(vol.loc[t0]), 2),
               "qualite_donnees": dq, "sources": DS.STATUS, "predictions": preds,
               "variables_onchain_retenues": groups_live["onchain"], "granger": granger,
               "variables_sentiment": groups_live["sentiment"], "test_actualite_ia": news_test,
-              "jours_historique_actualite_ia": int(X["news_ia_7d"].notna().sum()) if "news_ia_7d" in X else 0}
+              "jours_historique_actualite_ia": int(X["news_ia_7d"].notna().sum()) if "news_ia_7d" in X else 0,
+              "niveaux_cles": niveaux}
     jdump(latest, C.OUT / "latest.json")
 
     # 5) Journal des prévisions (sert au bilan mensuel)
@@ -161,11 +168,11 @@ def main(argv):
            "fng": [None if (isinstance(v, float) and np.isnan(v)) else v for v in fng.reindex(hist.index).tolist()] if len(fng) else []},
           C.OUT / "history.json")
 
-    # 7) Synthèse hebdomadaire (le lundi, ou si celle de la semaine manque)
+    # 7) Synthèse hebdomadaire (le lundi, si elle manque, ou à la parution d'un nouveau Pulse Glassnode)
     iso = today.isocalendar()
     wk_f = C.OUT / "weekly" / f"{iso.year}-S{iso.week:02d}.json"
-    if today.day_of_week == 0 or not wk_f.exists():
-        wk = R.weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime)
+    if today.day_of_week == 0 or not wk_f.exists() or pulse_nouveau:
+        wk = R.weekly(close, X, cm, bgeo, fng, news, granger, latest, log, today, regime, niveaux, pulse)
         jdump(wk, wk_f)
         jdump(wk, C.OUT / "weekly_latest.json")
 
