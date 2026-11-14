@@ -1,16 +1,14 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-14",
  "resume": [
-  "Pression baissière liée aux sorties de fonds sur les ETF Bitcoin et aux données d'inflation américaine plus élevées que prévu.",
-  "Risque de ventes forcées massives sur le Bitcoin suite à l'exclusion de Strategy (MSTR) des indices MSCI.",
-  "Flux sortants importants et transferts de BTC à perte vers les exchanges par les détenteurs à court terme.",
-  "Signes positifs d'adoption institutionnelle avec l'activation de la conservation crypto par Deutsche Bank et l'ouverture du trading en Russie."
+  "Le Bitcoin chute sous les 67 000 dollars, atteignant des plus bas de plusieurs mois, pénalisé par des sorties massives sur les ETF américains (plus de 2,3 milliards de dollars en deux semaines).",
+  "Le marché subit une vague importante de liquidations de positions longues (plus de 1,3 milliard de dollars) dans un contexte de tensions macroéconomiques, de craintes liées aux taux de la Fed et de la vigueur du dollar.",
+  "L'attrait pour la liquidité lié à l'actualité des introductions en bourse (IPO) dans l'intelligence artificielle (notamment Anthropic) draine des capitaux hors du marché crypto.",
+  "Du côté de l'offre et du réseau, la difficulté de minage a enregistré une baisse notable de 9,1 %, tandis que certains mineurs font face à des pressions concurrentielles de l'IA (comme au Paraguay)."
  ],
- "ton_global": -0.4,
+ "ton_global": -0.7,
  "evenements_a_surveiller": [
-  "2026-11-22: Ouverture du trading de Bitcoin et crypto par la Banque centrale de Russie",
-  "2026-11-23: Lancement des actions tokenisées par ICE et OKX",
-  "2026-11-30: Date limite pour la vente forcée de Strategy (MSTR) par les fonds indiciels suite à son retrait de l'indice MSCI"
+  "2027: Paraguay's Miners Face Power Deadline as AI Deals Advance"
  ],
  "modele": "gemini-3.5-flash-lite"
 }

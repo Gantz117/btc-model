@@ -1,158 +1,159 @@
 {
- "genere_le": "2026-11-13T09:54:05.570600+00:00",
+ "genere_le": "2026-11-14T09:18:02.254052+00:00",
  "regime": {
-  "score": -0.358,
+  "score": -0.377,
   "regime": "accumulation",
   "depuis": "2026-11-05",
-  "jours_dans_regime": 8,
-  "lecture": "Score -0.36 : accumulation. Valorisation basse par rapport aux 4 dernières années. Historiquement favorable à un horizon de 6–12 mois, sans garantie sur le court terme. Rappel : trois cycles observés seulement, et les régimes extrêmes ne reviennent que quelques fois par décennie."
+  "jours_dans_regime": 9,
+  "lecture": "Score -0.38 : accumulation. Valorisation basse par rapport aux 4 dernières années. Historiquement favorable à un horizon de 6–12 mois, sans garantie sur le court terme. Rappel : trois cycles observés seulement, et les régimes extrêmes ne reviennent que quelques fois par décennie."
  },
- "date_derniere_cloture": "2026-11-12",
- "prix_cloture_veille": 71370.7,
- "prix_spot": 68992.2,
- "volatilite_jour_pct": 2.11,
+ "date_derniere_cloture": "2026-11-13",
+ "prix_cloture_veille": 68235.9,
+ "prix_spot": 67109.8,
+ "volatilite_jour_pct": 2.32,
  "qualite_donnees": 1.0,
  "sources": {
   "coinmetrics": {
    "ok": true,
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "kraken": {
    "ok": true,
-   "spot": 68992.2
+   "spot": 67109.8
   },
   "bgeo:whales_10k": {
    "ok": true,
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "bgeo:whales_1k_10k": {
    "ok": true,
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "bgeo:sharks_100_1k": {
    "ok": true,
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "bgeo:sopr": {
    "ok": true,
-   "last": "2026-11-06"
+   "last": "2026-11-07"
   },
   "bgeo:lth_netpos": {
    "ok": true,
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "bgeo:funding_rate": {
    "ok": true,
-   "last": "2026-11-05"
+   "last": "2026-11-06"
   },
   "bgeo:etf_flow": {
    "ok": true,
-   "last": "2026-11-05"
+   "last": "2026-11-11"
   },
   "fear_greed": {
    "ok": true,
-   "last": "2026-11-13",
-   "value": 20.0
+   "last": "2026-11-14",
+   "value": 13.0
   },
   "news": {
    "ok": true,
    "feeds_ok": 5,
    "feeds": 5,
-   "items": 175
+   "items": 177
   },
   "gemini": {
-   "ok": false,
-   "raison": "erreur : gemini-2.5-flash indisponible (404) — repli sur le lexique"
+   "modele": "gemini-3.5-flash-lite",
+   "ok": true,
+   "n_notes": 80
   }
  },
  "predictions": {
   "jour": {
-   "date_cible": "2026-11-13",
+   "date_cible": "2026-11-14",
    "horizon_jours": 1,
-   "prix_reference": 71370.7,
-   "cible": 71353.0,
-   "bas_80": 69962.0,
-   "haut_80": 73133.0,
-   "variation_pct": -0.03,
+   "prix_reference": 68235.9,
+   "cible": 68207.0,
+   "bas_80": 66865.0,
+   "haut_80": 70280.0,
+   "variation_pct": -0.04,
    "confiance": 50.8,
    "confiance_label": "faible",
    "direction": "baisse",
    "signaux": {
-    "technique": "baissier",
-    "onchain": "neutre",
-    "sentiment": "baissier"
+    "technique": "neutre",
+    "onchain": "baissier",
+    "sentiment": "neutre"
    },
    "signaux_z": {
-    "technique": -0.059,
-    "onchain": 0.021,
-    "sentiment": -0.124
+    "technique": -0.031,
+    "onchain": -0.317,
+    "sentiment": 0.046
    },
    "composantes_confiance": {
-    "force_signal": 0.115,
+    "force_signal": 0.172,
     "accord_sous_modeles": 0.667,
-    "calme_marche": 0.507,
+    "calme_marche": 0.366,
     "log_h": 0.0,
-    "proba_hausse_brute": 0.442
+    "proba_hausse_brute": 0.414
    },
    "cible_affichee": false
   },
   "semaine": {
    "date_cible": "2026-11-15",
-   "horizon_jours": 3,
-   "prix_reference": 71370.7,
-   "cible": 71293.0,
-   "bas_80": 68787.0,
-   "haut_80": 74560.0,
-   "variation_pct": -0.11,
-   "confiance": 52.7,
+   "horizon_jours": 2,
+   "prix_reference": 68235.9,
+   "cible": 68195.0,
+   "bas_80": 66306.0,
+   "haut_80": 71144.0,
+   "variation_pct": -0.06,
+   "confiance": 52.1,
    "confiance_label": "faible",
    "direction": "baisse",
    "signaux": {
-    "technique": "baissier",
-    "onchain": "neutre",
-    "sentiment": "baissier"
+    "technique": "neutre",
+    "onchain": "baissier",
+    "sentiment": "neutre"
    },
    "signaux_z": {
-    "technique": -0.059,
-    "onchain": 0.038,
-    "sentiment": -0.125
+    "technique": -0.031,
+    "onchain": -0.316,
+    "sentiment": 0.046
    },
    "composantes_confiance": {
-    "force_signal": 0.115,
+    "force_signal": 0.172,
     "accord_sous_modeles": 0.667,
-    "calme_marche": 0.507,
-    "log_h": 1.099,
-    "proba_hausse_brute": 0.442
+    "calme_marche": 0.366,
+    "log_h": 0.693,
+    "proba_hausse_brute": 0.414
    },
    "cible_affichee": true
   },
   "mois": {
    "date_cible": "2026-11-30",
-   "horizon_jours": 18,
-   "prix_reference": 71370.7,
-   "cible": 71094.0,
-   "bas_80": 65507.0,
-   "haut_80": 80371.0,
-   "variation_pct": -0.39,
-   "confiance": 53.9,
+   "horizon_jours": 17,
+   "prix_reference": 68235.9,
+   "cible": 67724.0,
+   "bas_80": 63738.0,
+   "haut_80": 77791.0,
+   "variation_pct": -0.75,
+   "confiance": 55.9,
    "confiance_label": "moyenne",
    "direction": "baisse",
    "signaux": {
     "technique": "neutre",
-    "onchain": "haussier",
-    "sentiment": "baissier"
+    "onchain": "baissier",
+    "sentiment": "neutre"
    },
    "signaux_z": {
-    "technique": 0.008,
-    "onchain": 0.08,
-    "sentiment": -0.212
+    "technique": -0.026,
+    "onchain": -0.31,
+    "sentiment": 0.018
    },
    "composantes_confiance": {
-    "force_signal": 0.108,
-    "accord_sous_modeles": 0.333,
-    "calme_marche": 0.507,
-    "log_h": 2.89,
-    "proba_hausse_brute": 0.446
+    "force_signal": 0.212,
+    "accord_sous_modeles": 0.667,
+    "calme_marche": 0.366,
+    "log_h": 2.833,
+    "proba_hausse_brute": 0.394
    },
    "cible_affichee": true
   }
@@ -165,10 +166,10 @@
  "granger": [
   {
    "variable": "etf_flow_30d",
-   "p_value": 0.193,
-   "p_brute": 0.0386,
+   "p_value": 0.1566,
+   "p_brute": 0.0313,
    "lag": 1,
-   "corr_7j": 0.147,
+   "corr_7j": 0.149,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -176,43 +177,43 @@
   },
   {
    "variable": "exch_inflow_z",
-   "p_value": 0.2804,
-   "p_brute": 0.0561,
+   "p_value": 0.2987,
+   "p_brute": 0.0597,
    "lag": 5,
-   "corr_7j": 0.063,
+   "corr_7j": 0.06,
    "significatif": false,
-   "p_prix_vers_variable": 0.5417,
+   "p_prix_vers_variable": 0.4979,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
    "variable": "sharks_100_1k_30d",
-   "p_value": 0.4263,
-   "p_brute": 0.0853,
+   "p_value": 0.4126,
+   "p_brute": 0.0825,
    "lag": 7,
-   "corr_7j": -0.045,
+   "corr_7j": -0.044,
    "significatif": false,
-   "p_prix_vers_variable": 0.2577,
+   "p_prix_vers_variable": 0.251,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
    "variable": "exch_netflow_30d",
-   "p_value": 0.4842,
-   "p_brute": 0.0968,
+   "p_value": 0.4577,
+   "p_brute": 0.0915,
    "lag": 7,
    "corr_7j": 0.041,
    "significatif": false,
-   "p_prix_vers_variable": 0.0005,
+   "p_prix_vers_variable": 0.0006,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "mvrv_30d",
-   "p_value": 0.6455,
-   "p_brute": 0.1291,
+   "p_value": 0.4932,
+   "p_brute": 0.0986,
    "lag": 1,
-   "corr_7j": 0.112,
+   "corr_7j": 0.113,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -220,10 +221,10 @@
   },
   {
    "variable": "hashrate_30d",
-   "p_value": 0.6588,
-   "p_brute": 0.1318,
+   "p_value": 0.581,
+   "p_brute": 0.1162,
    "lag": 1,
-   "corr_7j": 0.108,
+   "corr_7j": 0.107,
    "significatif": false,
    "p_prix_vers_variable": 1.0,
    "suit_le_prix": false,
@@ -231,21 +232,21 @@
   },
   {
    "variable": "whales_10k_30d",
-   "p_value": 0.6845,
-   "p_brute": 0.1369,
+   "p_value": 0.6424,
+   "p_brute": 0.1285,
    "lag": 3,
-   "corr_7j": -0.014,
+   "corr_7j": -0.013,
    "significatif": false,
-   "p_prix_vers_variable": 0.0321,
+   "p_prix_vers_variable": 0.0317,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "etf_flow_7d",
-   "p_value": 0.7577,
-   "p_brute": 0.1515,
+   "p_value": 0.7479,
+   "p_brute": 0.1496,
    "lag": 7,
-   "corr_7j": 0.112,
+   "corr_7j": 0.115,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -253,54 +254,54 @@
   },
   {
    "variable": "active_addr_30d",
-   "p_value": 0.8438,
-   "p_brute": 0.1688,
+   "p_value": 0.827,
+   "p_brute": 0.1654,
    "lag": 7,
-   "corr_7j": 0.014,
+   "corr_7j": 0.013,
    "significatif": false,
    "p_prix_vers_variable": 1.0,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
-   "variable": "whales_1k_10k_7d",
-   "p_value": 0.8875,
-   "p_brute": 0.1775,
+   "variable": "exch_reserve_30d",
+   "p_value": 0.8895,
+   "p_brute": 0.1779,
    "lag": 7,
-   "corr_7j": -0.074,
+   "corr_7j": 0.026,
    "significatif": false,
-   "p_prix_vers_variable": 0.0086,
+   "p_prix_vers_variable": 0.0072,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
-   "variable": "exch_reserve_30d",
-   "p_value": 0.9017,
-   "p_brute": 0.1803,
+   "variable": "whales_1k_10k_7d",
+   "p_value": 0.9607,
+   "p_brute": 0.1921,
    "lag": 7,
-   "corr_7j": 0.029,
+   "corr_7j": -0.074,
    "significatif": false,
-   "p_prix_vers_variable": 0.0068,
+   "p_prix_vers_variable": 0.0078,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "exch_netflow_7d",
    "p_value": 1.0,
-   "p_brute": 0.3523,
+   "p_brute": 0.3872,
    "lag": 1,
-   "corr_7j": -0.075,
+   "corr_7j": -0.074,
    "significatif": false,
-   "p_prix_vers_variable": 0.0204,
+   "p_prix_vers_variable": 0.0221,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "mvrv",
    "p_value": 1.0,
-   "p_brute": 0.4182,
+   "p_brute": 0.3916,
    "lag": 1,
-   "corr_7j": 0.0,
+   "corr_7j": 0.004,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -309,42 +310,42 @@
   {
    "variable": "whales_10k_7d",
    "p_value": 1.0,
-   "p_brute": 0.2912,
+   "p_brute": 0.3194,
    "lag": 7,
    "corr_7j": 0.035,
    "significatif": false,
-   "p_prix_vers_variable": 0.0009,
+   "p_prix_vers_variable": 0.0011,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "whales_1k_10k_30d",
    "p_value": 1.0,
-   "p_brute": 0.2869,
+   "p_brute": 0.3158,
    "lag": 1,
-   "corr_7j": 0.084,
+   "corr_7j": 0.083,
    "significatif": false,
-   "p_prix_vers_variable": 0.1542,
+   "p_prix_vers_variable": 0.1554,
    "suit_le_prix": false,
    "p_holm": 1.0
   },
   {
    "variable": "sharks_100_1k_7d",
    "p_value": 1.0,
-   "p_brute": 0.393,
+   "p_brute": 0.368,
    "lag": 1,
-   "corr_7j": 0.037,
+   "corr_7j": 0.039,
    "significatif": false,
-   "p_prix_vers_variable": 0.0216,
+   "p_prix_vers_variable": 0.0184,
    "suit_le_prix": true,
    "p_holm": 1.0
   },
   {
    "variable": "sopr_7d",
    "p_value": 1.0,
-   "p_brute": 0.502,
+   "p_brute": 0.4625,
    "lag": 1,
-   "corr_7j": 0.044,
+   "corr_7j": 0.045,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -353,9 +354,9 @@
   {
    "variable": "etf_flow_z",
    "p_value": 1.0,
-   "p_brute": 0.3405,
-   "lag": 7,
-   "corr_7j": 0.106,
+   "p_brute": 0.2959,
+   "lag": 5,
+   "corr_7j": 0.109,
    "significatif": false,
    "p_prix_vers_variable": 0.0,
    "suit_le_prix": true,
@@ -364,11 +365,11 @@
   {
    "variable": "lth_netpos_z",
    "p_value": 1.0,
-   "p_brute": 0.2176,
+   "p_brute": 0.2275,
    "lag": 1,
-   "corr_7j": -0.031,
+   "corr_7j": -0.03,
    "significatif": false,
-   "p_prix_vers_variable": 0.738,
+   "p_prix_vers_variable": 0.7622,
    "suit_le_prix": false,
    "p_holm": 1.0
   }
@@ -380,5 +381,5 @@
   "funding_7d"
  ],
  "test_actualite_ia": null,
- "jours_historique_actualite_ia": 10
+ "jours_historique_actualite_ia": 11
 }
