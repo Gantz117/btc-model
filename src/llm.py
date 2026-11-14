@@ -146,7 +146,11 @@ def weekly_narrative(week_items, facts):
     prompt = ("Rédige la synthèse hebdomadaire du marché Bitcoin pour un investisseur particulier averti. "
               "Croise les actualités de la semaine avec les indicateurs chiffrés du modèle ci-dessous. "
               "Rappelle, si c'est pertinent, que les indicateurs on-chain et ETF suivent souvent le prix plutôt qu'ils ne l'anticipent, "
-              "et que les cibles chiffrées du modèle n'ont pas battu historiquement la prévision « prix inchangé ».\n\n"
+              "et que les cibles chiffrées du modèle n'ont pas battu historiquement la prévision « prix inchangé ». "
+              "Le bloc « glassnode_market_pulse », s'il est présent, résume la lecture hebdomadaire de Glassnode (source externe) : "
+              "cite-le comme tel et signale s'il confirme ou contredit les autres indicateurs. "
+              "Le bloc « niveaux_cles » donne des prix de revient moyens (acheteurs récents, ensemble du marché) : "
+              "dis où se situe le prix par rapport à eux.\n\n"
               f"INDICATEURS DU MODÈLE (JSON) :\n{json.dumps(facts, ensure_ascii=False)}\n\nACTUALITÉS DE LA SEMAINE :\n{lines}")
     try:
         out = _call(prompt, WEEK_SCHEMA, temperature=0.4)
@@ -159,3 +163,29 @@ def weekly_narrative(week_items, facts):
             "facteurs_baissiers": [str(x)[:300] for x in out.get("facteurs_baissiers", [])][:6],
             "a_surveiller": [str(x)[:300] for x in out.get("a_surveiller", [])][:6],
             "coherence": str(out.get("coherence", ""))[:600], "modele": STATUS.get("modele")}
+
+
+PULSE_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "resume": {"type": "STRING", "description": "2 à 3 phrases en français, reformulées avec tes propres mots"},
+        "points_cles": {"type": "ARRAY", "items": {"type": "STRING"}, "description": "3 points clés au maximum"},
+    },
+    "required": ["resume", "points_cles"],
+}
+
+
+def summarize_pulse(overview_text):
+    """Résumé reformulé (jamais recopié) de l'aperçu du BTC Market Pulse de Glassnode."""
+    if not available() or not overview_text:
+        return None
+    prompt = ("Voici l'aperçu du dernier « BTC Market Pulse » de Glassnode. Résume-le en français en 2 à 3 phrases, "
+              "avec tes propres mots : ne recopie aucune phrase. Puis donne au plus 3 points clés. "
+              "N'ajoute aucun fait absent du texte.\n\nTEXTE :\n" + overview_text[:6000])
+    try:
+        out = _call(prompt, PULSE_SCHEMA)
+    except Exception as e:
+        STATUS["pulse"] = f"erreur : {str(e)[:150]}"
+        return None
+    return {"resume": str(out.get("resume", ""))[:800],
+            "points_cles": [str(x)[:250] for x in out.get("points_cles", [])][:3], "modele": STATUS.get("modele")}
