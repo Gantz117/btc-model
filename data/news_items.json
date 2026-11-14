@@ -1,6 +1,16 @@
 [
 {
 "date": "2026-11-14",
+"ts": "2026-11-14T09:34:23+00:00",
+"title": "Bitcoin closely tracks U.S. stocks amid $1.9B E... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmp6WElOUWl1Z0N1dndENFlZeUhLUUpSMTRKdTBIc2RpMnItVVdSVzZnRjZSTlJ1OHdrUGlUZElOVkdQU196QW1DSUk4ODRnSWp2ek1qY1VhRjlqS3p4enQ2Si1tWWtReWhTd1FiSFc3S09ONkV6SEU4ajMzdnBnTkxRTllJM3RXeG9VM3BtTlNlQkVhR1JvQmJZN0lWYlExWEJybTN0UGphOVJPLXc?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-14",
 "ts": "2026-11-14T09:13:06+00:00",
 "title": "[Analysis] More Than Half of Bitcoin Holders Are Underwater, Suggesting Price Bottom May Be Near - bloomingbit",
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BQU1vZi1IZE5STURGUjNIZExsQ3pDQ1hSM2JxRzVpR1RCaVlsa3BHMFFybHczTjJuVVVueVh4X0FicFRqYWVkZ2I4WmZtSHl4ZGU4eA?oc=5",
@@ -110,6 +120,18 @@
 "llm_importance": 0.6,
 "llm_theme": "Autre",
 "score_lexique": 0.0
+},
+{
+"date": "2026-11-14",
+"ts": "2026-11-14T07:54:21+00:00",
+"title": "Xapo Bank CEO Links Bitcoin Decline to Anthropic IPO - ForkLog",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNXEzV3NZWlZiVTF3SXh5ZXZ4SUVwUG5KdXBIRzREVXN3eWtvRVB4dGdrT2xVZy1WTHBmQUZKbEJQY2dfSm1pak9ZQWRGa0o1dHRhSENVem9ZTnFkdG1lbGNySDhlQ0EtaWRwbWxMTElqUFJHR2RsQmRSTVhWcmJmRFdR?oc=5",
+"source": "news.google.com",
+"score": -0.583,
+"tags": [
+"Institutionnels"
+],
+"score_lexique": -0.583
 },
 {
 "date": "2026-11-14",

@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-14T09:18:02.254052+00:00",
+ "genere_le": "2026-11-14T10:01:34.160169+00:00",
  "regime": {
   "score": -0.377,
   "regime": "accumulation",
@@ -9,7 +9,7 @@
  },
  "date_derniere_cloture": "2026-11-13",
  "prix_cloture_veille": 68235.9,
- "prix_spot": 67109.8,
+ "prix_spot": 67316.6,
  "volatilite_jour_pct": 2.32,
  "qualite_donnees": 1.0,
  "sources": {
@@ -19,7 +19,7 @@
   },
   "kraken": {
    "ok": true,
-   "spot": 67109.8
+   "spot": 67316.6
   },
   "bgeo:whales_10k": {
    "ok": true,
@@ -49,6 +49,14 @@
    "ok": true,
    "last": "2026-11-11"
   },
+  "bgeo:sth_cost_basis": {
+   "ok": true,
+   "last": "2026-11-07"
+  },
+  "bgeo:true_market_mean": {
+   "ok": true,
+   "last": "2026-11-07"
+  },
   "fear_greed": {
    "ok": true,
    "last": "2026-11-14",
@@ -61,9 +69,16 @@
    "items": 177
   },
   "gemini": {
-   "modele": "gemini-3.5-flash-lite",
-   "ok": true,
-   "n_notes": 80
+   "ok": false,
+   "raison": "erreur : gemini-2.5-flash indisponible (404) — repli sur le lexique"
+  },
+  "glassnode_pulse": {
+   "erreurs": [
+    "https://research.glassnode.com/rss/ : 403 Client Error: Forbidden for url: https://research.glassnode.com/rss/",
+    "https://research.glassnode.com/tag/market-pulse/rss/ : 403 Client Error: Forbidden for url: https://research.glassnode.com/tag/market-pulse/rss/"
+   ],
+   "ok": false,
+   "raison": "flux Glassnode indisponible"
   }
  },
  "predictions": {
@@ -381,5 +396,40 @@
   "funding_7d"
  ],
  "test_actualite_ia": null,
- "jours_historique_actualite_ia": 11
+ "jours_historique_actualite_ia": 11,
+ "niveaux_cles": [
+  {
+   "cle": "sth_cost_basis",
+   "nom": "Prix de revient des acheteurs récents (< 155 j)",
+   "valeur": 75839.0,
+   "date": "2026-11-07",
+   "source": "BGeometrics",
+   "retard_jours": 6,
+   "ecart_pct": -10.0,
+   "position": "en dessous",
+   "franchi_7j": null
+  },
+  {
+   "cle": "true_market_mean",
+   "nom": "True market mean (prix de revient des coins actifs)",
+   "valeur": 79122.0,
+   "date": "2026-11-07",
+   "source": "BGeometrics",
+   "retard_jours": 6,
+   "ecart_pct": -13.8,
+   "position": "en dessous",
+   "franchi_7j": null
+  },
+  {
+   "cle": "realized_price",
+   "nom": "Prix réalisé (prix de revient moyen de tout le marché)",
+   "valeur": 53762.0,
+   "date": "2026-11-13",
+   "source": "CoinMetrics",
+   "retard_jours": 0,
+   "ecart_pct": 26.9,
+   "position": "au-dessus",
+   "franchi_7j": null
+  }
+ ]
 }
