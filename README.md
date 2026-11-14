@@ -65,7 +65,7 @@ GitHub garde la clé chiffrée : elle n'apparaît ni dans le code ni sur le tabl
 3. Le premier lancement prend **5 à 15 minutes** : il télécharge l'historique, fait le backtest et reconstitue les prévisions des deux derniers mois pour que le premier bilan mensuel soit déjà disponible. Une pastille verte ✅ indique que c'est terminé.
 4. Recharge ton tableau de bord.
 
-Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (03:35 à Paris en hiver, 04:35 en été).
+Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (03:35 à Paris en hiver, 04:35 en été). GitHub peut retarder ou sauter une tâche planifiée : deux lancements de secours sont prévus à 05:35 et 09:35 UTC (06:35 et 10:35 à Paris en hiver) ; ils ne font rien si le calcul du jour a déjà réussi. Le lundi à 18:35 UTC (19:35 à Paris en hiver), un passage supplémentaire complète la synthèse hebdomadaire avec le « BTC Market Pulse » de Glassnode, publié le lundi après-midi.
 
 ---
 
@@ -89,6 +89,8 @@ Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (
 
 **3. Informations de marché** — Fear & Greed et taux de financement dans le modèle ; titres d'actualité (5 flux RSS) lus chaque jour par Gemini (impact probable, importance, thème, résumé en français), ou par un lexique sans clé API. Le lundi, Gemini rédige une synthèse qui croise l'actualité avec les indicateurs chiffrés. La note d'actualité s'accumule jour après jour ; elle n'entre dans le calcul des cibles qu'après 1 an d'historique **et** si elle passe le test de causalité de Granger. Si Google retire un modèle, le suivant de la liste `GEMINI_MODELS` (dans `src/config.py`) prend le relais.
 
+**Repères de lecture (hors prévision)** — *Niveaux clés* : prix de revient moyen des acheteurs récents (< 155 jours) et *true market mean* (BGeometrics, gratuits avec 7 jours de retard), prix réalisé (CoinMetrics). *Glassnode BTC Market Pulse* : chaque semaine, le modèle lit la position de 21 indicateurs (dont options, CVD, profits/pertes) par rapport à leurs bornes habituelles et en déduit un niveau par catégorie ; Gemini en reformule la conclusion. Seules les positions sont conservées (`data/pulse_zones.csv`), pas les valeurs de Glassnode, et le tableau de bord renvoie à l'article. Ni l'un ni l'autre n'entre dans la prévision tant qu'un test sur l'historique ne l'a pas justifié.
+
 **Régime de marché** — six indicateurs de valorisation long terme (loi de puissance, Mayer, MVRV, moyenne 200 semaines, drawdown, RSI hebdo), chacun converti en percentile de ses 4 dernières années, moyennés et lissés sur 14 jours. Score de −1 à +1. Sur l'historique, il ne dit rien à 3 mois mais sépare nettement les rendements à 1 an (surchauffe : ~56 % de cas positifs ; accumulation profonde : ~90 %, pire cas −13 %) — sur une poignée d'épisodes seulement.
 
 **Modèle** — régression quantile par gradient boosting (scikit-learn), ré-entraînée chaque jour. Un backtest walk-forward calibre la cible (rapprochée de la prévision naïve « le prix ne bouge pas » quand le modèle ne fait pas mieux), la largeur des intervalles et l'indice de confiance.
@@ -98,7 +100,7 @@ Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (
 **Indice de confiance** — probabilité, apprise sur l'historique, que le prix finisse du côté annoncé (hausse/baisse). 50 = pile ou face.
 
 ### Sources de données (toutes gratuites, sans clé)
-CoinMetrics Community API · Kraken (prix) · Gemini API (facultatif, palier gratuit) · BGeometrics (palier gratuit limité à ~10 requêtes/heure) · alternative.me (Fear & Greed) · CoinDesk, Cointelegraph, Bitcoin Magazine, Decrypt, Google News (RSS).
+CoinMetrics Community API · Kraken (prix) · flux RSS de Glassnode Research · Gemini API (facultatif, palier gratuit) · BGeometrics (palier gratuit limité à ~10 requêtes/heure) · alternative.me (Fear & Greed) · CoinDesk, Cointelegraph, Bitcoin Magazine, Decrypt, Google News (RSS).
 
 ### Structure
 ```
