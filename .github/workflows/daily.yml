@@ -7,6 +7,7 @@ on:
     - cron: "35 2 * * *"   # 03:35 à Paris en hiver, après la publication des données on-chain de la veille
     - cron: "35 5 * * *"   # secours : 06:35 à Paris en hiver
     - cron: "35 9 * * *"   # secours : 10:35 à Paris en hiver
+    - cron: "35 18 * * 1"  # lundi 19:35 à Paris en hiver : synthèse complétée par le BTC Market Pulse de Glassnode
   workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
     inputs:
       backtest:
@@ -42,6 +43,8 @@ jobs:
         run: |
           if [ "${{ github.event.inputs.backtest }}" = "true" ]; then
             python -m src.main --force-backtest
+          elif [ "${{ github.event.schedule }}" = "35 18 * * 1" ]; then
+            python -m src.main
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             python -m src.main --si-pas-fait
           else
