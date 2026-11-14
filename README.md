@@ -65,7 +65,7 @@ GitHub garde la clé chiffrée : elle n'apparaît ni dans le code ni sur le tabl
 3. Le premier lancement prend **5 à 15 minutes** : il télécharge l'historique, fait le backtest et reconstitue les prévisions des deux derniers mois pour que le premier bilan mensuel soit déjà disponible. Une pastille verte ✅ indique que c'est terminé.
 4. Recharge ton tableau de bord.
 
-Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (03:35 à Paris en hiver, 04:35 en été). GitHub peut retarder ou sauter une tâche planifiée : deux lancements de secours sont prévus à 05:35 et 09:35 UTC (06:35 et 10:35 à Paris en hiver) ; ils ne font rien si le calcul du jour a déjà réussi. Le lundi à 18:35 UTC (19:35 à Paris en hiver), un passage supplémentaire complète la synthèse hebdomadaire avec le « BTC Market Pulse » de Glassnode, publié le lundi après-midi.
+Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (03:35 à Paris en hiver, 04:35 en été). GitHub peut retarder ou sauter une tâche planifiée : deux lancements de secours sont prévus à 05:35 et 09:35 UTC (06:35 et 10:35 à Paris en hiver) ; ils ne font rien si le calcul du jour a déjà réussi. Le « BTC Market Pulse » de Glassnode (publié le lundi après-midi) refuse les serveurs de GitHub : il est lu le lundi soir depuis ton PC par une tâche planifiée Claude (navigateur intégré de l'app Claude), qui dépose le résultat dans `data/pulse_inbox.json` puis relance le calcul. Si le PC est éteint ce soir-là, la synthèse reste sans le Pulse ; tu peux relancer la tâche plus tard.
 
 ---
 
@@ -100,7 +100,7 @@ Ensuite tout est automatique : le calcul se lance **chaque jour à 02:35 UTC** (
 **Indice de confiance** — probabilité, apprise sur l'historique, que le prix finisse du côté annoncé (hausse/baisse). 50 = pile ou face.
 
 ### Sources de données (toutes gratuites, sans clé)
-CoinMetrics Community API · Kraken (prix) · flux RSS de Glassnode Research · Gemini API (facultatif, palier gratuit) · BGeometrics (palier gratuit limité à ~10 requêtes/heure) · alternative.me (Fear & Greed) · CoinDesk, Cointelegraph, Bitcoin Magazine, Decrypt, Google News (RSS).
+CoinMetrics Community API · Kraken (prix) · flux RSS de Glassnode Research (lus depuis le PC, script `tools/pulse_reader.js`) · Gemini API (facultatif, palier gratuit) · BGeometrics (palier gratuit limité à ~10 requêtes/heure) · alternative.me (Fear & Greed) · CoinDesk, Cointelegraph, Bitcoin Magazine, Decrypt, Google News (RSS).
 
 ### Structure
 ```
