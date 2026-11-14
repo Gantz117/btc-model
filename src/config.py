@@ -33,7 +33,12 @@ BGEO_SERIES = {
     "lth-net-position-change-btc": "lth_netpos",  # variation de position des détenteurs long terme
     "funding-rate": "funding_rate",              # relevé toutes les 8 h -> moyenne journalière
     "etf-flow-btc": "etf_flow",                  # flux nets des ETF spot US (BTC), jours ouvrés depuis 2024-01-11
+    "sth-realized-price": "sth_cost_basis",      # prix de revient des acheteurs < 155 j (gratuit : 7 jours de retard)
+    "true-market-mean": "true_market_mean",      # prix de revient des coins actifs (gratuit : 7 jours de retard)
 }
+# Fréquence de rafraîchissement (jours) ; défaut 1. Les séries publiées avec retard n'ont pas besoin d'un appel quotidien.
+BGEO_MAX_AGE = {"sth_cost_basis": 3, "true_market_mean": 3}
+BGEO_MAX_CALLS = 9   # sur 10 requêtes/heure autorisées gratuitement
 # Le palier gratuit ne renvoie que les ~4 dernières années : le cache local s'allonge ensuite jour après jour.
 BGEO_SUM = {"etf_flow"}  # séries à agréger par somme (les autres par moyenne)
 
