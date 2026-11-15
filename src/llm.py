@@ -58,6 +58,9 @@ def _call(prompt, schema, temperature=0.2):
             except (KeyError, IndexError, json.JSONDecodeError) as e:
                 last = f"{model} : réponse illisible ({e})"
                 break
+            except requests.Timeout:               # modèle trop lent : inutile d'attendre encore, on passe au suivant
+                last = f"{model} : délai dépassé"
+                break
             except requests.RequestException as e:
                 last = f"{model} : {str(e)[:120]}"
                 time.sleep(5)
