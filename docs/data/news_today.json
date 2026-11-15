@@ -1,13 +1,14 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "resume": [
-  "Le Bitcoin subit une forte baisse sous les 65 000 $ - 66 000 $, sous l'effet conjugué d'une inflation américaine élevée (6,5 %) et des craintes de resserrement de la Fed.",
-  "Les ETF spot bitcoin enregistrent des sorties nettes continues sur plusieurs jours, accentuant la pression vendeuse institutionnelle.",
-  "Malgré la correction, certains signaux indiquent des liquidations de positions vendeuses et un positionnement net acheteur de la part des baleines, tandis que les particuliers capitulent."
+  "Forte pression baissière sur le Bitcoin, qui a chuté vers la zone des 62 000 $ à 64 000 $ lors d'une correction marquée par des liquidations massives de positions longues.",
+  "Sorties massives et persistantes sur les ETF spot américains, totalisant environ 1,9 à 2,1 milliards de dollars sur une série de plusieurs jours d'affilée.",
+  "Indicateurs techniques et on-chain (comme le Ahr999) signalant une entrée prolongée en zone d'achat de type 'dip-buying', tandis que des acteurs majeurs comme Strategy envisagent de nouveaux achats.",
+  "Inquiétudes macroéconomiques persistantes liées aux craintes de hausses de taux de la Fed et à l'incertitude politique américaine."
  ],
- "ton_global": -0.7,
+ "ton_global": -0.6,
  "evenements_a_surveiller": [
-  "2026-11-26 : Israel Discount Bank to Let Customers Trade Bitcoin in App"
+  "Décision de la Fed en décembre mentionnée comme prochain catalyseur potentiel."
  ],
  "modele": "gemini-3.5-flash-lite"
 }
