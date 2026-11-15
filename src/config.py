@@ -52,6 +52,9 @@ NEWS_FEEDS = [
 
 # Gemini (API Google AI Studio, palier gratuit). Les modèles sont essayés dans l'ordre :
 # si Google en retire un, le suivant prend le relais. Liste vérifiée le 02/11/2026.
-GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-2.5-flash"]
+# Modèles stables d'après ai.google.dev (vérifié le 15/11/2026). gemini-2.5-flash répond 404 aux nouvelles clés
+# (réservé aux anciens utilisateurs). Un modèle retiré (404) est sauté ; « gemini-flash-latest » = dernier Flash.
+GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite",
+                 "gemini-flash-latest"]
 
 HTTP_HEADERS = {"User-Agent": "Mozilla/5.0 (btc-model; +https://github.com)"}
