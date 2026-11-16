@@ -1,15 +1,14 @@
 {
  "date": "2026-11-16",
  "resume": [
-  "Forte baisse du Bitcoin testant la zone des 62 000 $ à 65 000 $ après des liquidations massives d'environ 2 milliards de dollars et des sorties nettes notables sur les ETF spot (plus de 1 milliard de dollars).",
-  "Le sentiment de marché plonge vers une peur extrême, tandis que les options montrent un intérêt marqué pour les puts à 60 000 $ et que les baleines accumulent d'importantes pertes latentes.",
-  "Plusieurs facteurs macroéconomiques et d'actualité pèsent sur le marché, notamment la corrélation avec les actions technologiques, des craintes liées à des introductions en bourse (IPO comme Anthropic) et des hausses probables des taux de la Fed.",
-  "Un incident de piratage ciblant des mineurs de Bitcoin a également été signalé, détournant des récompenses vers des attaquants."
+  "Le marché du Bitcoin subit une forte pression baissière et évolue sous les seuils de 64 000 $ à 65 000 $, sous l'effet conjugué des tensions sur les marchés boursiers traditionnels et les valeurs liées à l'IA.",
+  "Les investisseurs institutionnels continuent cependant d'acheter la baisse, à l'image de Strategy qui poursuit ses acquisitions de Bitcoin, tandis que les flux de sortie sur certains ETF montrent des pressions vendeuses.",
+  "Plusieurs actualités réglementaires marquent le secteur, notamment la décision de la Cour suprême concernant Custodia Bank et les projets de loi en Allemagne permettant aux douanes de geler des cryptos sans procédure pénale.",
+  "Le secteur du mining atteint un point critique avec une baisse notable de la difficulté, tandis que des incidents de sécurité pénalisent certaines plateformes de transactions."
  ],
- "ton_global": -0.6,
+ "ton_global": -0.5,
  "evenements_a_surveiller": [
-  "Publication des minutes du FOMC",
-  "Résultats financiers de Nvidia"
+  "Senate Agriculture Committee hearing Trump's CFTC nominees on Tuesday"
  ],
  "modele": "gemini-3.5-flash-lite"
 }

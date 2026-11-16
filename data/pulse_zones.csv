@@ -1,22 +1,43 @@
 publie_le,indicateur,zone,score,direction
-2026-11-09,Daily Active Address Count,au-dessus de la borne haute,2,hausse
-2026-11-09,Entity-Adjusted Transfer Volume,au-dessus de la borne haute,2,hausse
-2026-11-09,Futures Open Interest,haut de la fourchette,1,baisse
-2026-11-09,Hot Capital Share,très au-dessus de la borne haute,2,hausse
-2026-11-09,Long-Side Funding Payment,très au-dessus de la borne haute,2,baisse
-2026-11-09,Net Unrealized Profit to Loss Ratio,milieu de la fourchette,0,baisse
-2026-11-09,Options 25-Delta Skew,au-dessus de la borne haute,2,baisse
-2026-11-09,Options Open Interest,bas de la fourchette,-1,baisse
-2026-11-09,Percent Supply in Profit,milieu de la fourchette,0,baisse
-2026-11-09,Perpetual CVD,bas de la fourchette,-1,hausse
-2026-11-09,Price Momentum,bas de la fourchette,-1,hausse
-2026-11-09,Realized Cap Change (Monthly),haut de la fourchette,1,baisse
-2026-11-09,Realized Profit to Loss Ratio,bas de la fourchette,-1,baisse
-2026-11-09,STH to LTH Supply Ratio,au-dessus de la borne haute,2,hausse
-2026-11-09,Spot CVD,bas de la fourchette,-1,baisse
-2026-11-09,Spot Volume,haut de la fourchette,1,hausse
-2026-11-09,Total Fee Volume,milieu de la fourchette,0,hausse
-2026-11-09,US Spot ETF MVRV,sous la borne basse,-2,baisse
-2026-11-09,US Spot ETF Netflow (Weekly),sous la borne basse,-2,baisse
-2026-11-09,US Spot ETF Trade Volume (Weekly),haut de la fourchette,1,baisse
-2026-11-09,Volatility Spread,haut de la fourchette,1,baisse
+2026-11-09,Daily Active Address Count,au-dessus de la borne haute,2.0,hausse
+2026-11-09,Entity-Adjusted Transfer Volume,au-dessus de la borne haute,2.0,hausse
+2026-11-09,Futures Open Interest,haut de la fourchette,1.0,baisse
+2026-11-09,Hot Capital Share,très au-dessus de la borne haute,2.0,hausse
+2026-11-09,Long-Side Funding Payment,très au-dessus de la borne haute,2.0,baisse
+2026-11-09,Net Unrealized Profit to Loss Ratio,milieu de la fourchette,0.0,baisse
+2026-11-09,Options 25-Delta Skew,au-dessus de la borne haute,2.0,baisse
+2026-11-09,Options Open Interest,bas de la fourchette,-1.0,baisse
+2026-11-09,Percent Supply in Profit,milieu de la fourchette,0.0,baisse
+2026-11-09,Perpetual CVD,bas de la fourchette,-1.0,hausse
+2026-11-09,Price Momentum,bas de la fourchette,-1.0,hausse
+2026-11-09,Realized Cap Change (Monthly),haut de la fourchette,1.0,baisse
+2026-11-09,Realized Profit to Loss Ratio,bas de la fourchette,-1.0,baisse
+2026-11-09,STH to LTH Supply Ratio,au-dessus de la borne haute,2.0,hausse
+2026-11-09,Spot CVD,bas de la fourchette,-1.0,baisse
+2026-11-09,Spot Volume,haut de la fourchette,1.0,hausse
+2026-11-09,Total Fee Volume,milieu de la fourchette,0.0,hausse
+2026-11-09,US Spot ETF MVRV,sous la borne basse,-2.0,baisse
+2026-11-09,US Spot ETF Netflow (Weekly),sous la borne basse,-2.0,baisse
+2026-11-09,US Spot ETF Trade Volume (Weekly),haut de la fourchette,1.0,baisse
+2026-11-09,Volatility Spread,haut de la fourchette,1.0,baisse
+2026-11-16,Daily Active Address Count,au-dessus de la borne haute,2.0,baisse
+2026-11-16,Entity-Adjusted Transfer Volume,haut de la fourchette,1.0,hausse
+2026-11-16,Futures Open Interest,bas de la fourchette,-1.0,baisse
+2026-11-16,Hot Capital Share,très au-dessus de la borne haute,2.0,hausse
+2026-11-16,Long-Side Funding Payment,haut de la fourchette,1.0,baisse
+2026-11-16,Net Unrealized Profit to Loss Ratio,bas de la fourchette,-1.0,baisse
+2026-11-16,Options 25-Delta Skew,au-dessus de la borne haute,2.0,hausse
+2026-11-16,Options Open Interest,sous la borne basse,-2.0,baisse
+2026-11-16,Percent Supply in Profit,bas de la fourchette,-1.0,baisse
+2026-11-16,Perpetual CVD,sous la borne basse,-2.0,baisse
+2026-11-16,Price Momentum,sous la borne basse,-2.0,baisse
+2026-11-16,Realized Cap Change (Monthly),milieu de la fourchette,0.0,baisse
+2026-11-16,Realized Profit to Loss Ratio,sous la borne basse,-2.0,baisse
+2026-11-16,STH to LTH Supply Ratio,au-dessus de la borne haute,2.0,hausse
+2026-11-16,Spot CVD,sous la borne basse,-2.0,baisse
+2026-11-16,Spot Volume,au-dessus de la borne haute,2.0,hausse
+2026-11-16,Total Fee Volume,bas de la fourchette,-1.0,baisse
+2026-11-16,US Spot ETF MVRV,sous la borne basse,-2.0,baisse
+2026-11-16,US Spot ETF Netflow (Weekly),non précisée,,hausse
+2026-11-16,US Spot ETF Trade Volume (Weekly),bas de la fourchette,-1.0,baisse
+2026-11-16,Volatility Spread,milieu de la fourchette,0.0,baisse

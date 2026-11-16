@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-16T10:05:39.598014+00:00",
+ "genere_le": "2026-11-16T21:12:08.983720+00:00",
  "regime": {
   "score": -0.432,
   "regime": "accumulation",
@@ -9,7 +9,7 @@
  },
  "date_derniere_cloture": "2026-11-15",
  "prix_cloture_veille": 65314.6,
- "prix_spot": 64267.7,
+ "prix_spot": 64964.6,
  "volatilite_jour_pct": 2.68,
  "qualite_donnees": 1.0,
  "sources": {
@@ -19,35 +19,42 @@
   },
   "kraken": {
    "ok": true,
-   "spot": 64267.7
+   "spot": 64964.6
   },
   "bgeo:whales_10k": {
    "ok": true,
-   "last": "2026-11-15"
+   "last": "2026-11-15",
+   "cache": true
   },
   "bgeo:whales_1k_10k": {
    "ok": true,
-   "last": "2026-11-15"
+   "last": "2026-11-15",
+   "cache": true
   },
   "bgeo:sharks_100_1k": {
    "ok": true,
-   "last": "2026-11-15"
+   "last": "2026-11-15",
+   "cache": true
   },
   "bgeo:sopr": {
    "ok": true,
-   "last": "2026-11-09"
+   "last": "2026-11-09",
+   "cache": true
   },
   "bgeo:lth_netpos": {
    "ok": true,
-   "last": "2026-11-15"
+   "last": "2026-11-15",
+   "cache": true
   },
   "bgeo:funding_rate": {
    "ok": true,
-   "last": "2026-11-08"
+   "last": "2026-11-08",
+   "cache": true
   },
   "bgeo:etf_flow": {
    "ok": true,
-   "last": "2026-11-13"
+   "last": "2026-11-13",
+   "cache": true
   },
   "bgeo:sth_cost_basis": {
    "ok": true,
@@ -66,14 +73,14 @@
   },
   "news": {
    "ok": true,
-   "feeds_ok": 5,
+   "feeds_ok": 4,
    "feeds": 5,
-   "items": 174
+   "items": 74
   },
   "gemini": {
    "modele": "gemini-3.5-flash-lite",
    "ok": true,
-   "n_notes": 80
+   "n_notes": 32
   },
   "glassnode_pulse": {
    "erreurs": [
@@ -81,8 +88,9 @@
     "https://research.glassnode.com/tag/market-pulse/rss/ : 403 Client Error: Forbidden for url: https://research.glassnode.com/tag/market-pulse/rss/"
    ],
    "ok": true,
-   "semaine": "BTC Market Pulse: Week 46",
-   "nouveau": false,
+   "semaine": "BTC Market Pulse: Week 47",
+   "nouveau": true,
+   "indicateurs": 21,
    "via": "lecture depuis le PC"
   }
  },

@@ -1,6 +1,367 @@
 [
 {
 "date": "2026-11-16",
+"ts": "2026-11-16T20:44:23+00:00",
+"title": "Senate Agriculture Committee to Hear Trump’s CFTC Nominees Tuesday",
+"link": "https://bitcoinmagazine.com/news/cftc-nominees-senate-hearing-tuesday",
+"source": "bitcoinmagazine.com",
+"score": 0.1,
+"tags": [
+"Régulation"
+],
+"llm_impact": 0.1,
+"llm_importance": 0.4,
+"llm_theme": "Régulation",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T20:35:21+00:00",
+"title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+"link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+"source": "coindesk.com",
+"score": -0.7,
+"tags": [
+"ETF",
+"Macro / Fed"
+],
+"llm_impact": -0.7,
+"llm_importance": 0.8,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.964
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T19:36:03+00:00",
+"title": "Clarity Act Defeat ‘Failure of American Leadership’: Trump’s Former Crypto Chief",
+"link": "https://decrypt.co/383356/clarity-act-defeat-failure-of-american-leadership-trumps-former-crypto-chief",
+"source": "decrypt.co",
+"score": -0.3,
+"tags": [
+"Régulation"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Régulation",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T19:17:14+00:00",
+"title": "$36B Wealth Firm Strategist: Bitcoin’s Supercycle Is “Still Intact”",
+"link": "https://bitcoinmagazine.com/videos/36b-wealth-firm-strategist-bitcoins-supercycle-is-still-intact",
+"source": "bitcoinmagazine.com",
+"score": 0.2,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": 0.2,
+"llm_importance": 0.4,
+"llm_theme": "Institutionnels",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T18:15:00+00:00",
+"title": "German Bundestag Lets Customs Freeze Crypto Over €100,000 Without a Criminal Case as the Bill Goes to the Bundesrat",
+"link": "https://bitcoinmagazine.com/news/german-bundestag-crypto-over-100000",
+"source": "bitcoinmagazine.com",
+"score": -0.5,
+"tags": [
+"Régulation"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Régulation",
+"score_lexique": 0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T17:20:26+00:00",
+"title": "Saylor’s Strategy Keeps Buying Bitcoin, Adding 'A Little Orange' Through the Dip",
+"link": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip",
+"source": "decrypt.co",
+"score": 0.4,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": 0.4,
+"llm_importance": 0.6,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T17:15:17+00:00",
+"title": "George Mekhail: Bitcoin’s Price Is a “Distraction” as Wall Street Quietly Accumulates",
+"link": "https://bitcoinmagazine.com/videos/george-mekhail-bitcoins-price-is-a-distraction-as-wall-street-quietly-accumulates",
+"source": "bitcoinmagazine.com",
+"score": 0.1,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": 0.1,
+"llm_importance": 0.3,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.165
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T16:41:42+00:00",
+"title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+"link": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+"source": "coindesk.com",
+"score": -0.4,
+"tags": [
+"Sécurité"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.5,
+"llm_theme": "Sécurité",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T16:26:52+00:00",
+"title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+"link": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": -0.6,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.6,
+"llm_importance": 0.8,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T16:00:10+00:00",
+"title": "Harvard Holds 3.04 Million Bitcoin ETF Shares Steady",
+"link": "https://bitcoinmagazine.com/news/harvard-holds-ibit-stake-steady-304-mil",
+"source": "bitcoinmagazine.com",
+"score": 0.1,
+"tags": [
+"ETF"
+],
+"llm_impact": 0.1,
+"llm_importance": 0.5,
+"llm_theme": "ETF",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T15:44:59+00:00",
+"title": "German parliament proposes crypto seizures without criminal charges",
+"link": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
+"source": "coindesk.com",
+"score": -0.5,
+"tags": [
+"Régulation"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Régulation",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T15:24:11+00:00",
+"title": "Supreme Court Ends Custodia Bank’s Fight for a Fed Master Account, Leaving the Fed Free to Deny Crypto Banks Access",
+"link": "https://bitcoinmagazine.com/news/supreme-court-ends-custodia-fed-master",
+"source": "bitcoinmagazine.com",
+"score": -0.4,
+"tags": [
+"Régulation",
+"Macro / Fed",
+"Institutionnels"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Régulation",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T15:04:56+00:00",
+"title": "'Nobody Knows Who's in Charge': Boris Johnson Stands by Bitcoin Skepticism at Breakpoint",
+"link": "https://decrypt.co/383307/nobody-knows-whos-in-charge-boris-johnson-stands-by-bitcoin-skepticism-at-breakpoint",
+"source": "decrypt.co",
+"score": -0.1,
+"tags": [],
+"llm_impact": -0.1,
+"llm_importance": 0.2,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T14:45:00+00:00",
+"title": "Hong Kong to License Crypto Dealers and Custodians by Year-End",
+"link": "https://bitcoinmagazine.com/news/hong-kong-license-crypto-dealers-custodian",
+"source": "bitcoinmagazine.com",
+"score": 0.2,
+"tags": [
+"Régulation"
+],
+"llm_impact": 0.2,
+"llm_importance": 0.5,
+"llm_theme": "Régulation",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T14:15:00+00:00",
+"title": "Sweden’s H100 Taps Coinbase Prime and Deribit for Its 3,506 Bitcoin Treasury as It Courts Family Offices",
+"link": "https://bitcoinmagazine.com/news/h100-coinbase-prime-bitcoin-treasury",
+"source": "bitcoinmagazine.com",
+"score": 0.3,
+"tags": [
+"Institutionnels",
+"ETF",
+"Régulation",
+"Macro / Fed"
+],
+"llm_impact": 0.3,
+"llm_importance": 0.5,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T13:55:00+00:00",
+"title": "Strive (ASST) Buys 251 Bitcoin for $17.5 Million as Shares Drop 10% Premarket",
+"link": "https://bitcoinmagazine.com/news/strive-buys-251-bitcoin-holdings-43404",
+"source": "bitcoinmagazine.com",
+"score": 0.2,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": 0.2,
+"llm_importance": 0.4,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T13:42:14+00:00",
+"title": "Bitcoin Price Trades Near $64,000 After Weekend Plunge to $62,000",
+"link": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-64000-tech",
+"source": "bitcoinmagazine.com",
+"score": -0.3,
+"tags": [
+"Macro / Fed",
+"Dérivés"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.981
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T13:29:11+00:00",
+"title": "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
+"link": "https://cointelegraph.com/news/strategy-buy-485-bitcoin-228-million-strc-buyback?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": 0.4,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": 0.4,
+"llm_importance": 0.6,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T13:23:17+00:00",
+"title": "Morning Minute: Crypto Hits Extreme Fear as Bitcoin Plunges",
+"link": "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+"source": "decrypt.co",
+"score": -0.6,
+"tags": [],
+"llm_impact": -0.6,
+"llm_importance": 0.7,
+"llm_theme": "Autre",
+"score_lexique": -0.95
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T12:55:46+00:00",
+"title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+"link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
+"source": "coindesk.com",
+"score": -0.2,
+"tags": [],
+"llm_impact": -0.2,
+"llm_importance": 0.3,
+"llm_theme": "Autre",
+"score_lexique": -0.964
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T12:09:00+00:00",
+"title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+"link": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
+"source": "coindesk.com",
+"score": -0.5,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.762
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T11:03:14+00:00",
+"title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+"link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+"source": "coindesk.com",
+"score": -0.4,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés",
+"score_lexique": -0.462
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T10:39:05+00:00",
+"title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
+"link": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": -0.6,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.6,
+"llm_importance": 0.7,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T10:25:15+00:00",
+"title": "German Lawmakers Back Customs Powers to Seize Crypto of 'Unclear Origin'",
+"link": "https://decrypt.co/383297/german-lawmakers-back-customs-powers-to-seize-crypto-of-unclear-origin",
+"source": "decrypt.co",
+"score": -0.5,
+"tags": [
+"Régulation"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Régulation",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
 "ts": "2026-11-16T09:54:55+00:00",
 "title": "Vitalik Buterin Now ‘a Total Bull’ on leanPCS as Fast Track to Quantum-Safe Ethereum",
 "link": "https://decrypt.co/383294/vitalik-buterin-now-a-total-bull-on-leanpcs-as-fast-track-to-quantum-safe-ethereum",
@@ -72,6 +433,22 @@
 "llm_importance": 0.7,
 "llm_theme": "Macro / Fed",
 "score_lexique": -0.462
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:34:18+00:00",
+"title": "Live updates: Bitcoin holds near weekend lows as Nasdaq extends decline to more than 2%",
+"link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+"source": "coindesk.com",
+"score": -0.5,
+"tags": [
+"Macro / Fed",
+"Institutionnels"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.583
 },
 {
 "date": "2026-11-16",
@@ -2289,11 +2666,14 @@
 "title": "BlackRock's Bitcoin ETF sees $2.35B outflows ov... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX0djdUNxcFl3TV9Ea0N1WVZlb0lmeVRZU1BTRlNQY1dYQXpldmM3OXlnYUVNaVVCZV80dUlIUjRTNS1Pa0RiRnViTlliRGY2ZDZIeHQ1ZEdCQXlCenpLdlVZYXh0bFhMa3BQQXcyNVNrSVdPOXlqbWI0MjdHdkpkQnhpSGc0X0E?oc=5",
 "source": "news.google.com",
-"score": -0.762,
+"score": -0.6,
 "tags": [
 "ETF"
 ],
-"score_lexique": -0.762
+"score_lexique": -0.762,
+"llm_impact": -0.6,
+"llm_importance": 0.7,
+"llm_theme": "ETF"
 },
 {
 "date": "2026-11-14",
@@ -2316,9 +2696,12 @@
 "title": "Crypto Market Crash: Changpeng Zhao Reveals 5 Possible Reasons Behind the Sell-Off - Coinpedia",
 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaERSV3c5YlgxWnF2N3g2UksyMFpTZ19ET25TdnQtQXBnRG1PU01YYV96RHlDTV9mMDA2MWxwTlc3b2lIbmpFWjRORVJseXlpT21vZEZpb2lqWDRSTlpScHBzZktCV3NId0ZCTFNnX3JWeDlDeW1US2I0Tk4yZmc4MXIyVlg2WVpiOXA1ZFNIQnUxRFNVclgwS2xsd2U5cnNxOHYxSHdJTEZzT0FzQmfSAbMBQVVfeXFMUEdpenp2Vk9EVTVwMEktdHdCNnVHal9iWjFuMllBWG0weU53ZTdwWENqOGstZXhKdENLcnJubDFQMXEwaUdhNERtTVpETjBCVGlzc2g4eGRZdVNTbDNYZUdRQ3VWa1d3d0JreDJZU042ci10OEFXRWJVeDc5SUoybVp6T0M2ODVVdTQ3MWZUb1EwbGJVY2NXcmVES2J5MlJJVl8tLUNsMjdrajA0dmRvVTlZY0k?oc=5",
 "source": "news.google.com",
-"score": -0.995,
+"score": -0.3,
 "tags": [],
-"score_lexique": -0.995
+"score_lexique": -0.995,
+"llm_impact": -0.3,
+"llm_importance": 0.4,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-14",
@@ -2371,9 +2754,14 @@
 "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
 "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
 "source": "coindesk.com",
-"score": -0.823,
-"tags": [],
-"score_lexique": -0.823
+"score": -0.6,
+"tags": [
+"Dérivés"
+],
+"score_lexique": -0.823,
+"llm_impact": -0.6,
+"llm_importance": 0.7,
+"llm_theme": "Dérivés"
 },
 {
 "date": "2026-11-14",
@@ -2532,9 +2920,14 @@
 "title": "Bitcoin $65K Odds Hit 83% on Polymarket After a One-Day Repricing - shattered.io",
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oa0ktZDFld3Rod0lHc0xNMjNXM3c1WnNBWEZzOWNKZDJ3clZhNG1OVFdzVjVwYTg2VXAzX1VQWWtOb0VLdjZhOXg2VWhZaXNkTnN6YlQ4dGxzVmNpUjBLLVczZlZPaHUzSlFPRm9RZm1mVzREVHRnYUZPWHhjM0U?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": 0.1,
+"tags": [
+"Dérivés"
+],
+"score_lexique": 0.0,
+"llm_impact": 0.1,
+"llm_importance": 0.2,
+"llm_theme": "Dérivés"
 },
 {
 "date": "2026-11-14",
@@ -2838,9 +3231,14 @@
 "title": "Bitcoin Price Charts $65K-$75K Range After Nvidia CEO Resigns - CoinMarketCap",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYnpkNEZxc296NHVCaWJJSG0tX3Zsa2RFOS1DRzBwdWk0bUVBVExQaXRtS2Zua0VHVnlNZXVHWFBaY0hsbHZZSDVja1VYT0hXdUUyaWJvclliZl9IbVAxU0ZrMHRRajFZM3A2a2JNallyZWVQbDdubE10cldKeHZyOHhXNHRVNGNTd085dHpQQ19yUQ?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": 0.1,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": 0.0,
+"llm_impact": 0.1,
+"llm_importance": 0.3,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-14",
@@ -2938,9 +3336,14 @@
 "title": "Is Bitcoin Going to Crash Toward $60K? Here’s What Investors Should Watch - Coinpedia",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLTdiOEQ3Q19veUNZa1NLN3NrWDc1UGZ0WnBZbWhibFFRajZNdV9ZeFAzSThPVVROVXZqZjJERVVXSUJnc0M1MnlzUEx2ZXRYZjdhOTEyMUNIMjVOSFdFMjVwbUhINUhXUWxWWFY5Q3JmQUlpQ3FsbDItN0NpREw5bXVEZnA3QTFraklKQnNVX2xSSVhLWjRPLWJCTWJxcFhMQkg5TGFvRFVYa2Yx0gGyAUFVX3lxTE9TbGNfZXY1U1ZBNXV1ZnVld0VkTVU4d0hlMDl5dEhpM1M1Ump0VTJ0dW5qcG5mUUp0TWNqWlRZa1JxWUREaGFPeksxMTA0OTVhbjhGeGg4bXpWTE1jSWhsNEVBRTRHcXVjTTJBbk9jV055VXF0b0tySnFKTm5GSmQ2M1FFV25ZWXhLbGdjZUlqWDJWZUx6YXFUZEZ3RWdzYWJaNF9MXzJlX01xYnJnUDFXb3c?oc=5",
 "source": "news.google.com",
-"score": -0.931,
-"tags": [],
-"score_lexique": -0.931
+"score": -0.4,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": -0.931,
+"llm_impact": -0.4,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-14",
@@ -3133,11 +3536,14 @@
 "title": "Bitcoin Mining Hits Breaking Point as Difficulty Plunges 9.13% - Cryptonews.net",
 "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5wVDlpdlJSdmE2dko0SXp3VGNSUFZuT2NfUzRuWEF2SkpQQV8xcTAtay1McXlpbHpiM0ZVWHYyVjYzZy1hQ2h3LTNrUFdJM1JqaG5QSHVHaw?oc=5",
 "source": "news.google.com",
-"score": -0.87,
+"score": 0.2,
 "tags": [
 "Mining"
 ],
-"score_lexique": -0.87
+"score_lexique": -0.87,
+"llm_impact": 0.2,
+"llm_importance": 0.5,
+"llm_theme": "Mining"
 },
 {
 "date": "2026-11-14",

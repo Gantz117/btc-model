@@ -1,62 +1,87 @@
 {
- "titre": "BTC Market Pulse: Week 46",
- "lien": "https://research.glassnode.com/btc-market-pulse-week-46-2026/",
- "publie_le": "2026-11-09",
+ "titre": "BTC Market Pulse: Week 47",
+ "lien": "https://research.glassnode.com/btc-market-pulse-week-47-2026/",
+ "publie_le": "2026-11-16",
  "categories": {
   "Spot": {
    "niveau": "modéré",
-   "score": -0.33,
-   "n": 3
+   "score": -0.67,
+   "n": 3,
+   "tendance": "en baisse"
   },
   "Contrats à terme": {
    "niveau": "modéré",
-   "score": 0.67,
-   "n": 3
+   "score": -0.67,
+   "n": 3,
+   "tendance": "en baisse"
   },
   "Options": {
    "niveau": "modéré",
-   "score": 0.67,
-   "n": 3
+   "score": 0.0,
+   "n": 3,
+   "tendance": "en baisse"
   },
   "ETF": {
    "niveau": "bas",
-   "score": -1.0,
-   "n": 3
+   "score": -1.5,
+   "n": 2,
+   "tendance": "en baisse"
   },
   "Activité du réseau": {
-   "niveau": "élevé",
-   "score": 1.33,
-   "n": 3
+   "niveau": "modéré",
+   "score": 0.67,
+   "n": 3,
+   "tendance": "en baisse"
   },
   "Flux de capitaux": {
    "niveau": "élevé",
-   "score": 1.67,
-   "n": 3
+   "score": 1.33,
+   "n": 3,
+   "tendance": "en baisse"
   },
   "Profits / pertes": {
-   "niveau": "modéré",
-   "score": -0.33,
-   "n": 3
+   "niveau": "bas",
+   "score": -1.33,
+   "n": 3,
+   "tendance": "en baisse"
   }
  },
  "extremes": [
   {
-   "nom_fr": "Financement payé par les acheteurs à levier",
+   "nom_fr": "Momentum du prix",
+   "categorie": "Spot",
+   "zone": "sous la borne basse",
+   "direction": "baisse"
+  },
+  {
+   "nom_fr": "Pression acheteuse au comptant (CVD)",
+   "categorie": "Spot",
+   "zone": "sous la borne basse",
+   "direction": "baisse"
+  },
+  {
+   "nom_fr": "Volume au comptant",
+   "categorie": "Spot",
+   "zone": "au-dessus de la borne haute",
+   "direction": "hausse"
+  },
+  {
+   "nom_fr": "Pression acheteuse sur les perpétuels (CVD)",
    "categorie": "Contrats à terme",
-   "zone": "très au-dessus de la borne haute",
+   "zone": "sous la borne basse",
+   "direction": "baisse"
+  },
+  {
+   "nom_fr": "Open interest des options",
+   "categorie": "Options",
+   "zone": "sous la borne basse",
    "direction": "baisse"
   },
   {
    "nom_fr": "Skew 25-delta (demande de protection)",
    "categorie": "Options",
    "zone": "au-dessus de la borne haute",
-   "direction": "baisse"
-  },
-  {
-   "nom_fr": "Flux nets des ETF (semaine)",
-   "categorie": "ETF",
-   "zone": "sous la borne basse",
-   "direction": "baisse"
+   "direction": "hausse"
   },
   {
    "nom_fr": "Profit latent des acheteurs d'ETF (MVRV)",
@@ -65,16 +90,10 @@
    "direction": "baisse"
   },
   {
-   "nom_fr": "Volume transféré (ajusté)",
-   "categorie": "Activité du réseau",
-   "zone": "au-dessus de la borne haute",
-   "direction": "hausse"
-  },
-  {
    "nom_fr": "Adresses actives",
    "categorie": "Activité du réseau",
    "zone": "au-dessus de la borne haute",
-   "direction": "hausse"
+   "direction": "baisse"
   },
   {
    "nom_fr": "Offre détenteurs court terme / long terme",
@@ -87,73 +106,79 @@
    "categorie": "Flux de capitaux",
    "zone": "très au-dessus de la borne haute",
    "direction": "hausse"
+  },
+  {
+   "nom_fr": "Profits réalisés / pertes réalisées",
+   "categorie": "Profits / pertes",
+   "zone": "sous la borne basse",
+   "direction": "baisse"
   }
  ],
  "indicateurs": [
   {
    "nom_fr": "Momentum du prix",
    "categorie": "Spot",
-   "zone": "bas de la fourchette",
-   "direction": "hausse"
+   "zone": "sous la borne basse",
+   "direction": "baisse"
   },
   {
    "nom_fr": "Pression acheteuse au comptant (CVD)",
    "categorie": "Spot",
-   "zone": "bas de la fourchette",
+   "zone": "sous la borne basse",
    "direction": "baisse"
   },
   {
    "nom_fr": "Volume au comptant",
    "categorie": "Spot",
-   "zone": "haut de la fourchette",
+   "zone": "au-dessus de la borne haute",
    "direction": "hausse"
   },
   {
    "nom_fr": "Open interest des contrats à terme",
    "categorie": "Contrats à terme",
-   "zone": "haut de la fourchette",
+   "zone": "bas de la fourchette",
    "direction": "baisse"
   },
   {
    "nom_fr": "Financement payé par les acheteurs à levier",
    "categorie": "Contrats à terme",
-   "zone": "très au-dessus de la borne haute",
+   "zone": "haut de la fourchette",
    "direction": "baisse"
   },
   {
    "nom_fr": "Pression acheteuse sur les perpétuels (CVD)",
    "categorie": "Contrats à terme",
-   "zone": "bas de la fourchette",
-   "direction": "hausse"
+   "zone": "sous la borne basse",
+   "direction": "baisse"
   },
   {
    "nom_fr": "Open interest des options",
    "categorie": "Options",
-   "zone": "bas de la fourchette",
+   "zone": "sous la borne basse",
    "direction": "baisse"
   },
   {
    "nom_fr": "Écart de volatilité (implicite – réalisée)",
    "categorie": "Options",
-   "zone": "haut de la fourchette",
+   "zone": "milieu de la fourchette",
    "direction": "baisse"
   },
   {
    "nom_fr": "Skew 25-delta (demande de protection)",
    "categorie": "Options",
    "zone": "au-dessus de la borne haute",
-   "direction": "baisse"
+   "direction": "hausse"
   },
   {
    "nom_fr": "Flux nets des ETF (semaine)",
    "categorie": "ETF",
-   "zone": "sous la borne basse",
-   "direction": "baisse"
+   "zone": "non précisée",
+   "direction": "hausse"
   },
   {
    "nom_fr": "Volume échangé des ETF (semaine)",
    "categorie": "ETF",
-   "zone": "haut de la fourchette",
+   "zone": "bas de la fourchette",
    "direction": "baisse"
   },
   {
@@ -165,25 +190,25 @@
   {
    "nom_fr": "Frais de transaction",
    "categorie": "Activité du réseau",
-   "zone": "milieu de la fourchette",
-   "direction": "hausse"
+   "zone": "bas de la fourchette",
+   "direction": "baisse"
   },
   {
    "nom_fr": "Volume transféré (ajusté)",
    "categorie": "Activité du réseau",
-   "zone": "au-dessus de la borne haute",
+   "zone": "haut de la fourchette",
    "direction": "hausse"
   },
   {
    "nom_fr": "Adresses actives",
    "categorie": "Activité du réseau",
    "zone": "au-dessus de la borne haute",
-   "direction": "hausse"
+   "direction": "baisse"
   },
   {
    "nom_fr": "Entrées de capitaux (cap. réalisée, 30 j)",
    "categorie": "Flux de capitaux",
-   "zone": "haut de la fourchette",
+   "zone": "milieu de la fourchette",
    "direction": "baisse"
   },
   {
@@ -201,28 +226,28 @@
   {
    "nom_fr": "Part de l'offre en profit",
    "categorie": "Profits / pertes",
-   "zone": "milieu de la fourchette",
+   "zone": "bas de la fourchette",
    "direction": "baisse"
   },
   {
    "nom_fr": "Profit latent net (NUPL)",
    "categorie": "Profits / pertes",
-   "zone": "milieu de la fourchette",
+   "zone": "bas de la fourchette",
    "direction": "baisse"
   },
   {
    "nom_fr": "Profits réalisés / pertes réalisées",
    "categorie": "Profits / pertes",
-   "zone": "bas de la fourchette",
+   "zone": "sous la borne basse",
    "direction": "baisse"
   }
  ],
  "resume": {
-  "resume": "Le Bitcoin est retombé vers 75 000 $ après un échec au-dessus de 80 000 $, sa plus basse clôture depuis août. Les ETF ont connu leur plus forte semaine de sorties depuis début juillet, et le marché des dérivés reste chargé en levier et en demande de protection. Selon Glassnode, une partie du levier a été purgée et la dynamique ne confirme plus la baisse, mais les ventes des ETF et la fragilité des acheteurs récents continuent de peser.",
+  "resume": "Selon Glassnode, le Bitcoin a subi une forte correction la semaine passée et évolue autour de 64 000 $, après un passage sous 63 000 $ ce week-end. La baisse a été portée par des ventes agressives au comptant comme sur les dérivés, et les fonds ETF américains sont restés vendeurs. Glassnode note toutefois que l'effet de levier a été largement purgé et que les acheteurs récents, désormais en moyenne en perte, concentrent la pression, ce qui laisse un marché moins encombré qu'une semaine plus tôt.",
   "points_cles": [
-   "Sorties d'ETF les plus fortes depuis début juillet ; les acheteurs d'ETF voient leur profit latent fondre",
-   "Levier encore élevé sur les contrats à terme malgré des liquidations",
-   "Forte activité on-chain et offre qui passe vers des détenteurs récents, désormais proches de l'équilibre"
+   "Dynamique de prix et flux acheteurs en zone basse extrême, volume au comptant en zone haute",
+   "Levier des contrats à terme fortement réduit, demande de protection accrue sur les options",
+   "Pertes concentrées chez les détenteurs récents, ETF toujours vendeurs"
   ],
   "modele": "Claude (lecture hebdomadaire depuis le PC)"
  },

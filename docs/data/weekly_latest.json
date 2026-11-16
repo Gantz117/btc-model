@@ -2,25 +2,25 @@
  "semaine": "2026-S47",
  "genere_le": "2026-11-16",
  "synthese_redigee": {
-  "titre": "Chute brutale du Bitcoin sous les 65 000 $ face aux sorties massives des ETF et à l'inflation américaine",
-  "synthese": "La semaine a été marquée par une forte correction du marché, le Bitcoin s'établissant à 65 314,6 $, en baisse de 12,6 % sur sept jours et de 19,9 % sur un mois. Cette baisse a été alimentée par des publications d'inflation américaine (CPI) supérieures aux attentes ravivant les craintes de hausses de taux de la Réserve fédérale, combinées à des sorties massives et prolongées sur les ETF spot bitcoin, totalisant plus de deux milliards de dollars de retraits sur plusieurs sessions. L'éviction de Strategy (MSTR) des indices MSCI a également pesé sur le sentiment. Sur le plan on-chain et des dérivés, le Glassnode Market Pulse du 9 novembre 2026 indique des conditions extrêmes, avec un marché des options recherchant activement une protection et des liquidations massives de positions acheteuses à levier. Le prix se situe désormais sous le prix de revient des acheteurs récents (75 839 $) et sous le True market mean (79 122 $), tout en restant au-dessus du prix réalisé global (53 680 $). Le sentiment mesuré par le Fear & Greed Index est tombé à 10, signalant une « peur extrême ». À noter que les indicateurs on-chain et ETF suivent souvent le prix plutôt qu'ils ne l'anticipent, et que les cibles chiffrées des modèles n'ont pas battu historiquement la prévision « prix inchangé ».",
+  "titre": "Forte correction du Bitcoin sous la pression des ETF et de l'inflation aux États-Unis",
+  "synthese": "Le marché du Bitcoin a traversé une semaine très difficile, marquée par une correction prononcée qui a ramené les cours autour de 65 314 $, après avoir brièvement touché des creux sous les 63 000 $. Cette baisse d'environ 12,6 % sur sept jours s'accompagne d'un climat de peur extrême, l'indice associé s'établissant à 10. Les actualités de la semaine mettent en lumière une conjonction de facteurs défavorables : des données d'inflation américaine (CPI et PPI) supérieures aux attentes qui ravivent les craintes de hausses de taux de la Réserve fédérale, des sorties massives de capitaux des ETF spot américains sur plusieurs séances consécutives, ainsi que l'exclusion de Strategy (MSTR) des indices MSCI menaçant d'entraîner des ventes forcées. Du côté des indicateurs on-chain, les analyses rapportées par le Glassnode Market Pulse confirment une situation critique avec de nombreux indicateurs spot et dérivés en zone de sous-borne basse, traduisant des ventes agressives et une purge de l'effet de levier. Le prix se situe actuellement en dessous du prix de revient des acheteurs récents (75 839 $) et du True Market Mean (79 122 $), signifiant que ces investisseurs subissent des pertes latentes, mais reste au-dessus du prix réalisé global (53 680 $). Il convient de rappeler que les indicateurs on-chain et les flux d'ETF ont tendance à suivre le mouvement du prix plutôt qu'à l'anticiper, et que les prévisions du modèle ne surperforment historiquement pas la simple hypothèse d'un prix inchangé.",
   "facteurs_haussiers": [
-   "Indicateur de peur extrême (10), signalant historiquement un potentiel point bas contrarien",
-   "Hausse de l'activité du réseau observée dans certaines métriques on-chain",
-   "Régime de marché identifié comme une phase d'accumulation par le modèle"
+   "Indice de peur extrême à 10, historiquement souvent associé à des points bas locaux (signal contrarien)",
+   "Effet de levier largement purgé selon Glassnode, laissant un marché structurellement moins encombré",
+   "Prix restant au-dessus du prix réalisé global (53 680 $)"
   ],
   "facteurs_baissiers": [
-   "Sorties massives et continues sur les ETF spot Bitcoin sur plusieurs séances",
-   "Données d'inflation américaine (CPI) plus chaudes que prévu renforçant les craintes sur les taux de la Fed",
-   "Liquidations importantes de contrats à terme et pression vendeuse sur le prix",
-   "Retrait de Strategy (MSTR) des indices MSCI créant des risques de ventes forcées"
+   "Sorties massives et continues de capitaux sur les ETF spot américains sur plusieurs séances d'affilée",
+   "Données d'inflation américaine (CPI et PPI) plus élevées que prévu renforçant les craintes sur les taux de la Fed",
+   "Exclusion de Strategy (MSTR) des indices MSCI faisant redouter des pressions vendeuses supplémentaires",
+   "Ventes agressives au comptant et sur les contrats à terme avec d'importantes liquidations de positions acheteuses"
   ],
   "a_surveiller": [
-   "L'évolution des flux nets sur les ETF spot et leur éventuelle stabilisation",
-   "La capacité du Bitcoin à préserver les supports techniques actuels face au risque de capitulation",
-   "Les prochaines publications macroéconomiques et les minutes du FOMC"
+   "La capacité du Bitcoin à défendre la zone des 60 000 $ à 62 000 $ face aux risques de liquidation",
+   "L'évolution des flux nets des ETF spot américains et un éventuel arrêt de la série de sorties",
+   "Les répercussions effectives de la sortie de Strategy (MSTR) des indices MSCI prévues d'ici fin novembre"
   ],
-  "coherence": "Les actualités macroéconomiques et les rapports de flux négatifs massifs sur les ETF confirment pleinement la dégradation des indicateurs chiffrés, tels que la chute du prix, la baisse des flux on-chain et l'entrée de l'indice de sentiment en zone de peur extrême.",
+  "coherence": "Les actualités macroéconomiques et les flux sortants massifs des ETF confirment pleinement la baisse des indicateurs chiffrés et le basculement du marché en régime d'accumulation sous tension.",
   "modele": "gemini-3.5-flash-lite"
  },
  "prix_reference": 65314.6,
@@ -58,7 +58,7 @@
   "Régime de marché : accumulation (score -0.43, en baisse sur 30 j), depuis le 2026-11-05.",
   "Peur extrême : historiquement souvent proche de points bas locaux (signal contrarien).",
   "Prix en dessous du prix de revient des acheteurs récents (75 839 $, écart -13.9 %) : ils sont en perte en moyenne, d'où un risque de ventes à l'équilibre lors d'un rebond.",
-  "Glassnode Market Pulse (2026-11-09) : indicateurs en zone extrême : Financement payé par les acheteurs à levier (très au-dessus de la borne haute) ; Skew 25-delta (demande de protection) (au-dessus de la borne haute) ; Flux nets des ETF (semaine) (sous la borne basse) ; Profit latent des acheteurs d'ETF (MVRV) (sous la borne basse).",
+  "Glassnode Market Pulse (2026-11-16) : indicateurs en zone extrême : Momentum du prix (sous la borne basse) ; Pression acheteuse au comptant (CVD) (sous la borne basse) ; Volume au comptant (au-dessus de la borne haute) ; Pression acheteuse sur les perpétuels (CVD) (sous la borne basse).",
   "Signaux des sous-modèles (semaine) : technique haussier, onchain baissier, sentiment neutre."
  ],
  "cycle": {
@@ -114,64 +114,89 @@
   }
  ],
  "glassnode_pulse": {
-  "titre": "BTC Market Pulse: Week 46",
-  "lien": "https://research.glassnode.com/btc-market-pulse-week-46-2026/",
-  "publie_le": "2026-11-09",
+  "titre": "BTC Market Pulse: Week 47",
+  "lien": "https://research.glassnode.com/btc-market-pulse-week-47-2026/",
+  "publie_le": "2026-11-16",
   "categories": {
    "Spot": {
     "niveau": "modéré",
-    "score": -0.33,
-    "n": 3
+    "score": -0.67,
+    "n": 3,
+    "tendance": "en baisse"
    },
    "Contrats à terme": {
     "niveau": "modéré",
-    "score": 0.67,
-    "n": 3
+    "score": -0.67,
+    "n": 3,
+    "tendance": "en baisse"
    },
    "Options": {
     "niveau": "modéré",
-    "score": 0.67,
-    "n": 3
+    "score": 0.0,
+    "n": 3,
+    "tendance": "en baisse"
    },
    "ETF": {
     "niveau": "bas",
-    "score": -1.0,
-    "n": 3
+    "score": -1.5,
+    "n": 2,
+    "tendance": "en baisse"
    },
    "Activité du réseau": {
-    "niveau": "élevé",
-    "score": 1.33,
-    "n": 3
+    "niveau": "modéré",
+    "score": 0.67,
+    "n": 3,
+    "tendance": "en baisse"
    },
    "Flux de capitaux": {
     "niveau": "élevé",
-    "score": 1.67,
-    "n": 3
+    "score": 1.33,
+    "n": 3,
+    "tendance": "en baisse"
    },
    "Profits / pertes": {
-    "niveau": "modéré",
-    "score": -0.33,
-    "n": 3
+    "niveau": "bas",
+    "score": -1.33,
+    "n": 3,
+    "tendance": "en baisse"
    }
   },
   "extremes": [
    {
-    "nom_fr": "Financement payé par les acheteurs à levier",
+    "nom_fr": "Momentum du prix",
+    "categorie": "Spot",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Pression acheteuse au comptant (CVD)",
+    "categorie": "Spot",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Volume au comptant",
+    "categorie": "Spot",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Pression acheteuse sur les perpétuels (CVD)",
     "categorie": "Contrats à terme",
-    "zone": "très au-dessus de la borne haute",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Open interest des options",
+    "categorie": "Options",
+    "zone": "sous la borne basse",
     "direction": "baisse"
    },
    {
     "nom_fr": "Skew 25-delta (demande de protection)",
     "categorie": "Options",
     "zone": "au-dessus de la borne haute",
-    "direction": "baisse"
-   },
-   {
-    "nom_fr": "Flux nets des ETF (semaine)",
-    "categorie": "ETF",
-    "zone": "sous la borne basse",
-    "direction": "baisse"
+    "direction": "hausse"
    },
    {
     "nom_fr": "Profit latent des acheteurs d'ETF (MVRV)",
@@ -180,16 +205,10 @@
     "direction": "baisse"
    },
    {
-    "nom_fr": "Volume transféré (ajusté)",
-    "categorie": "Activité du réseau",
-    "zone": "au-dessus de la borne haute",
-    "direction": "hausse"
-   },
-   {
     "nom_fr": "Adresses actives",
     "categorie": "Activité du réseau",
     "zone": "au-dessus de la borne haute",
-    "direction": "hausse"
+    "direction": "baisse"
    },
    {
     "nom_fr": "Offre détenteurs court terme / long terme",
@@ -202,73 +221,79 @@
     "categorie": "Flux de capitaux",
     "zone": "très au-dessus de la borne haute",
     "direction": "hausse"
+   },
+   {
+    "nom_fr": "Profits réalisés / pertes réalisées",
+    "categorie": "Profits / pertes",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
    }
   ],
   "indicateurs": [
    {
     "nom_fr": "Momentum du prix",
     "categorie": "Spot",
-    "zone": "bas de la fourchette",
-    "direction": "hausse"
+    "zone": "sous la borne basse",
+    "direction": "baisse"
    },
    {
     "nom_fr": "Pression acheteuse au comptant (CVD)",
     "categorie": "Spot",
-    "zone": "bas de la fourchette",
+    "zone": "sous la borne basse",
     "direction": "baisse"
    },
    {
     "nom_fr": "Volume au comptant",
     "categorie": "Spot",
-    "zone": "haut de la fourchette",
+    "zone": "au-dessus de la borne haute",
     "direction": "hausse"
    },
    {
     "nom_fr": "Open interest des contrats à terme",
     "categorie": "Contrats à terme",
-    "zone": "haut de la fourchette",
+    "zone": "bas de la fourchette",
     "direction": "baisse"
    },
    {
     "nom_fr": "Financement payé par les acheteurs à levier",
     "categorie": "Contrats à terme",
-    "zone": "très au-dessus de la borne haute",
+    "zone": "haut de la fourchette",
     "direction": "baisse"
    },
    {
     "nom_fr": "Pression acheteuse sur les perpétuels (CVD)",
     "categorie": "Contrats à terme",
-    "zone": "bas de la fourchette",
-    "direction": "hausse"
+    "zone": "sous la borne basse",
+    "direction": "baisse"
    },
    {
     "nom_fr": "Open interest des options",
     "categorie": "Options",
-    "zone": "bas de la fourchette",
+    "zone": "sous la borne basse",
     "direction": "baisse"
    },
    {
     "nom_fr": "Écart de volatilité (implicite – réalisée)",
     "categorie": "Options",
-    "zone": "haut de la fourchette",
+    "zone": "milieu de la fourchette",
     "direction": "baisse"
    },
    {
     "nom_fr": "Skew 25-delta (demande de protection)",
     "categorie": "Options",
     "zone": "au-dessus de la borne haute",
-    "direction": "baisse"
+    "direction": "hausse"
    },
    {
     "nom_fr": "Flux nets des ETF (semaine)",
     "categorie": "ETF",
-    "zone": "sous la borne basse",
-    "direction": "baisse"
+    "zone": "non précisée",
+    "direction": "hausse"
    },
    {
     "nom_fr": "Volume échangé des ETF (semaine)",
     "categorie": "ETF",
-    "zone": "haut de la fourchette",
+    "zone": "bas de la fourchette",
     "direction": "baisse"
    },
    {
@@ -280,25 +305,25 @@
    {
     "nom_fr": "Frais de transaction",
     "categorie": "Activité du réseau",
-    "zone": "milieu de la fourchette",
-    "direction": "hausse"
+    "zone": "bas de la fourchette",
+    "direction": "baisse"
    },
    {
     "nom_fr": "Volume transféré (ajusté)",
     "categorie": "Activité du réseau",
-    "zone": "au-dessus de la borne haute",
+    "zone": "haut de la fourchette",
     "direction": "hausse"
    },
    {
     "nom_fr": "Adresses actives",
     "categorie": "Activité du réseau",
     "zone": "au-dessus de la borne haute",
-    "direction": "hausse"
+    "direction": "baisse"
    },
    {
     "nom_fr": "Entrées de capitaux (cap. réalisée, 30 j)",
     "categorie": "Flux de capitaux",
-    "zone": "haut de la fourchette",
+    "zone": "milieu de la fourchette",
     "direction": "baisse"
    },
    {
@@ -316,28 +341,28 @@
    {
     "nom_fr": "Part de l'offre en profit",
     "categorie": "Profits / pertes",
-    "zone": "milieu de la fourchette",
+    "zone": "bas de la fourchette",
     "direction": "baisse"
    },
    {
     "nom_fr": "Profit latent net (NUPL)",
     "categorie": "Profits / pertes",
-    "zone": "milieu de la fourchette",
+    "zone": "bas de la fourchette",
     "direction": "baisse"
    },
    {
     "nom_fr": "Profits réalisés / pertes réalisées",
     "categorie": "Profits / pertes",
-    "zone": "bas de la fourchette",
+    "zone": "sous la borne basse",
     "direction": "baisse"
    }
   ],
   "resume": {
-   "resume": "Le Bitcoin est retombé vers 75 000 $ après un échec au-dessus de 80 000 $, sa plus basse clôture depuis août. Les ETF ont connu leur plus forte semaine de sorties depuis début juillet, et le marché des dérivés reste chargé en levier et en demande de protection. Selon Glassnode, une partie du levier a été purgée et la dynamique ne confirme plus la baisse, mais les ventes des ETF et la fragilité des acheteurs récents continuent de peser.",
+   "resume": "Selon Glassnode, le Bitcoin a subi une forte correction la semaine passée et évolue autour de 64 000 $, après un passage sous 63 000 $ ce week-end. La baisse a été portée par des ventes agressives au comptant comme sur les dérivés, et les fonds ETF américains sont restés vendeurs. Glassnode note toutefois que l'effet de levier a été largement purgé et que les acheteurs récents, désormais en moyenne en perte, concentrent la pression, ce qui laisse un marché moins encombré qu'une semaine plus tôt.",
    "points_cles": [
-    "Sorties d'ETF les plus fortes depuis début juillet ; les acheteurs d'ETF voient leur profit latent fondre",
-    "Levier encore élevé sur les contrats à terme malgré des liquidations",
-    "Forte activité on-chain et offre qui passe vers des détenteurs récents, désormais proches de l'équilibre"
+    "Dynamique de prix et flux acheteurs en zone basse extrême, volume au comptant en zone haute",
+    "Levier des contrats à terme fortement réduit, demande de protection accrue sur les options",
+    "Pertes concentrées chez les détenteurs récents, ETF toujours vendeurs"
    ],
    "modele": "Claude (lecture hebdomadaire depuis le PC)"
   },
@@ -657,29 +682,21 @@
    "zone": "peur extrême"
   },
   "actualites": {
-   "n": 764,
-   "score_moyen": -0.286
+   "n": 789,
+   "score_moyen": -0.279
   },
   "themes": {
-   "Macro / Fed": 173,
-   "Dérivés": 128,
-   "Institutionnels": 105,
-   "ETF": 74,
+   "Macro / Fed": 183,
+   "Dérivés": 132,
+   "Institutionnels": 113,
+   "ETF": 77,
+   "Régulation": 42,
    "Mining": 38,
-   "Régulation": 34,
    "Whales": 23,
-   "Sécurité": 17,
+   "Sécurité": 18,
    "Technologie": 14
   },
   "titres_negatifs": [
-   {
-    "title": "Crypto Market Crash: Changpeng Zhao Reveals 5 Possible Reasons Behind the Sell-Off - Coinpedia",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaERSV3c5YlgxWnF2N3g2UksyMFpTZ19ET25TdnQtQXBnRG1PU01YYV96RHlDTV9mMDA2MWxwTlc3b2lIbmpFWjRORVJseXlpT21vZEZpb2lqWDRSTlpScHBzZktCV3NId0ZCTFNnX3JWeDlDeW1US2I0Tk4yZmc4MXIyVlg2WVpiOXA1ZFNIQnUxRFNVclgwS2xsd2U5cnNxOHYxSHdJTEZzT0FzQmfSAbMBQVVfeXFMUEdpenp2Vk9EVTVwMEktdHdCNnVHal9iWjFuMllBWG0weU53ZTdwWENqOGstZXhKdENLcnJubDFQMXEwaUdhNERtTVpETjBCVGlzc2g4eGRZdVNTbDNYZUdRQ3VWa1d3d0JreDJZU042ci10OEFXRWJVeDc5SUoybVp6T0M2ODVVdTQ3MWZUb1EwbGJVY2NXcmVES2J5MlJJVl8tLUNsMjdrajA0dmRvVTlZY0k?oc=5",
-    "source": "news.google.com",
-    "date": "2026-11-14",
-    "score": -0.995,
-    "tags": []
-   },
    {
     "title": "Bitcoin Price Drops Below $74,000 as Nvidia Probe and Regulation Fears Spark $1 Billion in Liquidations - Bitcoin Magazine",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FQmRxQ2tQNjVqRHI3TG4wVVJVUTBtRzVHN1ZkZGowQmdiNlItTDdDaTRuMC16LXhQRXRjQTZvNE1QUURNLXg3MW5mNXptd0pVeTJfU3dWSldpNXE4cFgwN1FWaHlIMDMwZkZnNlhlVkJDZw?oc=5",
@@ -719,6 +736,16 @@
     "score": -0.964,
     "tags": [
      "Institutionnels"
+    ]
+   },
+   {
+    "title": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR3dUV3BMQTJ0TDRtRnM5b19NeXBIbVNRVnlCbVlLTFVfZXBsdEVjcVFsYjYweTNIR181aGlrVTN2a1JQZElDSG1DdVVDeDU2VW9CdzlIMDlUMDhsbFVyQzREM0ZpQ3pTWTFXQkVNT2FtNkp2OVFsdV9icmZYNVpKdWpBQko2MXNlM0M3MVFXRE9qb1JkQ2V0eEhuTXlFQjFua2diZ0JONnRCVDdRYThhVmduOFZ4WGdoTmNCT2dQcUt3dw?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-10",
+    "score": -0.931,
+    "tags": [
+     "ETF"
     ]
    }
   ],
@@ -862,7 +889,7 @@
     "llm_importance": 0.9
    }
   ],
-  "lecture": "Fear & Greed à 10 (peur extrême), contre 29 il y a 7 jours. Ton des 764 titres de la semaine (notés par Gemini) : plutôt négatif. Thèmes dominants : Macro / Fed, Dérivés, Institutionnels. Le score d'actualité n'entre pas encore dans le calcul de la cible (pas d'historique suffisant pour le valider) ; il est fourni à titre qualitatif."
+  "lecture": "Fear & Greed à 10 (peur extrême), contre 29 il y a 7 jours. Ton des 789 titres de la semaine (notés par Gemini) : plutôt négatif. Thèmes dominants : Macro / Fed, Dérivés, Institutionnels. Le score d'actualité n'entre pas encore dans le calcul de la cible (pas d'historique suffisant pour le valider) ; il est fourni à titre qualitatif."
  },
  "semaine_passee": {
   "n": 7,
