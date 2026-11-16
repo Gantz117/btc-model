@@ -1,5 +1,979 @@
 [
 {
+"date": "2026-11-16",
+"ts": "2026-11-16T09:54:55+00:00",
+"title": "Vitalik Buterin Now ‘a Total Bull’ on leanPCS as Fast Track to Quantum-Safe Ethereum",
+"link": "https://decrypt.co/383294/vitalik-buterin-now-a-total-bull-on-leanpcs-as-fast-track-to-quantum-safe-ethereum",
+"source": "decrypt.co",
+"score": 0.1,
+"tags": [
+"Technologie"
+],
+"llm_impact": 0.1,
+"llm_importance": 0.3,
+"llm_theme": "Technologie",
+"score_lexique": 0.462
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:54:16+00:00",
+"title": "Coinbase Transfers 823 BTC Worth $53.6M to Kraken - Cryptonews.net",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80eFAtMXEyQUxyRC12Tld0NFZQdWMxaDFEVl9hb05pM2hTRGRkYTUtdGxRbi14OGh1c19tbS1mTDNiNHlhNEtSSjZxREdMSkV1MDNpZW92VQ?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Whales"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.4,
+"llm_theme": "Whales",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:43:50+00:00",
+"title": "Analyst Links Bitcoin Drop to Anthropic IPO Share Trading - KuCoin",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcE4zLVZFVGhaZ0ZqNW8xQm5pSDFmcGtUS0x6bWwtd3c1aUNkYWZZbjVOQXdRQVA2VFVnQWRwVXhLZUMzR1BMamhBc2hKWmhfRzZCOFhlUFZDazJJWUJrd2U3YklnMXdHQ3haLUZNaVRLOUFnYTd6QUt3dGZxWEF4T05ic3RmaVNpT2R4SHlIX0h6QktJTnc?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:39:49+00:00",
+"title": "Bitcoin Price Bounces from $62,000: Can BTC Turn Bullish? - SunCrypto",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lelktNnhmaGdmcDcwSE5RUkpBWVlya290b3RjSXBxaVBTam1kbm9YWEZsTGFpUFU1MlpSajRMaG9yOU8xd2tWMk8yRE41VWRtUW9yZkJ6QUc0aDFnZlBPbUVlVTgxcExXUUZGXzUydUZfOWswcXRHeQ?oc=5",
+"source": "news.google.com",
+"score": 0.2,
+"tags": [],
+"llm_impact": 0.2,
+"llm_importance": 0.6,
+"llm_theme": "Autre",
+"score_lexique": 0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:34:18+00:00",
+"title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
+"link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+"source": "coindesk.com",
+"score": -0.4,
+"tags": [
+"Macro / Fed",
+"Institutionnels"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.462
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:27:40+00:00",
+"title": "Bitcoin price holds near $64,800 amid $2B liqui... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VTEJSdndSR3NyWi1CRkZDcWJ0OVlRcGVrR1lYOUpUbWZxZ2EzbmZhZWRyWmlfWlNEZ29qWnVrRXljYnAzOEZNRUVGdTJGNjNBSTd0QW9xN0NjN1k4SmtLOE9yTFV6RFU0NmRleGhEN3VxWGV4b01DbHBkRlA?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:23:07+00:00",
+"title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
+"link": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+"source": "coindesk.com",
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.8,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:12:39+00:00",
+"title": "Bitcoin Price Tumbles 19% Ahead of Anthropic IPO: Is SpaceX Crash Repeating? - Coinspeaker",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85aGVHd1JtMWhKYUdrc2VnNDV5UW5mUmU4WV9MQ3A4b3NUNW5TVDhjdS1DSnRYU0N6WFY3cFQzWjhWcmxRenBEem9YaEZjLU5BWFdDRHVHcFBaelRQQnptUTNCa1B3a01fTjhLTldZZ2VjSmlXVkpCcDl30gF_QVVfeXFMTVFyVWhFNmF6QnVZVEZmQks1aTFSNjVQR2JJM1R1S3lHTXhNRnpFOFBHTVRMUURqQkh5eExXYnZkanl0MklWSnZqbG9JV2F5d2lEN2oxbDd3azJZeXlTaEhYZzFxX0hEMG4xdjZ2aFdXQkZqZ0ZmOTdhMnFJM0M1NA?oc=5",
+"source": "news.google.com",
+"score": -0.5,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.995
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:03:23+00:00",
+"title": "Bitcoin Price Plunges Below $65,000 – What’s Triggering the Massive Sell-off Across the Crypto Market? - Coinpedia",
+"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYnRmMnRzbHNjX1JlX0dWVVQ3WXJCZWI5WGtCeFRIbFRFeFBONnR4X2hTZHdrajdlVFhURkVqX3RaampCRUpNUngxam04eUNmVlJOWE1WSGEwLXFLWUhLM09hWkFZeFFDTGJWZFlXdm1Bd21vQWpPZGtleHlOd3duWWFvOWNUWjV2M2ptamhmdlNvOENFaUlTS1ktOU9Ja3BMc3h6N0F2WDgzbmctZUdMZHc1SENGOGFJclFoZVltM0Zsd0IzV2dmelVUWlkyc0XSAdQBQVVfeXFMTnpqX045QkFWdHhNVm9oelcxamc1ajNjN1VmYmNibUxBVWFBV0Z2RlRoSkVJNWNPMGstN05BVUpHZ0Zrb0liUFVoR2NrOEM5YWdwNzl5WFFxRWQ2M0ROWWprYVdkU25jQUk0WjJGaS1nWVdGQW1VZ0FBNFlaa0N0SGdGS3lUUTdQdVNYMnBOdE1WaUV6Y1gzbk5CS0tQS0dPNDZlWGFPV0ZCREFQQk1mZU9aVmVXR0JZQk12RkN6a256MVAta1Y4N2dxTHdMQkxvWjUyOEE?oc=5",
+"source": "news.google.com",
+"score": -0.5,
+"tags": [],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Autre",
+"score_lexique": -0.99
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:02:43+00:00",
+"title": "BTC price range on Nov 16, 2026 at 5am EST Prediction Market - Robinhood",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTk1VWk9BVlRzckFRWU1HVk5tUFdLSDJWeHhDRFJWTVFfandNWkdSc19PMDRPaXN6M3V6MHR1dlRIbTc1c1pfanNyMi11UENFT2YyMWtlbTRDdUQ2Qzk1Q0VGcWE0bDVXUmhobk1NeF9xVVVMaUFwY0N5b1dKRE9RMmtyWHIzUG5EOE9lTDhnaGVmMXdLOEJpWjhwWE1WaWNBOWphX2ZLRy13Sml1X3JHVHY3Z1M3dw?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:02:43+00:00",
+"title": "BTC price on Nov 16, 2026 at 5am EST Prediction Market - Robinhood",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRDgwSnhDVUxhT3JKR2tXbk9TdlVheUxHalJmLWtZOVV1N0dzSW9nNlAyR3RFbHdlVVNVODlFejdUeGNiNGVvWXBGdDlDNUE3SE5YUXJnTzNaYWN1NHRCRmhrcW1sT0tKX2ZFVHNIcDZTaWc4djZBRHotb0JBRnJibkZjcU5YazdfalJGTnNpdHJyV2JPeWZNU0prbm94SU1yT2xFSDRtTXNNdzVZZmc?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T09:00:00+00:00",
+"title": "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story - TradingView",
+"link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb2JmMmttOGhDeHd0NDNuTWtILWxpRjFJTVdSYlVwXzBtU1lxUjVnWUl2VGxReDF1eVlXVEhxanVtaXdmVnljVWZYUUVxOEZ5QlZqTFdBbV9pOFliVzNVU281MnhfenYyeW5IQmNiZjI0SGo5Z1BlSW9iemt5RGdEdk9RcFNtbEtHU3dqTzhtRWhKZVJkV3FJem9DbWpyd2xVUWdXYWRkN3RBTnQ2U2pSdkVBQm1oWHZGS0MzMUY2U1NraTFjRFdRUUZITEdNN0NR?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.5,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:48:35+00:00",
+"title": "Bitcoin Whales Face Record $8B in Paper Losses as Sentiment Slumps - CCN.com",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNak1iX1RMaU5LRmJxUEgxOGswM2JJV2JKOUxEU2p1ZlNINEplWnhHNVhVMEZfZ2FkZjI4WlpvMG9kUkpHbUhSdUY5eV9LeVRlT2YzbTYtZzRydUZvaEs2WjYyTmRCeVpHc1pyS05FcjlsWXUxZldaNHEtbUFoWnVFeUx3OXVCYjFK?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"Whales"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "Whales",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:43:34+00:00",
+"title": "Bitcoin falls behind Tesla in asset rankings as its market cap drops to $1.3 trillion. - Pluang",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWmRIblNteXRHS0R3NWNxckRlZ2ZLcDU5T05JSTNZeF9zX0tnaDlFWjdmS2tZVHlJWWZ0WjJ4OE05VWpNYV9Nekc0bFdGYmd4cFdTaEdFRkowODNLaElzNkRwR3VwODZMY3N0N3JrUjNTaktadElpNW9FQjRjZE5NQ3h0OHJuaHFPQXQ4WmVoaUQyVnRRamNWMnphSmNjNFFFYl95UDI2aw?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Institutionnels",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:35:33+00:00",
+"title": "Bitcoin price drops from $81,000 to $62,000 ami... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa2o5bWRYTk9hMzkzTGdXU1JOb1JvQ0FtRlhvMHBwQVlJQ3FrTmJHNzZZaF83blNoU1dvVUh3b0lJV2ZQbzZpXzVmcVdWbElCYWF4S1pXY09FQ0hFbXY1dHpfXzJBcm1xVlJGS0xXdzQySWxVWWVja2NIQXhxYlZjVWJabjBTUks1Q2JhVE5n?oc=5",
+"source": "news.google.com",
+"score": -0.5,
+"tags": [],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Autre",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:27:39+00:00",
+"title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
+"link": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": 0.2,
+"tags": [
+"ETF"
+],
+"llm_impact": 0.2,
+"llm_importance": 0.6,
+"llm_theme": "ETF",
+"score_lexique": 0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:19:19+00:00",
+"title": "Bitcoin Price Forecast: BTC Holds $62,500 Demand Zone After $2bn Liquidation Flush - FXLeaders",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVWg0d3N6bk5yNmduVDVKX0JHVnMxQUJnN3JWZXZPS3NHRGh5N2JlY0NIblNPUTREbVFvbXJNYTNNMkF1anhJN2lfX2xLZ1pHVERzZW9pOWs5S3k0QnZYZmtDRnNKVmJyNEt0WmxlQ1ZDUXZYY3NKbkdyVlg4UGRkb00zWVNRejBsVFFrS2VFMG9jclUyOVBjeF8xay1TWWowYW9FQWtLWnpqTG95NmdUcXRoemt5dXN1WExQWDlR?oc=5",
+"source": "news.google.com",
+"score": 0.2,
+"tags": [
+"Dérivés"
+],
+"llm_impact": 0.2,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés",
+"score_lexique": -0.762
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:17:35+00:00",
+"title": "LIVE – Bitcoin Price at a Turning Point: Nvidia Earnings, Anthropic IPO, and Trump-Xi-Putin Diplomacy Shake Markets - TradingView",
+"link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOM1JnbnFnTE9LYW1saXZUZEZSNEdyaEJIQ1owcV8yWGJSeFUybWhncXNMdmgyR05keUJaQkdEWjgzVkMwVlVFMzVTZXlVR3FnZktUVExsSlJEeG5qU2hYSU1BVHo1MkpNTE5EVWxqVmxSdVExS1ZJRGNLRTZyTHpkZ2t3ajhvRW90bE80b21SNlJ0NlVic0xMYktNbTI4ay1TQ3BSRGRpU2RmX1dWLUkzQkN4SFZXR1Jienlicjhfc0twZDJmSVlYNnJBS1huczdRbVNLSEM4UnJKTVZlWHN2TU9JeUNsZUxET3NkYmFnOVBNVUhWS3VWZUFKZmF0R3d2?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.7,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:17:35+00:00",
+"title": "Bitcoin Price at Turning Point? Nvidia Earnings, Anthropic IPO Lurk - Cryptonews",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeVVhWEdVV3p3Ti05bWFoOGh1Z0Nna2tleGVjcEpQRXB6WmwxaGllNlF1ZDBoa1BCMTZ6dV9jZDAzYk1odGZhMG51a0tHNlBKUm54SEpYbTdGS0hydk5QMEc4NzdiRUNzZVNJdGl6WTN4QTJBYkRSWGxSZWlWSWxIOFdIMHlBTGtwd2FhWnBVRkc?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:16:54+00:00",
+"title": "Grok AI XRP Price Prediction Lacks a Cited Forecast as XRP Holds Below $1 - Bitcoin Foundation",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVkdEX2VUSUpFUEFmU3pwSF9QRkFzX3ZTbS1PQld5QlRFTVRFVG9CbHBhUHdoWFMtVUIyV1VmdmlZSUF4eFR6ZzVRRGhqOEdvZ0p3bU1NNHV0WnFPVEhPYllmalJ3aVdqU3hOMVRNeGlxamNKYkRQVWNoSDVjeHZCY2FYNTEzUzUzdVZHaG1nbkp0NnQzVVBNTktwR0J6bkVMSzVndE5XSDFQYUlTelJoSkdwRW8wdlFX?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:08:41+00:00",
+"title": "Cryptocurrency Exchange Bitfinex Expects Bitcoin Decline to Continue Due to Insufficient Clearing of Leveraged Positions - Cryptonews.net",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40blBCYWJkNTNjNjBQZTJ5cVdyODdfM0ZyUElfYlV4SG9jWl9OWTRpNGhuQUVXQXV5a0NmN0ZkMG9meDBWR1pLNnNxVm9IVGRIWUJ4Wkt3VzI?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:04:33+00:00",
+"title": "BTC price on Nov 16, 2026 at 4am EST Prediction Market - Robinhood",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXpKbHJUVkpzdnJaUlRwMVpuWEgtaENHWjdYdTNKQU9Felp1bXFaN3JkU0p4aXZoNWRudGl6UDVYbFpIWmZYbDNjdG5fcDB1RVNzdUxOblpINlVuRkYxMU4ydHlnTVZpQWdwOHp5RmJqOEk5TTAyd2ZxR0ZfRi1DakZOUnRRRlBnVHEwMUNiNkZpQXNabm5QSlRBcGpWdnN3dXl0dTJnV19WVzcyZHc?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T08:04:33+00:00",
+"title": "BTC price range on Nov 16, 2026 at 4am EST Prediction Market - Robinhood",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbmhsNHc0UjBVZWtFc3Q5aTN4S2JTVjM5aVd3ZmI1U3laWGpMakZHQWhJaFJpem1uYXQ1dmpGaUNLVFlIYVhEMFYzR2t3YlhER0FGTE5XR3A0VkhwZjl3TVBNU21nSDRJRmxEYVlJRkZwa3duc01XQ0tPSE5WSHNDMmd1TWdHMjZ6MlBCT2RiV29VVnF5X01iWEtyTzBDRHUtaEpYVVEwSExhVWdzVVlZQXVscVhMZw?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:57:00+00:00",
+"title": "Zcash Stays Ahead Of Bitcoin In 2026, But Traders Are Split On Whether Outperformance Can Last - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTU52WW1vZ3EzMkEzTEE4LVZQWVNUS0JKS1BkMjBHSVNKa055c3Nlc0JSbXNvMUVaQmZ0VWhwQlZWY0hob01DTThjZDFYRS1BZjB3djJoaVlTT0FsaHhOXzQxclZFM1o4d2I1OW9WelRweDRnOXdIWlgyZXI3eWxTSjh4VFlvaUt0dHk0dXdSMzg1VmduRWpjckRlaw?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.2,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:51:15+00:00",
+"title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
+"link": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+"source": "coindesk.com",
+"score": -0.3,
+"tags": [
+"Mining"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Mining",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:29:09+00:00",
+"title": "Bitcoin drops to $62,006 amid IPO, ETF outflows, and macro fears; Binance denies market manipulation. - Pluang",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcGlERFBnZXk2VkVScWRYU2hPMnpxbzc5UExRSjc4ZXhaZW5ra3Nqdnh6TVgxcVh4aEI4UEZhUnFvZDFTbVpPU0ZmZWtZNTRId01WQzk2SEJtX0tSS1NhTEg3UnI5djBRSDZlYTZ4UGh2SkhsUWU1T1VlbmRzWG5jaXdtYw?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"ETF"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "ETF",
+"score_lexique": -0.99
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:18:00+00:00",
+"title": "Will Bitcoin Go Back Up? Market Signals Point to a Possible Recovery in 2027 - TradingView",
+"link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZHZVSE4wZWgxcHNxdEdxdmI3ekdUTzFrXzhYVWRFNUVPNHJoY181c25hUWpGcEUyOWhQRjF6cDJncC1UVjRiMl93dE1ITGg2aEsyaFJSOHJJUU9fLXpwbUxqb2lBMDFBMGlvQXRPa0xzR3MzdGswcDhvbG9RVnYzNzg1SHpiUTByejJ4WUpRY1EtWVB5aXljSXJ0dUpxU2ZfNFlBaXhOMXlyemZ3Qmd5RUluakpCU096WW1HSEw4UkZGZ19GZUJWcW5sTWwzbUt2?oc=5",
+"source": "news.google.com",
+"score": 0.2,
+"tags": [],
+"llm_impact": 0.2,
+"llm_importance": 0.4,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:08:51+00:00",
+"title": "Bitcoin Fear and Greed Index hits extreme fear at 10, matching lows from early 2026. - Pluang",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3F5YUtYdzhRbnVJMUIzMHZhZ1pEX1BKdHFOZnI3VDczNzA2TjNCTjNhM3N6Ykp3UjRaMW1rN0xPQTh1UDFzbXUzbko1RGtQNkcycXRxR1lJUDdDeVFEY2VVOGNDZk50V19JbTNULWNJSHpJcEtBbzNBb3dVaUhMczJzVGt5R0RYRHNHeUQ0WmdyME1FWVZlb2RWT1VGQQ?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Autre",
+"score_lexique": -0.964
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:02:44+00:00",
+"title": "Bitcoin Mining Activity for the Month of October 2026 - Actusnews",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNDZhYTJwNHdjVWFCY2g4bkNqc1dVaVN1WnV3Vm51OGw3TGdVT3VyOGM4d2RUUXgyMkRBbVBKZXNMalQ4TWlBeHlpMm1yQVB0Q2ZUT1FUMXdtZmdCQlVBZDc0RkU2NVA1UzZSSjNlS2dneHBCLWI4S3NQZVlnX3BieEJGZE1XR3dHSFhoSDNlRmlSNnVxRm9lcHcxN1UwQS1jWGFHV1R0dWs0clowM05QblUwYXM0V2x4eHNyTXYxM3lZa1HSAcgBQVVfeXFMTU93Y2ZPU2FEYTd3ajMyX0JrbGtsb0ZCam1RRGEtakEyWUZDNFUtTzJxby16Z2hxQ2JLbnEtMUp2VW84bm82U0pQTWJjdTBYa3lzTXFwUDUzaTdRaEw3Ri1UaFpKRWcxTnp6ZjRuS3l1NGpaSXJWY2xRbVc1amhsaFNyUFFLc3RyMHM3ZHNrZWRhWFhPczdTdHhsT1pncU8tOG5CeVFfdTNMRVQ2RTZ1WUk4ZDFoNmozcmZIMFZiNXJXRTZ1XzlhQ2Y?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [
+"Mining"
+],
+"llm_impact": 0.0,
+"llm_importance": 0.3,
+"llm_theme": "Mining",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:01:09+00:00",
+"title": "BTCUSD: Bitcoin Sinks to $62,000 in Weekend Dump, Bulls Rush In to Buy the Dip - TradingView",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU1daOVE0WU5STXB3WjIxWjN4Tk5fRm1DUThReEFFMjRCcFVycDg2Nm1weDdzS3hxSzQ0NUZ5eXhZSjg2UHVxelNXZzBaYnhsallWZGNrSm9lSUlZMWl6MkxWTzQ5UGlNcG54blhtbXkzMTJGVnZUaW5QallrbHRuQzF5aTRPSmxkSEhYTzAyeVc3aDRTS2thTzBuSENfTDdkQ0ZFU3puNU9nTXc4MkNKd1hEQmE0OHFLX1pzTUJCNWFxUzZtemI0N2MyV1diTnNOWGFF?oc=5",
+"source": "news.google.com",
+"score": 0.2,
+"tags": [],
+"llm_impact": 0.2,
+"llm_importance": 0.6,
+"llm_theme": "Autre",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T07:00:00+00:00",
+"title": "H100 Group AB (H100) Partners With Coinbase for Bitcoin Custody and Financing - TradingView",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOazhNM3ZKd1NoRU90aFZpTWJVdmpZWmJoYTV4VWpSVUt0OHhZRGtYZ0I1eVRYOVU2ZV9ETnFEV21FNzBaSG5RWlFEUDUwMDQ1WGhVREtJNlp3LU9oMnJRbnQ1T1RyNEJ2aC1fY3QtaVlYc2twWVAtYU1EWTFWako1aWtaX0ZYX1NiUDEwQmlyNHd6SzlEampPbno3SFYwR0FKLVlhRUZGZDdnUUtXbEJEZXZCamQza2IxZFV5NnNjcHp4Zy1pWTRIQ2ZfX09vTFRXeUFB?oc=5",
+"source": "news.google.com",
+"score": 0.1,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": 0.1,
+"llm_importance": 0.4,
+"llm_theme": "Institutionnels",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:59:15+00:00",
+"title": "$1.07 billion in ETF outflows: Bitcoin price forecast as BTC finds recovery from oversold levels elusive - www.tmgm.com",
+"link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORjhWZWtFMlNGc0ZBQjE4THFSZTh3TE5FZU5rX2o1cU85VDF6RWNsYWNsVUNKbVluNHFjU09pc0FBd2ZiaXZEMlA4NTR1Mk5NZy05YUU1ckgzNGE5QlA1elNpYXJZcGd4cDhSWWJjbWpDSnNPNjJRaXU5bzBxME5TZ0ZaMkhGZ2JHb1Npa0V5d1M4S21ZRk54LTkzcHlFUkF6TlI0NTN2NmdMenRtYWZDMmRJV00tSTdXdHFEVW9acjA5T2JEbnBPaXdaOEczdG8zc0Q1UFFaMEpMZ1E0WUtsR05CNFNIQndBRWFnRWFzYnpDVmhaOVIzWjk4QQ?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"ETF"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "ETF",
+"score_lexique": -0.762
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:58:53+00:00",
+"title": "Bitcoin's largest Deribit options position shif... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaEN5OHJKWkZ0cy1OQkFHa0pnT25XV25QZWE1Um5MbHJlOVpVWEtjb2FOV2gyTlotUWd1TURHNlp2TXFGcXdnckVxVGJpS1JDNkxKQWtFb1ZuMDlUYmxyV0ZzSEVkTmIxTmVlal9rbzN4TDZ6UVp1SEYwTl8xdXRQTGIwTGQzZ2g5UzZNZS0zS1QxTGttQnJOUk91Q3hucllmbmVrZlo3bHU1SkNX?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [
+"ETF",
+"Dérivés"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:55:27+00:00",
+"title": "$BTC 11.16 Bitcoin Price Analysis Bitcoin has broken below - KuCoin",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyYUZfb0NMUFl6THdDLTM4ZGJxN3NGaEFBTTY3eUtqclpuRVI4MTJTMkpQMTdob1dGRDI5UG9oX2daTDBCMUVUWm9sOGx5QzJXUDh2WmF3czloRjE0bUdNdTBQWWxqNWpsR3FYWU42d0pCdw?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:47:48+00:00",
+"title": "Cryptocurrencies Price Prediction: Bitcoin, Solana & Ethereum – Asian Wrap 16 November - FXStreet",
+"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUGZCN1oyVmRERjV2V1V5V19rNnNWWS1PaURMOXd3eHJQX3ZQc0ZzcklJaHluMTlpQVRsb094Q1RBNEhkUVIxWVdzWHhFQk0wTDlUekxJWloyQkFZSUZjZzhxeDI3NlZ4WXRNLVg1WWg4Nl8tbjdSMzlQVGUtaUtUR2huNkxIQVM4SnR0Nk0waDdUZ001ZDNtbkZPdEZCV1VHVjJCSUNheHh2TVVjNk12dU5VdHdyd19SZGxsQmpfazRWbzctUDh5ZkluQm84ZWlibXBjalJBVQ?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [],
+"llm_impact": -0.2,
+"llm_importance": 0.4,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:32:22+00:00",
+"title": "Bitcoin's price has fallen below 90 million won in about three months due to a combination of expect.. - 매일경제",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nX19JbWhYcWR0NXhxalBET3pDWGdIN1hzMW1KUFZwcEdVdHBsWTdITER0YWVRQUxVMDh5M3BMU25Bb05lTnE4X3k5VjRPVmM?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:19:00+00:00",
+"title": "5 major events that could move Bitcoin price: Crypto week ahead - Crypto News",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OOVB0cjdBdGtPcm9ST0FCUG5CUldZakJsdU52Y3Y3OUowczFTLVFVQThxYnNmc2dWaWhPcXVsTDVObGhJSllqcGhUMklqMnZaQXZiekdEZmdxNGdlNzJyRFBKM3ktTmlvNFM4LUdPTWlQRHFPa1ZmRkxPcw?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:14:00+00:00",
+"title": "Bitcoin Options Traders Brace for Slide to $60,000 After Selloff - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2doR1hpY0I4bVZybWhmZHBrZGktTGNNMVAwbnppMXRpbWFtcFJ1ZVM0eUxPaTJ1TW5EbUJBNDQ0dWh0WUlzaXBwSTZzalZ3cl85dFpQaFFBY1V1MHJxQldDYmE3NHVhczkxdm1IVkNNOGlvdDQzNWFrUDFRNEV4VlFvUVBaOTRTNzBTaUxZX0dKdTZXbktlVjB4T2hmM3JaUVNv?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "Dérivés",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T06:10:04+00:00",
+"title": "3 Top Price Predictions: Bitcoin, Ethereum, Ripple – Oversold signals fail to break the bearish trend in BTC, ETH, XRP - www.tmgm.com",
+"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQUUo2NE1NREtTRFFjTW1fU3B3Snl3bVByQ1FESXlFUGF1VzZueEpZakp4cHpKMzl0cGFDUE8wT05wTVdYOUg2cUhqU2RDa1RYaUtUVDJRdHFzOHdHZUR5M0pldEVFWDlCWXdNRHdHUURYM2c1ZnNJTmZWdUprcTkyUVI3Y1ZRaVg0QmlsdlN2c05vY01qc1JwMFpxcHRkeG1jWU1xZ2s5RFhSSF9YOVhzUXZLRHl6ekJJRDQ2V29Scmw2QWxTV3g1S2ZxUkNzTVZHV082b2lsRWwtV2NtcWx2aDZyNFJuTFBxLTBCRk1PUUhQT1hWR2QzTkdwc1FGZDZKZGVwRklJVVpaTFBJS3p1bF9B?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T05:59:00+00:00",
+"title": "Is Anthropic IPO Really Hurting Bitcoin? Analyst Points To A Bigger Problem Behind BTC’s Slide - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYmFKbUVqVFZZTVBKdHpCcThhNnpjLXhxVjJRaFUtVTdlUGdMYXNjcUFwbzZmNUJ4aFJUM3F1dkhidENCLVk2UTFmck5YcWR3ZzhYMENJU2xLS000djlHMENuNXBSdXNkbzd1NkJ4RlB4MlZBOHdGWGx6dk96SkdoM0VWN2tnZGkxQmJKeS1WS3hFWHlmSmYtNk9LS2xmbGZGREdz?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T05:20:34+00:00",
+"title": "Bitcoin Price Forecast: ETF outflows hit $1.07 billion as BTC struggles to recover from oversold levels - FXStreet",
+"link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdDl0Mmx2bWJndm5nOUJSTDk2TFRleUtKNC10bGJjUEpXVlJXX0N6amRkLWRudzh2Ynh3TDRpT0NKVWNsT0VqNm02bzZWVWY0cHNibUxnNTZ5SnZjdmpJNG9YWVB6RkJuZWZBN2pXUmM3QTRIcWVKdnh1THFReGNLc3RQVkJ6U1EwaHJnQ2FZM3V1VDBONV9EenVZVnBaaVdpVjV0OXpOQkJqR1kybmpCWmNvV3RqWEc3cDhqNWltWHoxVFJvdkdtSkpQNnlvQVJWUWxJSWdHMm5qbnpPRl84YmFlaVFWMHF6TkE4QUpQVklydw?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"ETF"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "ETF",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T05:12:00+00:00",
+"title": "XRP price prediction: Can $0.90 hold as futures leverage plunges? - Crypto News",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96dHlFU096R3hheFpWUFpReFE3LTVmZHQ0VzdlX255N2JnYThhaDd6ajdIVEI3OHFVSVJwNXk4SHZ0MDV1M182bEVEZ2p5UXJfYzNxdHlhSkNETEFXTEN1QUxUSXdfaTEzd2tDSlFZMXh6V01manc0UUVyTnM?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [
+"Dérivés"
+],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Dérivés",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T05:01:17+00:00",
+"title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+"link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
+"source": "coindesk.com",
+"score": -0.4,
+"tags": [
+"ETF",
+"Dérivés"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "Dérivés",
+"score_lexique": -0.664
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T05:01:17+00:00",
+"title": "BTC news: $60K put is the top options bet with $900M in open interest - CoinDesk",
+"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNREVpcUFSN29DdTdvMnhUTWd6UjdfZEVoYXkyVVMyRWZoRTM1NjVFbFVES3hud2lpUFEzN1pkZmFrYWRLMEtKbkhSX0NEWWMtQW9LWmh2M2xOSEVaVERfNXQ2ZkhOQkZGOW5kTnI0VEpsMGRxZDZobWhkcm9DaFJFSFY0ZmhjVFF6MnF6akdmeldPcTNZS2VQSy0wZDdCMFZOX3hEYzhTZzB4VmlIRUVtY1U3ZVJGTDVscG45SHVSazI3QQ?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "Dérivés",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T04:58:38+00:00",
+"title": "Bitcoin Price Rebounds to $65K After Defending $62K Support: Has BTC Found Bottom? - FXLeaders",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ1ZuWFllY29OeVdoaFd6R2IwWDFMcHBuTmlXYTgyWFpLaXlJVF9jbXY4Z01IWFdvX2ZtRk5JS1dvaUJvOFlpR3ZqWFlPeWNsdUExQVlRT3R6bkd4a251Q043M18tMW1WY1ZjOExhUTd3OWdvdWhYeUIyWTQ4eklla0hFTDBxRjgyR3ViVnh1Yjg1WmR3X2lkZ0JEczRNVmc5cXREM1FIcmlpQi00a0JLdmFiVTdDcEZOVlpSbzB3?oc=5",
+"source": "news.google.com",
+"score": 0.2,
+"tags": [],
+"llm_impact": 0.2,
+"llm_importance": 0.6,
+"llm_theme": "Autre",
+"score_lexique": 0.322
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T04:54:40+00:00",
+"title": "Bitcoin price rebounds near $65,000 after weeke... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR2tGSGEtbkMwS1dubDg4S0IzdkFYRUdtNkZOWldDRkZlY1dqUXhSOGxZSkxLLXBXanhhemFQdVZ3YkNZeDA2ak42UGRfamxQVDNXNmRpTTFuQXRVbU1iOVBjam91MHZ0OTRaVnFvNUxMYnhwZFI4bGRkOGdZOUtrZlNmX2FXdWdQbG96WWpzVmQtVDRHVm1XTXZB?oc=5",
+"source": "news.google.com",
+"score": 0.2,
+"tags": [],
+"llm_impact": 0.2,
+"llm_importance": 0.6,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T04:37:00+00:00",
+"title": "Bitcoin price prediction this week: Will BTC crash to $60K or reclaim $70K? - Crypto News",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zaUdMSUIzM2F5ZlhoeTlHSGcyQ3QwcmR2bjlNQ1VtTnZqN3NzWFp5OVFCNC0yY3Z1S3RFUXZxcXR2aV9ZejRSMDYwb3RXTlY4X3U3M0xPNkZuT3ZQTXRMTmdLTnFIbXV2Y2lzTFpB?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.931
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T03:24:23+00:00",
+"title": "Saylor Highlights 4 Rare and Extreme Metrics Bitcoin Has Just Hit to Explain Price - BeInCrypto",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1WkNESHFpejctemRqZHJ4WmRXYVdjVkFqYWNtX3B5Yy1Xb3lUMWRsTkZQRlhidzJrSVJPeUg5a0JrVzNjamJDVVQ3WlJIRjN3eWdSaFB6dVBrMmRoUFRKRkFFTlFaWlZYbTdtM3JYYkJRUkE?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.4,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T03:14:26+00:00",
+"title": "Bitcoin’s Most Reliable Bull Signal Since 2022 Just Failed - Coinpedia",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaVI4Qkc0NHlsZnhhbzJ2SFNLNGpqNk9ib18xQW0yZEZYZTU5azRIN3R3ZkFBRVZBbGxjeDBVbDd5VFFMN2JjM3JxQzA5NDRkSW4tSXdvendlbUtLa3VDMEZZVGJjMHQzRkd0bTVYY3hCRDZhdE5yR3FSZnY1MkZOX1FYOXR4MzF4THpncWxrZUhkTnRBY0tVUzhsUWRfd9IBowFBVV95cUxNdGFkdThpWnBBYlRSV0psd0tvYXFieHI5TTQwQ1pycDNmMUo0bldLd183OTJzRFVGWGJYTk95R29QZVdjcTlMbjRUNWtFTW95SE0wZ1pRWkZGdE0ydHFUclNTcXFoRkdmeTdSalpFR0Nwdm5NeFN3b1pBYU5BeERwbnJWcUJDY2F6MTgzTF9yZGlpcUpqSTJzalpKbF9fUnk1bVMw?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": 0.762
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T03:13:05+00:00",
+"title": "Bitcoin Hopes Anthropic’s IPO Plays Out Like SpaceX. One Piece of That Story Is Missing - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY0ZjWnpLY200a2FtLWRYSHhzNk42VXZ3RVBIZjNiaFJKd1A2M3dZaGdFa2UzaFd4amVRQjJ6MTRKMk9iaXktcFVXeFVxWmc4UFZzMWY5OUlQOTlnQzl3UmllSFR1cVlONEI5MTVBbng3ZE5rd3ZtN1Y5Zy1Ud05ZRDg2RDZkY2l5RXVsSXgtcmZ6M1IzUnJQWkl0YXZ4RE0?oc=5",
+"source": "news.google.com",
+"score": -0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.5,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T03:03:18+00:00",
+"title": "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple – BTC, ETH, XRP remain locked in a bearish trend despite oversold signals - FXStreet",
+"link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNM2dvTzFMYkxpUkJDd0dockdNRkR5NDE1c0ZsaWNJd2tEUnRFc2ZTVzQ0WXpSMnNqOUpmb2VScTNib0NGV2k2S0JyUTJ5ZmlaTHpTWTFobmdBaHlSRTNveEI5YnlpLWdHbEE2QXlCVFFOZTBFb1pDdE9HdXF0c0xjMWFQVEtYd0FTOWUtT1N1ajlmUTFDbzIxc3pnN01LdW4wQklXcHhfLUM0SDVrRThCNGJyV283alVFbHUyNzJSR0U3bHRZYjU5Q2kzZUEtVTY1OFR4VHdmeUZPRkVIRkN0c3NxUHNYVEhfZFdUU2UwZnFXZ2pPQ1VpQkNHS0hDaDZHbVlOb0NRTkc?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T02:58:39+00:00",
+"title": "Why is the Bitcoin price falling? It lost 65K overnight, low - KuCoin",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16WWlpaTBDdFRUYldvTU4zTFRPVUFLNXVaMEd5TnM2S0c3VlJzTVg2N29XQlB5N1BQcWRZcmpnZDl3eklKVEg3bEFPMzZUaGlCNVE0MFFfcklVZ0d0QXQzd2cyOFRJcmo1QXF5OHZXejFydw?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T02:44:02+00:00",
+"title": "Bitcoin drops to $62K, risking more leveraged l... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUFIzTWoyUUhTOXhjb0xudWRSc2xDZjhTaVYwYTFVU3dBdkc1bDVIU29WMzZLOG40dVo2U2ttRlI1WktfTkV2ZlM0eGhqUzZNSkxHUUlCaHFJaWJ4c1VUcUJwZ3hSUFRIbzQtYlVzM0xaMkhhV2FNYjB3WTVUNW5XSDlibnpsaXYxOThhM2wyRUtoUQ?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Dérivés",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T02:33:07+00:00",
+"title": "Luxor CEO warns of AI ‘dark forest’ following Bitcoin miner hijack",
+"link": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": -0.2,
+"tags": [
+"Mining"
+],
+"llm_impact": -0.2,
+"llm_importance": 0.5,
+"llm_theme": "Mining",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T02:25:00+00:00",
+"title": "Bitcoin Recovers After $62K Rout: Michael Van De Poppe Sees ‘Mean-Reversion Play,’ But Warns Bottom Isn’t In - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRDJmU0Q1MDJsZHA0aHV2eUphNTRVb0dZN1ZmVFVJN2VmQ3Y4Wks1NDJFUWNoWDNQVThlY21KY2JqTWZyUi03YlBHRW5wdUhBbTYwWXFKaUJyUjFRSkdyTFNrZ3o3aGw3N1MzUElJM3gxdGhuQVBBNUJLbjY1YTY4dVBHZ3lqRDM1VE0xeEJGTFEwOUV3RVVnNFlMUWpPcUU?oc=5",
+"source": "news.google.com",
+"score": 0.1,
+"tags": [],
+"llm_impact": 0.1,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T02:10:30+00:00",
+"title": "Bitcoin’s Fall to $62,000 Sparks Market Manipulation Claims - Mitrade",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRERjaEVuQUVRYzBFT2dIRTZFNm1HT05mNGh3aTJPTWk1OVJYS194eVhCX19NZmZJNGcyckVvekxocEY3cXpvZ3N4N29aZ3BKU0phRnMta3MxU2VTVlpPZmpwYUp0T2R2T2pZcDA4cDd3OXlIMjRYTGFUc2gxVlFEZ2hYN090VlVf?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T01:54:06+00:00",
+"title": "Bitcoin Plunges 13% in a Week as Market Retreats to $60,000 Level - TradingKey",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT1BNdlU0aU5rS2NoMy1oSTV5THlTOFhsU1ZmbXRKNGFxZkY2ZnF0NGJ3cjhDUldscVdaSG11Y2ZyOFgyRkd5dnJYTTlTM2xucFhqVkVVX0hxQUlmdmN4Z01SS1dSaDl4TjZUM2dicjFROGF3WV9nYnQwcFAyVjRROHNXc0FweHhyU0pkSndSbFA5MlVKTEo2VHhzNDZURWdyTjdSQ1A3SmpiMDdkZFRsWVpvXzNuS0c1MzdLazZPWi0?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [],
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Autre",
+"score_lexique": -0.87
+},
+{
+"date": "2026-11-16",
+"ts": "2026-11-16T00:55:33+00:00",
+"title": "Bitcoin open interest stayed stable as price dr... - Pluang",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVUNRUXdtd2xYQktxZ0hvMk85dkZycmNzTFQ4SThmdTc4V3lWNDFzM2JPMzlTbEFfeDUzQTFTZ2gxZjluMFQxYnpqVXpPWEVlTk04cFpLc0xFeDdBQ2dyRXVBYnlVc3lqcUJDdHdsa0MwVGdzdXhTSVJnYXU0dUVGMFZNUkhwQ3lHOURUMHJiQUw?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [
+"Dérivés"
+],
+"llm_impact": 0.0,
+"llm_importance": 0.4,
+"llm_theme": "Dérivés",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T23:25:25+00:00",
+"title": "US spot Bitcoin ETFs see $1.07B outflows amid Bitcoin's 15% weekly price drop - Pluang",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNm9peWJUWTV6X19qQ1IwM3FyZFh5ZGVLYm9hRFNYdURySUlQdW9jSTFGQTROcmZnTzlueG40bGZxTGtacThlV3k3cnlBbmVsNXVXSlBWaUFlT2ttNXVtQzdQRkdmdER3NEUxVkp6bEowbGJwNFZZQnJEN3VxYXJZZ1hXQ3pTRjJJQUtNaHY2Q2dmTDdaNTM3dkh3RUxIQS1PMHhLVU5GdlNHQ2U4VjNn?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"ETF"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.7,
+"llm_theme": "ETF",
+"score_lexique": -0.931
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T22:50:59+00:00",
+"title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
+"link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": -0.3,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": -0.3,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed",
+"score_lexique": -0.905
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T22:23:10+00:00",
+"title": "How Much Bitcoin Do You Need to Be a Millionaire by 2030? - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPREg4VEx3R2NPNU54elZmOVo4UWxFZ1J3ZTVPS2tmUEdIM2daWUdUanB2cnRDQ05SUzRjSTUxcDhwY3MtSm4wNk03aUY0SlBaaW11Y3BxVHFkVmZ4MXJKM1B3R195THZ1TV83R09YSVlYRWlVMXFYZkh2NUEtUS15NHBIM2ZhRnFCUThoRFh5WEZZLWZlOHRlRG5n?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T21:40:56+00:00",
+"title": "Bitcoin Price Prediction This Week: Will BTC Crash to $60K or Rally to $70K? - Cryptonews.net",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDaHFfQUloaHFaYm5hRHBSYlhWNWZMOEpwT3RTNDJMYmxHOGh6eERkZ2I5c2dhY3EwN1pOVXlKQzREZEdZX0VjS2lPQzB5dTN2OVktdHlieGE?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.4,
+"llm_theme": "Autre",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T19:54:32+00:00",
+"title": "Bitcoin dips below $65,000 on Binance, hitting $64,928 despite hourly gains. - Pluang",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeENURUhxTVM1aDFSOFVjZVFDd2lLSkpKZGViUkhtRnJIRUhzM1daZmRNcW9iRkplUDRkcDNQak5jV2hVT0d5ZXp6SG9fSmtCelRSeHF0M083dVM3VkY1VTBVczNkRHdyVGE5VnRwSHk4QXpXQjFNU29ndDJ5c2pTMUlUcC1WdXFmb2c?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.436
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T19:33:18+00:00",
+"title": "Prediction: When Will Bitcoin Get Back to Its All-Time High? - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbWxKVFl1LVNDUjNsd0dYX1RXMGxWUWJUbzAxM3VTMkg2UF90S0NLZjd0bzBnZVdCdlp6RWVQLXFlYjdFVDdJVXVNbXpNVy1naDI1X1R4bjZweUdWc0pZMEczNGlDcm5MUVVCbkFQczhpSmNNX0lDV3d0NE9CM0JWeUp2QlNGb2pmSDRFQzJiZUdseGF2LXZlTjFrTEpMOWc?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.322
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T19:30:00+00:00",
+"title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+"link": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+"source": "coindesk.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.1,
+"llm_theme": "Autre",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T19:18:38+00:00",
+"title": "Bitcoin Price Prediction: Weekend Panic Sends BTC To $62,000 As Margin Calls Bite - Coinpedia",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZUcydDROVF9Ua0plUVdKbXJMR19KYlNzMTJBNTYxcEl3UWI4VTc1emZwTXU0aHpCOU5GX1pWNnVLbVRLNFRHMlJTeXBERk9xSmdsanNKbEE5OGxvbmRZOVNfUElOZUQzRUtVU1FURDViUVRySVMzaWtYR200eVNoVDR4eEdTeWZ2MDB6WUoySm50b2E0WGg0TEpCTGZwTVFZa0FEbklnNVVmd9IBrwFBVV95cUxPaUZsNGJwMEs2dVJYTlFOYVJRTDFpRXcyUVJ5b3llNnhER3NRZHg0MVJtYldKSlRoU0NlbXJiVFR1cnZvUVpWZTBKR2xRQlhLcm1vZEJ2UzRJUGpienRYUmJzdHJGaHZHTkJRN3BmaDNyY2hQYnNfMTRFaWJPUklSNGZIbWJVOEZrVjlZdjY4N3dMV1RIRTJCRlQzb0gzVDVRaGxKRFdJb0M0OVk2ZGh3?oc=5",
+"source": "news.google.com",
+"score": -0.5,
+"tags": [
+"Dérivés"
+],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Dérivés",
+"score_lexique": 0.0
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T18:59:46+00:00",
+"title": "What's Behind Bitcoin's Drop? CZ Points to 6 Possible Reasons - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcnpINGJ3OEJqY3Y5RDU4eF8zWkF0SUN5QTl2c3ExdlNrZ0ZxbFY1MUNWRk5GSkkyOFN6a2FWckR3SXQ5NHp1NWYzYzFpNU1NOU1kZ0FvbHpTRC0zdENFUjZXcnFqeGQ1blAzWm5OcDMzX29mbDJsMTE1Q2VDR1daaXZ1SEVpZTlVcXdFdlhjT21DRzhpUHMzVDNR?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.583
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T18:30:08+00:00",
+"title": "Bitcoin Price Prediction This Week: Will BTC Crash to $60K or Rally to $70K? - CoinGape",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMDFxSzhvdUV0WWdRYVRpTDdOUEs3bGZWeGRnQVAxOHlmVHYweWhGbE13SXRMTm9JR2E5ekhfRkdXd2g5UEp2YWJTQkdvVUpNVWVNd0hsTjYxeWJsUUJXREVPU1dOcVpTQU00eFplcGZWRHBHU1VaRmpZd2FlYlNkUWdXdkZrZ2EwWmloVmxQaDBNUUR4UTFyejJmNnFzdWZER29DUw?oc=5",
+"source": "news.google.com",
+"score": 0.0,
+"tags": [],
+"llm_impact": 0.0,
+"llm_importance": 0.4,
+"llm_theme": "Autre",
+"score_lexique": -0.322
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T17:28:50+00:00",
+"title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell? - Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXBIME9PRGtMQi16RUV2Vk5hRVl4YzZVTmpkWTNKR2JRcV9laXM0cl9fN0k4UWNQTXBqLUxVOTlTODlRN0tQMnAxUFR4YVhjWWp3WE0zM250b05QRHJlZVJUbk12X1RPTUtfQWduTFBCZnRJWm10UXowSGFhNkMwNHBCZ0RYYXoxejg4RzY0bHhGeERqUWdHMHpQcUhOR1E?oc=5",
+"source": "news.google.com",
+"score": -0.4,
+"tags": [
+"Institutionnels"
+],
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Institutionnels",
+"score_lexique": -0.964
+},
+{
 "date": "2026-11-15",
 "ts": "2026-11-15T17:28:00+00:00",
 "title": "Michael Saylor's Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell? - 24/7 Wall St.",
@@ -110,6 +1084,21 @@
 "llm_importance": 0,
 "llm_theme": "Autre",
 "score_lexique": 0.0
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T15:00:05+00:00",
+"title": "Peruvian Bull: The Yen Carry Trade and Bitcoin’s Road to $300k",
+"link": "https://bitcoinmagazine.com/videos/peruvian-bull-the-yen-carry-trade-and-bitcoins-road-to-300k",
+"source": "bitcoinmagazine.com",
+"score": 0.2,
+"tags": [
+"Macro / Fed"
+],
+"llm_impact": 0.2,
+"llm_importance": 0.4,
+"llm_theme": "Macro / Fed",
+"score_lexique": 0.964
 },
 {
 "date": "2026-11-15",
@@ -379,6 +1368,19 @@
 },
 {
 "date": "2026-11-15",
+"ts": "2026-11-15T10:23:17+00:00",
+"title": "Bitcoin falls to 4-month low near $62K as crypto selloff deepens",
+"link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+"source": "cointelegraph.com",
+"score": -0.5,
+"tags": [],
+"llm_impact": -0.5,
+"llm_importance": 0.7,
+"llm_theme": "Autre",
+"score_lexique": -0.905
+},
+{
+"date": "2026-11-15",
 "ts": "2026-11-15T09:54:11+00:00",
 "title": "Crypto Price Prediction: Bitcoin’s $70K Breakdown Tests the Market as Remittix Sets a Planned $0.46 RTX Listing Price - StreetInsider",
 "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVm1USzhwRGF0U0NfWEEwNDRTYUFEUWRWbnlDMFNMb3VibUN5WkRCaVU4aThxcnpIczd0WEhkWVB5TG9UVUx2Q000VzFvZmVtcVJyUlN5b3Z1S2gwaTdhSE1hQXlZMVhNeE5ncF9iNHVpSWFLam4yaWFPZENZZ1Q0U005SElpQi04bS1LYzVsOVVkcEN2OW40SmF6REx2ZTlRemZoSDVkbWlodkhZVzZNLUtObGx3VDFZRjNURG1wXzZOY0tFZjh1akNKc0VXU1FPZnNFYUJLZzRlTk1nQ1RrejNicDhPbU1TZ1ZXcGplRWtQS3RYLUhVZUphVS1hbl9xdUxkT1Z2bWc5dFdVU09tMUVvSFVsdkJvVnFv?oc=5",
@@ -432,6 +1434,19 @@
 "llm_importance": 0.5,
 "llm_theme": "Dérivés",
 "score_lexique": -0.583
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T09:15:48+00:00",
+"title": "Bitcoin Price Crash to $65K: Who Is Really Selling BTC and Who Is Buying the Dip? - TradingView",
+"link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTDNyRlBFR0NzWk9KSUNBQ296TlVEczJGZE5RTldwOENPYzlHU2NpZ3liZmg3N3lkdHpNbkxkaVVXVWxxT1N2bUhwaFVuS0ZXQW5OVmRLZG1jNVRXbFFGS0RCU3BXdVhIY0VPb2IxaWd4MnFHVUdGVTY1aWM5aUxmb080SnJ6TVowZlhrbm15Q0FXQ0F6dWxOclVUQ2NnNU1UcDB2Y18wMUNuSXpWMVlYTHlLZmUxdHBiZHkzaTB2bDUwalh0dWRvcWtrT1Q5bTJoRG9rQg?oc=5",
+"source": "news.google.com",
+"score": -0.3,
+"tags": [],
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre",
+"score_lexique": -0.981
 },
 {
 "date": "2026-11-15",
@@ -773,6 +1788,21 @@
 "llm_impact": -0.6,
 "llm_importance": 0.8,
 "llm_theme": "Dérivés"
+},
+{
+"date": "2026-11-15",
+"ts": "2026-11-15T07:00:00+00:00",
+"title": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
+"link": "https://www.coindesk.com/policy/2026/11/14/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+"source": "coindesk.com",
+"score": 0.0,
+"tags": [
+"Régulation"
+],
+"llm_impact": 0.0,
+"llm_importance": 0.3,
+"llm_theme": "Régulation",
+"score_lexique": 0.0
 },
 {
 "date": "2026-11-15",
@@ -1164,7 +2194,10 @@
 "source": "news.google.com",
 "score": 0.0,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": 0.0,
+"llm_importance": 0.2,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-14",
@@ -1172,11 +2205,14 @@
 "title": "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K - Cryptonews.net",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KZTdKdlpXVEdnekJuZEE1WDUzLXdtVTBBRHB1bkZfaGlVYl9GNWxmX1RpemZpd213TjlveTNBaHJsbG55NHVVVWM4bDVZMFpFeVZkWnhqeVY?oc=5",
 "source": "news.google.com",
-"score": -0.87,
+"score": -0.4,
 "tags": [
 "Macro / Fed"
 ],
-"score_lexique": -0.87
+"score_lexique": -0.87,
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-14",
@@ -1184,9 +2220,12 @@
 "title": "What Happens if Bitcoin Falls Below $65,000? - Yahoo Finance",
 "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYU5FLVVqc3hPOGpWOFBKZjNqSDlKZ0dUMFJseXR1X2twNXpHdjlFa1lQc25mRjJaU0dGUmpEMVBKVDlIYVlFSVRvNkRnRVRkRWNMaGJGQjUzQlRQUlZFdGw3QXo5V3RQV25tOTZ6aDktdVM0S1ZhRGQxQnJWSFhnOUJ5alNnNHlRdDhDMmhlV3Z0cWd4MnREU0lscw?oc=5",
 "source": "news.google.com",
-"score": -0.583,
+"score": -0.3,
 "tags": [],
-"score_lexique": -0.583
+"score_lexique": -0.583,
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-14",
@@ -1194,9 +2233,12 @@
 "title": "What Happens if Bitcoin Falls Below $65,000? - 24/7 Wall St.",
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSkIyTGJvcWdhbmNFRzltMnVETEU0N3NrRE5BVGtCRlNqV2VhM2hDMlRxLU03aDBBZ25BOFd3RkpzSXBlUVMwdFNsbVE4T0hPUmJNVkRaaE9FWUMwdjFmRmRTWmZKLXg2M3RLbWxZZVpaN2pmdXphU2hmT3RNYmd2YU1veVltM3VCc0pZVjh2b2djdGt2cUs4Vk9HRmZEYzA1cEE?oc=5",
 "source": "news.google.com",
-"score": -0.583,
+"score": -0.3,
 "tags": [],
-"score_lexique": -0.583
+"score_lexique": -0.583,
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-14",
@@ -1204,11 +2246,14 @@
 "title": "Bitcoin faces selling pressure as whales offloa... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUE1ELWtkd0VLb3RaM2VmVl8tRVhLZGl1MS1jTDZXbVhiQ1NiSHNkOUFiWGJaRXRENXlEMG92bGQ0aktrcW9MVzJtWE1GN1c3RFN2Yml2bjJUd1J5ZWNlTVdRd2ljbXZnXzNMSDNadDlCQUI1MmlnRElCS3ppeFJCX2dyWTZUcGxk?oc=5",
 "source": "news.google.com",
-"score": -0.583,
+"score": -0.4,
 "tags": [
 "Whales"
 ],
-"score_lexique": -0.583
+"score_lexique": -0.583,
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Whales"
 },
 {
 "date": "2026-11-14",
@@ -1216,9 +2261,14 @@
 "title": "Why Is Bitcoin Crashing This Week? - 24/7 Wall St.",
 "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcmZZbmRObG5qR0F0V1dHOGFkaDJVSlBpb2lVelppUEZmTGoyak9TZzhKRmZjbVNLY20tUjAtaWdpR214d3RBY3ZRWE93N0ZUdTRjV2x2Zm5UY3JiaFR1REdpMjdfZHpCUGFwN1ZXTjQwN29lSmM4TGNUdWlxWV9WelN1TkhiRkFMWVlPNlRjUGt3cmZ4cEdN?oc=5",
 "source": "news.google.com",
-"score": 0.0,
-"tags": [],
-"score_lexique": 0.0
+"score": -0.4,
+"tags": [
+"Macro / Fed"
+],
+"score_lexique": 0.0,
+"llm_impact": -0.4,
+"llm_importance": 0.6,
+"llm_theme": "Macro / Fed"
 },
 {
 "date": "2026-11-14",
@@ -1226,9 +2276,12 @@
 "title": "Bitcoin price dips below $66,000 on Binance des... - Pluang",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOEpmVTdrRklLZUNzQXNOWXpXU1NmU1RDUi1oV2NVTlNJN1FqaXVQajNndWJVN1g3WW16ODgtc3JVN1hWbURFWGkyZVZ1UTY1LVhadUg1Z3dKU1R6T2poTFp0clltZFBlc29TcU12MzNsYlpTU0pyS1lkaDN3MWluYjRZQzlfNTZCNGRQektDN3hxQQ?oc=5",
 "source": "news.google.com",
-"score": 0.0,
+"score": -0.3,
 "tags": [],
-"score_lexique": 0.0
+"score_lexique": 0.0,
+"llm_impact": -0.3,
+"llm_importance": 0.5,
+"llm_theme": "Autre"
 },
 {
 "date": "2026-11-14",
@@ -1256,6 +2309,16 @@
 "llm_importance": 0.8,
 "llm_theme": "Macro / Fed",
 "score_lexique": -0.583
+},
+{
+"date": "2026-11-14",
+"ts": "2026-11-14T16:59:00+00:00",
+"title": "Crypto Market Crash: Changpeng Zhao Reveals 5 Possible Reasons Behind the Sell-Off - Coinpedia",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaERSV3c5YlgxWnF2N3g2UksyMFpTZ19ET25TdnQtQXBnRG1PU01YYV96RHlDTV9mMDA2MWxwTlc3b2lIbmpFWjRORVJseXlpT21vZEZpb2lqWDRSTlpScHBzZktCV3NId0ZCTFNnX3JWeDlDeW1US2I0Tk4yZmc4MXIyVlg2WVpiOXA1ZFNIQnUxRFNVclgwS2xsd2U5cnNxOHYxSHdJTEZzT0FzQmfSAbMBQVVfeXFMUEdpenp2Vk9EVTVwMEktdHdCNnVHal9iWjFuMllBWG0weU53ZTdwWENqOGstZXhKdENLcnJubDFQMXEwaUdhNERtTVpETjBCVGlzc2g4eGRZdVNTbDNYZUdRQ3VWa1d3d0JreDJZU042ci10OEFXRWJVeDc5SUoybVp6T0M2ODVVdTQ3MWZUb1EwbGJVY2NXcmVES2J5MlJJVl8tLUNsMjdrajA0dmRvVTlZY0k?oc=5",
+"source": "news.google.com",
+"score": -0.995,
+"tags": [],
+"score_lexique": -0.995
 },
 {
 "date": "2026-11-14",
@@ -3120,6 +4183,16 @@
 "llm_importance": 0.4,
 "llm_theme": "Macro / Fed",
 "score_lexique": 0.0
+},
+{
+"date": "2026-11-13",
+"ts": "2026-11-13T12:38:00+00:00",
+"title": "Bitcoin Price Today: Bitcoin Drops To $69,411 - Forbes",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZDNxV1NkUDFMODZjdXlQVy1ib2UxVUx1cEJCVUxCMnl0aHJWUnhwc2FWQkYxX041VUljZy12T3hla0FKQ3pVRDdRaWtfem53cnM5aC1pRm9OVXctOXRSd1cwREFjdl9XRFFkS2JIWDR4dWZaWmRxOVBaYWgza01EbktB?oc=5",
+"source": "news.google.com",
+"score": -0.583,
+"tags": [],
+"score_lexique": -0.583
 },
 {
 "date": "2026-11-13",
@@ -19025,6 +20098,18 @@
 "score": 0.0,
 "tags": [],
 "score_lexique": 0.0
+},
+{
+"date": "2026-10-30",
+"ts": "2026-10-30T07:00:00+00:00",
+"title": "Why bitcoin held up better after the record Binance hack - CNBC",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BVTNTUE5pZ2JEMjNpbGdNLWk2bWtKRmdsOWk0UnIxM19xcTZJOFdpQTRHUUtIY0w0N2lnSk5jclRzbTMzaFF2QlZpZmd5bU0xMmwxVFY1dmNtbXVUQzh4MW5pTFM4dzBOcHlWYkdLUE_SAXZBVV95cUxOd2xaRHdBVkgycHg0eTBYRE9DdGR5Z3I3M3p3SG9pbUR3THRPNEhVRGstaXZlQ3VQX1BRUFRrQWY2WXdkTjdlMENFNTZkVFVKOVlJOGxlRm9vLWZZOHh2c2w1aEZEdWZVRHc2YVFZRVBCWGYyY3d3?oc=5",
+"source": "news.google.com",
+"score": -0.583,
+"tags": [
+"Sécurité"
+],
+"score_lexique": -0.583
 },
 {
 "date": "2026-10-30",

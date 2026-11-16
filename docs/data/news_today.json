@@ -1,14 +1,15 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "resume": [
-  "Forte pression baissière sur le Bitcoin, qui a chuté vers la zone des 62 000 $ à 64 000 $ lors d'une correction marquée par des liquidations massives de positions longues.",
-  "Sorties massives et persistantes sur les ETF spot américains, totalisant environ 1,9 à 2,1 milliards de dollars sur une série de plusieurs jours d'affilée.",
-  "Indicateurs techniques et on-chain (comme le Ahr999) signalant une entrée prolongée en zone d'achat de type 'dip-buying', tandis que des acteurs majeurs comme Strategy envisagent de nouveaux achats.",
-  "Inquiétudes macroéconomiques persistantes liées aux craintes de hausses de taux de la Fed et à l'incertitude politique américaine."
+  "Forte baisse du Bitcoin testant la zone des 62 000 $ à 65 000 $ après des liquidations massives d'environ 2 milliards de dollars et des sorties nettes notables sur les ETF spot (plus de 1 milliard de dollars).",
+  "Le sentiment de marché plonge vers une peur extrême, tandis que les options montrent un intérêt marqué pour les puts à 60 000 $ et que les baleines accumulent d'importantes pertes latentes.",
+  "Plusieurs facteurs macroéconomiques et d'actualité pèsent sur le marché, notamment la corrélation avec les actions technologiques, des craintes liées à des introductions en bourse (IPO comme Anthropic) et des hausses probables des taux de la Fed.",
+  "Un incident de piratage ciblant des mineurs de Bitcoin a également été signalé, détournant des récompenses vers des attaquants."
  ],
  "ton_global": -0.6,
  "evenements_a_surveiller": [
-  "Décision de la Fed en décembre mentionnée comme prochain catalyseur potentiel."
+  "Publication des minutes du FOMC",
+  "Résultats financiers de Nvidia"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
