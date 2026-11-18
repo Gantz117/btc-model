@@ -1,16 +1,13 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "resume": [
-  "Le Bitcoin oscille autour de 64 000 dollars dans un contexte de pressions baissières et de craintes macroéconomiques liées aux taux de la Fed.",
-  "L'attention des marchés se tourne vers les résultats de Nvidia et l'IPO d'Anthropic, perçus comme des concurrents mobilisant la liquidité au détriment du secteur crypto.",
-  "Wells Fargo a doublé ses avoirs dans l'ETF Bitcoin de BlackRock pour atteindre 2,35 milliards de dollars, témoignant d'un intérêt institutionnel persistant malgré la baisse.",
-  "Des sorties de capitaux importantes sur les ETF et une vague de liquidations sur les produits dérivés ont poussé le prix du BTC vers un test des seuils de support à 62 000 dollars."
+  "Le marché du Bitcoin subit une phase baissière marquée, avec des sorties persistantes sur les ETF et une lutte sous la barre des 65 000 dollars, testant le support des 62 000 dollars.",
+  "L'attention des investisseurs se tourne vers la liquidité macroéconomique, les sorties de fonds vers de récents IPO technologiques (comme Anthropic) et la publication imminente des minutes du FOMC.",
+  "Malgré des pertes réalisées importantes et une proportion non négligeable de l'offre en difficulté, certains analystes estiment que ces niveaux de capitulation signalent historiquement une zone de creux potentiel."
  ],
- "ton_global": -0.3,
+ "ton_global": -0.4,
  "evenements_a_surveiller": [
-  "Résultats de Nvidia",
-  "IPO d'Anthropic",
-  "Décision de la Fed et anticipations de hausse des taux"
+  "Publication des minutes du FOMC"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
