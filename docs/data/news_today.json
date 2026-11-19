@@ -1,13 +1,12 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "resume": [
-  "Le marché du Bitcoin subit une phase baissière marquée, avec des sorties persistantes sur les ETF et une lutte sous la barre des 65 000 dollars, testant le support des 62 000 dollars.",
-  "L'attention des investisseurs se tourne vers la liquidité macroéconomique, les sorties de fonds vers de récents IPO technologiques (comme Anthropic) et la publication imminente des minutes du FOMC.",
-  "Malgré des pertes réalisées importantes et une proportion non négligeable de l'offre en difficulté, certains analystes estiment que ces niveaux de capitulation signalent historiquement une zone de creux potentiel."
+  "Pression baissière sur le Bitcoin sous les 64 000 $ en raison de sorties nettes massives sur les ETF et d'un intérêt ouvert en baisse.",
+  "Des institutions financières majeures comme Wells Fargo et Goldman Sachs ont fortement accru leurs positions dans les ETF Bitcoin au cours du troisième trimestre.",
+  "Les mineurs de Bitcoin vendent leurs réserves pour financer des infrastructures liées à l'IA, accentuant la pression vendeuse.",
+  "Risques macroéconomiques et réglementaires persistants, notamment les craintes de hausses de taux de la Fed et des affaires judiciaires impliquant de larges sommes en BTC."
  ],
- "ton_global": -0.4,
- "evenements_a_surveiller": [
-  "Publication des minutes du FOMC"
- ],
+ "ton_global": -0.3,
+ "evenements_a_surveiller": [],
  "modele": "gemini-3.5-flash-lite"
 }
