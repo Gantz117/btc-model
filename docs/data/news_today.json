@@ -1,12 +1,14 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "resume": [
-  "Pression baissière sur le Bitcoin sous les 64 000 $ en raison de sorties nettes massives sur les ETF et d'un intérêt ouvert en baisse.",
-  "Des institutions financières majeures comme Wells Fargo et Goldman Sachs ont fortement accru leurs positions dans les ETF Bitcoin au cours du troisième trimestre.",
-  "Les mineurs de Bitcoin vendent leurs réserves pour financer des infrastructures liées à l'IA, accentuant la pression vendeuse.",
-  "Risques macroéconomiques et réglementaires persistants, notamment les craintes de hausses de taux de la Fed et des affaires judiciaires impliquant de larges sommes en BTC."
+  "Le Bitcoin subit une forte correction sous les 62 000 $ (tombant à un plus bas de quatre mois autour de 61 300 $), déclenchant d'importantes liquidations sur les produits dérivés.",
+  "Les ETF Bitcoin enregistrent des sorties massives de capitaux (notamment des retraits de plusieurs centaines de millions de dollars et une forte décollecte pour IBIT de BlackRock), plombant la dynamique de prix.",
+  "Le contexte macroéconomique pèse sur le marché : la chute des actifs dits \"refuge\" comme l'or, les craintes persistantes liées aux taux de la Fed et les minutes du FOMC ravivent la pression vendeuse.",
+  "Les difficultés touchent également l'écosystème institutionnel et minier, avec une forte baisse des actions liées au secteur (comme Strategy/MSTR) et des mineurs contraints de vendre leurs réserves pour survivre."
  ],
- "ton_global": -0.3,
- "evenements_a_surveiller": [],
+ "ton_global": -0.7,
+ "evenements_a_surveiller": [
+  "Ouverture des marchés boursiers vendredi avec la potentielle baisse des actions Anthropic suggérée par les contrats à terme crypto"
+ ],
  "modele": "gemini-3.5-flash-lite"
 }
