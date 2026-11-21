@@ -1,14 +1,12 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "resume": [
-  "Le Bitcoin subit une forte correction sous les 62 000 $ (tombant à un plus bas de quatre mois autour de 61 300 $), déclenchant d'importantes liquidations sur les produits dérivés.",
-  "Les ETF Bitcoin enregistrent des sorties massives de capitaux (notamment des retraits de plusieurs centaines de millions de dollars et une forte décollecte pour IBIT de BlackRock), plombant la dynamique de prix.",
-  "Le contexte macroéconomique pèse sur le marché : la chute des actifs dits \"refuge\" comme l'or, les craintes persistantes liées aux taux de la Fed et les minutes du FOMC ravivent la pression vendeuse.",
-  "Les difficultés touchent également l'écosystème institutionnel et minier, avec une forte baisse des actions liées au secteur (comme Strategy/MSTR) et des mineurs contraints de vendre leurs réserves pour survivre."
+  "Forte chute du prix du Bitcoin, passant sous la barre des 60 000 $ puis s'enfonçant vers 55 000 $ à 57 000 $, sous l'effet d'une pression vendeuse généralisée.",
+  "Vague de liquidations massives avoisinant 1,5 à 2,4 milliards de dollars sur le marché des crypto-actifs dans le sillage de la baisse et de la chute des marchés traditionnels (Nasdaq).",
+  "Pression accrue sur les mineurs dont le coût de production estimé par JPMorgan se situe autour de 86 000 $, ainsi que sur des institutionnels comme Strategy confrontés à d'importantes pertes latentes.",
+  "Correction du sentiment de marché avec un Indice de Peur et de Greffe (Fear and Greed) au plus bas depuis février."
  ],
- "ton_global": -0.7,
- "evenements_a_surveiller": [
-  "Ouverture des marchés boursiers vendredi avec la potentielle baisse des actions Anthropic suggérée par les contrats à terme crypto"
- ],
+ "ton_global": -0.8,
+ "evenements_a_surveiller": [],
  "modele": "gemini-3.5-flash-lite"
 }
