@@ -1,12 +1,15 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "resume": [
-  "Forte chute du prix du Bitcoin, passant sous la barre des 60 000 $ puis s'enfonçant vers 55 000 $ à 57 000 $, sous l'effet d'une pression vendeuse généralisée.",
-  "Vague de liquidations massives avoisinant 1,5 à 2,4 milliards de dollars sur le marché des crypto-actifs dans le sillage de la baisse et de la chute des marchés traditionnels (Nasdaq).",
-  "Pression accrue sur les mineurs dont le coût de production estimé par JPMorgan se situe autour de 86 000 $, ainsi que sur des institutionnels comme Strategy confrontés à d'importantes pertes latentes.",
-  "Correction du sentiment de marché avec un Indice de Peur et de Greffe (Fear and Greed) au plus bas depuis février."
+  "Le marché du Bitcoin a traversé une forte correction baissière marquée par une chute vers les 55 000 $ et des vagues de liquidations massives, avant de rebondir timidement au-dessus des 60 000 $.",
+  "Les ETF Bitcoin au comptant, notamment celui de BlackRock (IBIT), ont enregistré des sorties de capitaux records et une pression vendeuse importante.",
+  "Des tensions macroéconomiques et des corrélations avec les marchés technologiques (chutes sur le Nasdaq) pèsent sur le sentiment des investisseurs.",
+  "L'échéance prochaine d'options d'envergure et l'approche d'une décision sur les taux d'intérêt maintiennent une volatilité élevée."
  ],
- "ton_global": -0.8,
- "evenements_a_surveiller": [],
+ "ton_global": -0.2,
+ "evenements_a_surveiller": [
+  "Expiration d'options Bitcoin d'une valeur de 6,8 milliards de dollars le 27 novembre 2026",
+  "Décision sur les taux d'intérêt le 9 décembre 2026"
+ ],
  "modele": "gemini-3.5-flash-lite"
 }
