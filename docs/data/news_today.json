@@ -1,15 +1,14 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "resume": [
-  "Le marché du Bitcoin a traversé une forte correction baissière marquée par une chute vers les 55 000 $ et des vagues de liquidations massives, avant de rebondir timidement au-dessus des 60 000 $.",
-  "Les ETF Bitcoin au comptant, notamment celui de BlackRock (IBIT), ont enregistré des sorties de capitaux records et une pression vendeuse importante.",
-  "Des tensions macroéconomiques et des corrélations avec les marchés technologiques (chutes sur le Nasdaq) pèsent sur le sentiment des investisseurs.",
-  "L'échéance prochaine d'options d'envergure et l'approche d'une décision sur les taux d'intérêt maintiennent une volatilité élevée."
+  "Forte pression baissière sur les ETF Bitcoin aux États-Unis, marqués par des sorties massives de capitaux (notamment via BlackRock et iShares) avoisinant 1,79 milliard de dollars sur une semaine.",
+  "Correction des prix du BTC descendus brièvement jusqu'à la zone des 55 000 $ avant de rebondir au-dessus des 61 000 $, dans un contexte de forte volatilité macroéconomique liée aux marchés boursiers traditionnels et aux valeurs technologiques.",
+  "Délèvement historique sur les marchés dérivés avec une baisse notable de l'intérêt ouvert (Open Interest) sur Binance, tandis que des volumes importants de pertes réalisées ont été enregistrés.",
+  "Incidents techniques et de liquidité notables, incluant un important flash crash sur le marché canadien de Kraken (touchant des cours très bas) et des pertes de trading pour des structures institutionnelles."
  ],
- "ton_global": -0.2,
+ "ton_global": -0.4,
  "evenements_a_surveiller": [
-  "Expiration d'options Bitcoin d'une valeur de 6,8 milliards de dollars le 27 novembre 2026",
-  "Décision sur les taux d'intérêt le 9 décembre 2026"
+  "Données macroéconomiques américaines et inflation publiées pendant la semaine de Thanksgiving"
  ],
  "modele": "gemini-3.5-flash-lite"
 }

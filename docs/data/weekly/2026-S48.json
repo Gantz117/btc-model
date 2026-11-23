@@ -1,0 +1,926 @@
+{
+ "semaine": "2026-S48",
+ "genere_le": "2026-11-23",
+ "synthese_redigee": {
+  "titre": "Correction brutale et vague de liquidations record pour le Bitcoin sous 60 000 $",
+  "synthese": "Le marché du Bitcoin a traversé une semaine de forte correction, marquée par une chute du prix sous les seuils psychologiques de 60 000 $ et 57 000 $, pour s'établir autour de 61 170,1 $. Cette baisse a été exacerbée par une vague massive de liquidations de contrats à terme et de positions sur les dérivés, ainsi que par d'importants retraits sur les ETF spot américains, menés notamment par l'IBIT de BlackRock. Les actualités macroéconomiques, combinées aux craintes liées aux marchés actions et aux déclarations de la Fed, ont pesé sur l'ensemble des actifs risqués. Selon le rapport Glassnode Market Pulse, la pression vendeuse s'est manifestée à la fois au comptant et sur les produits dérivés, entraînant une purge significative de l'effet de levier et plaçant les acheteurs récents en position de perte nette. Du côté des indicateurs on-chain, le régime de marché est entré en phase d'accumulation profonde, tandis que l'indice Fear & Greed plonge dans une zone de peur extrême. Le prix actuel se trouve en dessous du prix de revient des acheteurs récents et du true market mean, mais reste au-dessus du prix réalisé global. Les investisseurs doivent garder à l'esprit que les indicateurs on-chain et les flux d'ETF suivent généralement le mouvement du prix plutôt qu'ils ne l'anticipent, et que les prévisions du modèle ne surperforment pas historiquement l'hypothèse d'un prix inchangé.",
+  "facteurs_haussiers": [
+   "Entrées massives institutionnelles constatées au troisième trimestre (notamment Wells Fargo et Goldman Sachs doublant leurs positions sur les ETF)",
+   "Purge historique de l'effet de levier et nettoyage des positions ouvertes sur les exchanges",
+   "Indice de peur extrême signalant historiquement des zones propices à des points bas locaux"
+  ],
+  "facteurs_baissiers": [
+   "Vague massive de liquidations de contrats à terme et de positions de trading avoisinant plusieurs milliards de dollars",
+   "Sorties nettes records et continues sur les ETF spot américains",
+   "Pressions sur les mineurs de bitcoins avec un coût de production estimé par JPMorgan bien au-dessus du prix du marché"
+  ],
+  "a_surveiller": [
+   "La capacité du Bitcoin à défendre les supports techniques et à stabiliser son cours après la chute sous les 60 000 $",
+   "L'évolution des flux sur les ETF spot et le comportement des investisseurs institutionnels",
+   "Le niveau de l'open interest et la persistance ou non de la pression vendeuse sur les marchés dérivés"
+  ],
+  "coherence": "Les actualités de ventes massives et de liquidations records confirment la dégradation rapide des indicateurs techniques et le basculement du marché en phase de peur extrême.",
+  "modele": "gemini-3.5-flash-lite"
+ },
+ "prix_reference": 61170.1,
+ "previsions": {
+  "semaine": {
+   "date_cible": "2026-11-29",
+   "cible": 60992.0,
+   "bas_80": 58123.0,
+   "haut_80": 68393.0,
+   "variation_pct": -0.29,
+   "confiance": 50.6,
+   "confiance_label": "faible",
+   "signaux": {
+    "technique": "baissier",
+    "onchain": "haussier",
+    "sentiment": "haussier"
+   }
+  },
+  "mois": {
+   "date_cible": "2026-11-30",
+   "cible": 60980.0,
+   "bas_80": 57918.0,
+   "haut_80": 68922.0,
+   "variation_pct": -0.31,
+   "confiance": 50.9,
+   "confiance_label": "faible",
+   "signaux": {
+    "technique": "baissier",
+    "onchain": "haussier",
+    "sentiment": "haussier"
+   }
+  }
+ },
+ "points_attention": [
+  "Régime de marché : accumulation profonde (score -0.64, en baisse sur 30 j), depuis le 2026-11-21.",
+  "Prix historiquement bas par rapport à la loi de puissance : zone d'accumulation par le passé.",
+  "Peur extrême : historiquement souvent proche de points bas locaux (signal contrarien).",
+  "Prix en dessous du prix de revient des acheteurs récents (74 316 $, écart -17.7 %) : ils sont en perte en moyenne, d'où un risque de ventes à l'équilibre lors d'un rebond.",
+  "Glassnode Market Pulse (2026-11-16) : indicateurs en zone extrême : Momentum du prix (sous la borne basse) ; Pression acheteuse au comptant (CVD) (sous la borne basse) ; Volume au comptant (au-dessus de la borne haute) ; Pression acheteuse sur les perpétuels (CVD) (sous la borne basse).",
+  "Signaux des sous-modèles (semaine) : technique baissier, onchain haussier, sentiment haussier."
+ ],
+ "cycle": {
+  "jours_depuis_halving": 946,
+  "phase_cycle_pct": 65.0,
+  "multiple_mayer": 0.85,
+  "ecart_200_semaines_pct": -10.2,
+  "prix_loi_puissance": 146486.0,
+  "ecart_loi_puissance_pct": -58.2,
+  "percentile_loi_puissance": 14.0,
+  "ath": 124766.0,
+  "ecart_ath_pct": -51.0,
+  "rsi_hebdo": 35.4,
+  "rsi_jour": 26.8,
+  "tendance_50_200": "croisement haussier (MM50 > MM200)",
+  "perf_7j_pct": -6.3,
+  "perf_30j_pct": -24.6,
+  "lecture": "946 jours depuis le dernier halving (65.0 % du cycle) : seconde moitié de cycle, historiquement phase de correction/marché baissier. Historiquement, les sommets de cycle sont intervenus 12 à 18 mois après le halving et les creux environ 12 mois après le sommet (seulement 3 cycles complets observés : prudence). Le prix est à -58.2 % de la loi de puissance (percentile 14 de l'historique), multiple de Mayer 0.85, -10.2 % au-dessus de la moyenne 200 semaines. Tendance : croisement haussier (MM50 > MM200)."
+ },
+ "niveaux_cles": [
+  {
+   "cle": "sth_cost_basis",
+   "nom": "Prix de revient des acheteurs récents (< 155 j)",
+   "valeur": 74316.0,
+   "date": "2026-11-16",
+   "source": "BGeometrics",
+   "retard_jours": 6,
+   "ecart_pct": -17.7,
+   "position": "en dessous",
+   "franchi_7j": null
+  },
+  {
+   "cle": "true_market_mean",
+   "nom": "True market mean (prix de revient des coins actifs)",
+   "valeur": 78534.0,
+   "date": "2026-11-16",
+   "source": "BGeometrics",
+   "retard_jours": 6,
+   "ecart_pct": -22.1,
+   "position": "en dessous",
+   "franchi_7j": null
+  },
+  {
+   "cle": "realized_price",
+   "nom": "Prix réalisé (prix de revient moyen de tout le marché)",
+   "valeur": 53206.0,
+   "date": "2026-11-22",
+   "source": "CoinMetrics",
+   "retard_jours": 0,
+   "ecart_pct": 15.0,
+   "position": "au-dessus",
+   "franchi_7j": null
+  }
+ ],
+ "glassnode_pulse": {
+  "titre": "BTC Market Pulse: Week 47",
+  "lien": "https://research.glassnode.com/btc-market-pulse-week-47-2026/",
+  "publie_le": "2026-11-16",
+  "categories": {
+   "Spot": {
+    "niveau": "modéré",
+    "score": -0.67,
+    "n": 3,
+    "tendance": "en baisse"
+   },
+   "Contrats à terme": {
+    "niveau": "modéré",
+    "score": -0.67,
+    "n": 3,
+    "tendance": "en baisse"
+   },
+   "Options": {
+    "niveau": "modéré",
+    "score": 0.0,
+    "n": 3,
+    "tendance": "en baisse"
+   },
+   "ETF": {
+    "niveau": "bas",
+    "score": -1.5,
+    "n": 2,
+    "tendance": "en baisse"
+   },
+   "Activité du réseau": {
+    "niveau": "modéré",
+    "score": 0.67,
+    "n": 3,
+    "tendance": "en baisse"
+   },
+   "Flux de capitaux": {
+    "niveau": "élevé",
+    "score": 1.33,
+    "n": 3,
+    "tendance": "en baisse"
+   },
+   "Profits / pertes": {
+    "niveau": "bas",
+    "score": -1.33,
+    "n": 3,
+    "tendance": "en baisse"
+   }
+  },
+  "extremes": [
+   {
+    "nom_fr": "Momentum du prix",
+    "categorie": "Spot",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Pression acheteuse au comptant (CVD)",
+    "categorie": "Spot",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Volume au comptant",
+    "categorie": "Spot",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Pression acheteuse sur les perpétuels (CVD)",
+    "categorie": "Contrats à terme",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Open interest des options",
+    "categorie": "Options",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Skew 25-delta (demande de protection)",
+    "categorie": "Options",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Profit latent des acheteurs d'ETF (MVRV)",
+    "categorie": "ETF",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Adresses actives",
+    "categorie": "Activité du réseau",
+    "zone": "au-dessus de la borne haute",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Offre détenteurs court terme / long terme",
+    "categorie": "Flux de capitaux",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Part des capitaux « chauds »",
+    "categorie": "Flux de capitaux",
+    "zone": "très au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Profits réalisés / pertes réalisées",
+    "categorie": "Profits / pertes",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   }
+  ],
+  "indicateurs": [
+   {
+    "nom_fr": "Momentum du prix",
+    "categorie": "Spot",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Pression acheteuse au comptant (CVD)",
+    "categorie": "Spot",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Volume au comptant",
+    "categorie": "Spot",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Open interest des contrats à terme",
+    "categorie": "Contrats à terme",
+    "zone": "bas de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Financement payé par les acheteurs à levier",
+    "categorie": "Contrats à terme",
+    "zone": "haut de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Pression acheteuse sur les perpétuels (CVD)",
+    "categorie": "Contrats à terme",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Open interest des options",
+    "categorie": "Options",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Écart de volatilité (implicite – réalisée)",
+    "categorie": "Options",
+    "zone": "milieu de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Skew 25-delta (demande de protection)",
+    "categorie": "Options",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Flux nets des ETF (semaine)",
+    "categorie": "ETF",
+    "zone": "non précisée",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Volume échangé des ETF (semaine)",
+    "categorie": "ETF",
+    "zone": "bas de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Profit latent des acheteurs d'ETF (MVRV)",
+    "categorie": "ETF",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Frais de transaction",
+    "categorie": "Activité du réseau",
+    "zone": "bas de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Volume transféré (ajusté)",
+    "categorie": "Activité du réseau",
+    "zone": "haut de la fourchette",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Adresses actives",
+    "categorie": "Activité du réseau",
+    "zone": "au-dessus de la borne haute",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Entrées de capitaux (cap. réalisée, 30 j)",
+    "categorie": "Flux de capitaux",
+    "zone": "milieu de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Offre détenteurs court terme / long terme",
+    "categorie": "Flux de capitaux",
+    "zone": "au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Part des capitaux « chauds »",
+    "categorie": "Flux de capitaux",
+    "zone": "très au-dessus de la borne haute",
+    "direction": "hausse"
+   },
+   {
+    "nom_fr": "Part de l'offre en profit",
+    "categorie": "Profits / pertes",
+    "zone": "bas de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Profit latent net (NUPL)",
+    "categorie": "Profits / pertes",
+    "zone": "bas de la fourchette",
+    "direction": "baisse"
+   },
+   {
+    "nom_fr": "Profits réalisés / pertes réalisées",
+    "categorie": "Profits / pertes",
+    "zone": "sous la borne basse",
+    "direction": "baisse"
+   }
+  ],
+  "resume": {
+   "resume": "Selon Glassnode, le Bitcoin a subi une forte correction la semaine passée et évolue autour de 64 000 $, après un passage sous 63 000 $ ce week-end. La baisse a été portée par des ventes agressives au comptant comme sur les dérivés, et les fonds ETF américains sont restés vendeurs. Glassnode note toutefois que l'effet de levier a été largement purgé et que les acheteurs récents, désormais en moyenne en perte, concentrent la pression, ce qui laisse un marché moins encombré qu'une semaine plus tôt.",
+   "points_cles": [
+    "Dynamique de prix et flux acheteurs en zone basse extrême, volume au comptant en zone haute",
+    "Levier des contrats à terme fortement réduit, demande de protection accrue sur les options",
+    "Pertes concentrées chez les détenteurs récents, ETF toujours vendeurs"
+   ],
+   "modele": "Claude (lecture hebdomadaire depuis le PC)"
+  },
+  "via": "lecture depuis le PC",
+  "source": "Glassnode, BTC Market Pulse (lecture automatique, positions uniquement)"
+ },
+ "regime": {
+  "score": -0.641,
+  "regime": "accumulation profonde",
+  "depuis": "2026-11-21",
+  "jours_dans_regime": 2,
+  "composantes": {
+   "loi_puissance": -0.927,
+   "mayer": -0.736,
+   "mvrv": -0.892,
+   "moyenne_200_semaines": -0.896,
+   "drawdown_ath": -0.525,
+   "rsi_hebdo": -0.841
+  },
+  "lecture": "Score -0.64 : accumulation profonde. Les indicateurs de valorisation long terme sont tous dans le bas de leur historique récent. Par le passé, ces zones ont précédé les meilleurs rendements à 6–12 mois, mais elles peuvent durer des mois et le prix peut encore baisser. Rappel : trois cycles observés seulement, et les régimes extrêmes ne reviennent que quelques fois par décennie."
+ },
+ "onchain": {
+  "variables": [
+   {
+    "variable": "etf_flow_30d",
+    "libelle": "Flux nets des ETF spot (30 j, BTC)",
+    "valeur": -59155.8799,
+    "z_1an": -1.66,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les ETF achètent : demande institutionnelle",
+    "p_value": 0.1033,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.167,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "exch_inflow_z",
+    "libelle": "Pic de dépôts sur les exchanges (z-score)",
+    "valeur": 1.9723,
+    "z_1an": 2.02,
+    "tendance": "en hausse",
+    "lecture_si_hausse": "dépôts inhabituels sur les exchanges (souvent des gros portefeuilles)",
+    "p_value": 0.276,
+    "p_holm": 1.0,
+    "retard_jours": 5,
+    "corr_rendement_7j": 0.055,
+    "significatif": false,
+    "p_prix_vers_variable": 0.5632,
+    "suit_le_prix": false
+   },
+   {
+    "variable": "sharks_100_1k_30d",
+    "libelle": "BTC des adresses 100–1 000 BTC (30 j)",
+    "valeur": -0.0109,
+    "z_1an": -1.32,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les gros portefeuilles accumulent",
+    "p_value": 0.3151,
+    "p_holm": 1.0,
+    "retard_jours": 7,
+    "corr_rendement_7j": -0.032,
+    "significatif": false,
+    "p_prix_vers_variable": 0.2551,
+    "suit_le_prix": false
+   },
+   {
+    "variable": "mvrv_30d",
+    "libelle": "MVRV (variation 30 j)",
+    "valeur": -0.2854,
+    "z_1an": -1.92,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "",
+    "p_value": 0.4229,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.126,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "etf_flow_7d",
+    "libelle": "Flux nets des ETF spot (7 j, BTC)",
+    "valeur": -19405.4687,
+    "z_1an": -1.51,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les ETF achètent : demande institutionnelle",
+    "p_value": 0.4416,
+    "p_holm": 1.0,
+    "retard_jours": 7,
+    "corr_rendement_7j": 0.143,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "hashrate_30d",
+    "libelle": "Hashrate (variation 30 j)",
+    "valeur": 0.0236,
+    "z_1an": 0.42,
+    "tendance": "dans la moyenne",
+    "lecture_si_hausse": "",
+    "p_value": 0.4453,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.119,
+    "significatif": false,
+    "p_prix_vers_variable": 1.0,
+    "suit_le_prix": false
+   },
+   {
+    "variable": "exch_netflow_30d",
+    "libelle": "Flux net vers les exchanges (30 j)",
+    "valeur": -42.1178,
+    "z_1an": -1.51,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "plus de BTC envoyés vers les exchanges : pression vendeuse potentielle",
+    "p_value": 0.5623,
+    "p_holm": 1.0,
+    "retard_jours": 7,
+    "corr_rendement_7j": 0.056,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0006,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "whales_10k_30d",
+    "libelle": "BTC des whales > 10 000 BTC (30 j)",
+    "valeur": 0.0304,
+    "z_1an": 1.87,
+    "tendance": "en hausse",
+    "lecture_si_hausse": "les très gros portefeuilles accumulent",
+    "p_value": 0.6532,
+    "p_holm": 1.0,
+    "retard_jours": 3,
+    "corr_rendement_7j": -0.012,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0087,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "whales_1k_10k_7d",
+    "libelle": "BTC des whales 1 000–10 000 BTC (7 j)",
+    "valeur": -0.0111,
+    "z_1an": -1.74,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les whales accumulent",
+    "p_value": 0.728,
+    "p_holm": 1.0,
+    "retard_jours": 7,
+    "corr_rendement_7j": -0.083,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0064,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "active_addr_30d",
+    "libelle": "Adresses actives (variation 30 j)",
+    "valeur": 0.0866,
+    "z_1an": 1.59,
+    "tendance": "en hausse",
+    "lecture_si_hausse": "",
+    "p_value": 0.895,
+    "p_holm": 1.0,
+    "retard_jours": 5,
+    "corr_rendement_7j": -0.002,
+    "significatif": false,
+    "p_prix_vers_variable": 1.0,
+    "suit_le_prix": false
+   },
+   {
+    "variable": "lth_netpos_z",
+    "libelle": "Position nette des détenteurs long terme (z-score)",
+    "valeur": -1.1314,
+    "z_1an": -1.09,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les détenteurs long terme accumulent",
+    "p_value": 0.9593,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": -0.029,
+    "significatif": false,
+    "p_prix_vers_variable": 0.8004,
+    "suit_le_prix": false
+   },
+   {
+    "variable": "exch_netflow_7d",
+    "libelle": "Flux net vers les exchanges (7 j)",
+    "valeur": -16.6648,
+    "z_1an": -1.62,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "plus de BTC envoyés vers les exchanges : pression vendeuse potentielle",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": -0.066,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0151,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "exch_reserve_30d",
+    "libelle": "Réserves des exchanges (variation 30 j)",
+    "valeur": 0.0079,
+    "z_1an": 0.57,
+    "tendance": "en hausse",
+    "lecture_si_hausse": "réserves des exchanges en hausse : offre disponible à la vente en hausse",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 7,
+    "corr_rendement_7j": 0.003,
+    "significatif": false,
+    "p_prix_vers_variable": 0.005,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "mvrv",
+    "libelle": "MVRV (valeur de marché / valeur réalisée)",
+    "valeur": 0.1222,
+    "z_1an": -1.74,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "le marché est plus loin de son prix de revient moyen (plus « cher »)",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.013,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "whales_10k_7d",
+    "libelle": "BTC des whales > 10 000 BTC (7 j)",
+    "valeur": 0.0232,
+    "z_1an": 3.31,
+    "tendance": "en hausse",
+    "lecture_si_hausse": "les très gros portefeuilles accumulent",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 7,
+    "corr_rendement_7j": 0.029,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0006,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "whales_1k_10k_30d",
+    "libelle": "BTC des whales 1 000–10 000 BTC (30 j)",
+    "valeur": -0.0103,
+    "z_1an": -0.82,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les whales accumulent",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.071,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0855,
+    "suit_le_prix": false
+   },
+   {
+    "variable": "sharks_100_1k_7d",
+    "libelle": "BTC des adresses 100–1 000 BTC (7 j)",
+    "valeur": -0.0037,
+    "z_1an": -1.08,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les gros portefeuilles accumulent",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.058,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0303,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "sopr_7d",
+    "libelle": "SOPR moyen 7 j (prises de profit / pertes)",
+    "valeur": -0.0201,
+    "z_1an": -2.68,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "les coins dépensés le sont avec plus de profit (prises de bénéfices)",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 1,
+    "corr_rendement_7j": 0.061,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0,
+    "suit_le_prix": true
+   },
+   {
+    "variable": "etf_flow_z",
+    "libelle": "Flux ETF 7 j inhabituels (z-score)",
+    "valeur": -1.4412,
+    "z_1an": -1.21,
+    "tendance": "en baisse",
+    "lecture_si_hausse": "achats ETF inhabituellement forts",
+    "p_value": 1.0,
+    "p_holm": 1.0,
+    "retard_jours": 5,
+    "corr_rendement_7j": 0.135,
+    "significatif": false,
+    "p_prix_vers_variable": 0.0,
+    "suit_le_prix": true
+   }
+  ],
+  "lecture": "Sur 3 ans, 0 variable(s) on-chain/ETF sur 19 aident significativement à prévoir le prix (p < 5 % après correction pour les retards testés) ; 0 après correction pour le nombre de variables (Holm). À l'inverse, le prix aide à prévoir 13 d'entre elles : ces variables suivent le marché plus qu'elles ne l'anticipent. Une causalité de Granger est prédictive, pas une preuve de lien de cause à effet."
+ },
+ "sentiment": {
+  "fear_greed": {
+   "actuel": 11.0,
+   "il_y_a_7j": 10.0,
+   "moyenne_30j": 28.0,
+   "zone": "peur extrême"
+  },
+  "actualites": {
+   "n": 651,
+   "score_moyen": -0.204
+  },
+  "themes": {
+   "Macro / Fed": 164,
+   "Institutionnels": 92,
+   "Dérivés": 69,
+   "ETF": 69,
+   "Régulation": 32,
+   "Sécurité": 30,
+   "Mining": 23,
+   "Whales": 10,
+   "Technologie": 7
+  },
+  "titres_negatifs": [
+   {
+    "title": "Bitcoin Price Prediction: Why BTC Could Crash Below $62K - Coinpaper",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb1RnRTItVzNldzdyNDBZcXdJM0QtRWd0VjItMU5iemhqdUpuM09wanlDLWhja1pLcmhxWWI5Z2kwTHZHTmFNNlpIcUtZSnVZVFNicmtzY3RqX19YTFZYZkVTMjd3MVRveWppVFRadkItMGN5Z3l5NVNWbmpvVzlkMHJ6TzE5VGh4T0VR?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-19",
+    "score": -0.931,
+    "tags": []
+   },
+   {
+    "title": "Bitcoin Price Crashes to $62K: Did Mara’s $1B BTC Sale Cause It? - 99Bitcoins",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fOHM1ZU1FWEtkRko3YkJZM2lqcmxXWFNOUHJUVHZNMGxDWEsyd2N3OTNaRURtWnFDdGFUVmxBT2Q5NnZQN3B5NldfVlJ1dWJ2TlkzcWtWRUM2dFd1TkplWkdab0ZReGplcldiWm1qVXdhSzl2cERkd1ZyQjVZWTA?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-16",
+    "score": -0.931,
+    "tags": []
+   },
+   {
+    "title": "Bitcoin Price Prediction: BTC Rebounds From $62K Crash, but Could $60K Be Next? - Coinpaper",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVU9RcjVDUGhfV2wtYVYzVm9ScV8zUTNIVmlmdmRNUHlFcHJxY191bFU1ekkyN0tWV3FQNlRRVUhobEJxTjM0V3hUR3N2NUZ5ODdkSTVRYlpQc3YwRkc0RG53YXBXSWVrajZ0WElFWHF1Y1FoNDRoRUFoQVhfTTFpbE1DYWhMN0RFZDU1S1JIMHhKR1ZWbTcwcGZ2TnFzYXRwU1ZxZ2tfOA?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-16",
+    "score": -0.931,
+    "tags": []
+   },
+   {
+    "title": "Bitcoin Price Drops to 3-Month Low Amid $500M in Long Liquidations - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSXNHVW81YzFwVnoydUZGWWZ5b2lWdmkzSVA5eEsybG5hYnlhRGo1Q2NIaDR1bFFUN3dEM3ItX0dWUU0xSHd3SURKeG5IclByTEctSFNydWRCa3U2M0ZTajBQUDV4MG5UNUJLYkJTZkpoN2x6RHkwcVhjUWppZzNRdTZmMk5ld1p3bjg1RjFvSHV3dzNGaG5KQkFkMlFCbmtu?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-16",
+    "score": -0.931,
+    "tags": [
+     "Dérivés"
+    ]
+   },
+   {
+    "title": "Ether Falls 10% to Near $1,550 as Four-Week Loss Reaches 35% - Bitcoin Foundation",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSzMtVkNLTDRTTTlydkEwT3dsdFp0THNUeGRVN1ZaX2lMcTVBUXNVc29kSHZudWFMTHhIZE9EZFRUbVFFZnJ1d0dKbUpHcHZwbzdpOUlrQkduVGQwSUw5bjJwSmJTdm9NM25ZWFVPRkJfZ2x0a3JCcHJKd0FpMjJUYXlNMXU1Qy1kdGNIRl9mS1Jqa2JJVDR4QmgwQld5bkxIR2ppeA?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-20",
+    "score": -0.87,
+    "tags": []
+   }
+  ],
+  "titres_positifs": [
+   {
+    "title": "Bitcoin-to-gold ratio flashes bullish signal as BTC price outperforms the precious metal - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR1JRUnBpbkVvbnQ2WTcxbHI3dloxazRwd0FYT25wWkF1Z0ZFNmNpbU9nTlJ4NjlaTGcySE1SeVk4ZTBoTmc4VmltTU9hQ0ZjLU4zVThMaW1jdW96bHdYWGh4ZVZSZkFEWUVqVlV4WVYwYXJDOERaMmc0dFMtS3pXOUU5VVkyVVB2V2VnMEw4OEVLbkxIWHAwdG9YdHYwTTB3cDhxMGVyeUkweVM0a09NaTBJeVh0ZGZTODdvYy1MY0c5QQ?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-18",
+    "score": 0.87,
+    "tags": []
+   },
+   {
+    "title": "Bitcoin price erases its summer rally gains, how much further could BTC fall? - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CNU8xX3RIaXI0dmFmNi1hZEp3LWdFV0czM3Y3c3lmMnpnY0gySE16dl9FN1VHN3h5RWZsRm9lRklNWnkya0tRVHUtYU1RN2FNZUtnLXZsdTNhZzZQcUhsVHVjaGJvSjRwMjZrVXplZlZ4RVozRWZBYmNBRm4?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-19",
+    "score": 0.87,
+    "tags": []
+   },
+   {
+    "title": "Bitcoin price rebounds toward $64K ahead of Anthropic’s $107B stock offering as AI altcoins rally - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kYngtb1Ewbzh1WThveWRmRDZMNmVJU21FYnhRaENJcDR3T09wZ3pDX2ZtNl95OF9ENkRUXzluTi1YcHo3UGtqSjRnVUVsNEZ0Zlk2MUx6aHZORTV3dV9oT2JLeDBvVmN3aVVsVXdPU1Y3bDhp?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-19",
+    "score": 0.87,
+    "tags": []
+   },
+   {
+    "title": "Goldman Sachs More Than Doubles Its Bitcoin ETF Holdings to $1.28 Billion",
+    "link": "https://bitcoinmagazine.com/news/goldman-sachs-bitcoin-etf-holdings",
+    "source": "bitcoinmagazine.com",
+    "date": "2026-11-17",
+    "score": 0.7,
+    "tags": [
+     "ETF",
+     "Institutionnels"
+    ]
+   },
+   {
+    "title": "Wells Fargo More Than Doubles Its Bitcoin ETF Stake to $2.35 Billion",
+    "link": "https://bitcoinmagazine.com/news/wells-fargo-ibit-stake-doubles-strategy-cut",
+    "source": "bitcoinmagazine.com",
+    "date": "2026-11-17",
+    "score": 0.7,
+    "tags": [
+     "ETF",
+     "Institutionnels"
+    ]
+   }
+  ],
+  "titres_importants": [
+   {
+    "title": "Nvidia and SanDisk Bets Joined Bitcoin in a $1.76 Billion Liquidation Wave - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3Y3hVaUJUeV9YZUYyU3A3bnVKNlNVSi1wZ0NZZTctMG96WkptWW9CQ0ltNl9FbV94Q3k4X0xkMjF5RDlnZGp1ZFhfbDI3dTVpeTFSZjFTTGZVY0dOOGUzc191U09EelhwbVJFcWtSTG9WN0ZXcmRiSA?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-21",
+    "score": -0.8,
+    "tags": [
+     "Dérivés"
+    ],
+    "llm_importance": 0.9
+   },
+   {
+    "title": "Bitcoin drops 18% in seven days, breaking its summer low - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuendsMUg4WjhLUHZ0N2xiTGx4YzNIcmNGY3p6akdOU2tZZjBzYW9RYTdkVTZFWDMtWVZDYTdldWE2MzJoQTQtaTB3eGs1Yk52WWdPNVJGakdMekh0eVp0MnhscjBuYjRCa3Y1NWxSTk4?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-21",
+    "score": -0.8,
+    "tags": [
+     "Macro / Fed"
+    ],
+    "llm_importance": 0.9
+   },
+   {
+    "title": "Why Is Bitcoin Dropping? Liquidations Near $2.4B - Bitcoin Foundation",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVHpZc2pNSmFTdFJ4cGVHSUZkUnFNNDZRV1NmRDRaMXpjMTl6Z1VNek5oSzdlZGI3VUdva2k4RXpOQjlQMU9McTVuUmljVzVlNldzZ2ltT1FoVGRMeUR6S09VUWEtalZVOU9mWUxZNHZIZnFUTzc5ZkxSeHBZYjNSc2NOOFdqdng5VS1UTXRFdzYyZWZ4c3VReEpoenI?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-21",
+    "score": -0.8,
+    "tags": [
+     "Dérivés"
+    ],
+    "llm_importance": 0.9
+   },
+   {
+    "title": "Bitcoin (BTC) tanks below $57,000, wiping out $2.4 billion in crypto bets - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVXQyRVlCTU5XNjdyZDVyTnNOVTUzVGlyWHAxYk5CUm9tME1VTllrVWNaREZHVkpzRVhYX1Q0ajZMUjBiUUloMTFvNGdxRFVlNlRYVkplVEJ1em4waFRfTFVCQXRPRlBhT29NSndpNGRDcVdtbW9Cdkl2NjQxZW1NSGVRcmJhbVFMSTlveGVwOGFSdWRnUXhVUi1UVmNwTjhqTjUtUDB4Q1VIR0duRjNyLW9MN0FFQmZSbFJGeE5kVHE?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-21",
+    "score": -0.8,
+    "tags": [
+     "Dérivés"
+    ],
+    "llm_importance": 0.9
+   },
+   {
+    "title": "Bitcoin ETFs Lose $1.79 Billion in One Week While BTC Falls Nearly 10% - Coinpaper",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbTNfMk5VejdESWc1bzc5UnEyN0hHNmg5TEhLc1BXVHlSNERzQVlpMVdYUTVjU3FuUnRQV1pvTk9uYk8zcVNUdEg5N3dxTHlqWmwzaXVWZHE5ZXRlWkJMR3N5QW5tTFVXazkxaXR2N3FaQnNfMEdLSy1EUVpxa1lhalVGb2NUSEUzc2N4Nzc5N2ZyUDlSdkUzMmJrRjVrdw?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-23",
+    "score": -0.6,
+    "tags": [
+     "ETF"
+    ],
+    "llm_importance": 0.8
+   },
+   {
+    "title": "BlackRock's IBIT Drives $1.79 Billion Exodus From US Spot Bitcoin ETFs - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lcG5TTWNNVzJRYkJpMWtXSmdlUFlWRmxVSG1jWlh2dTZJdlJMUmhXWGdrU3dtVFcxZ3lPNW03X2xFX29mOHFQWVNVSlBBSTZCZEhldkdqWS1ES19XTXBHMDRmM2NIQU8wS0U5V1cza1lmd0xaNlE?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-23",
+    "score": -0.6,
+    "tags": [
+     "ETF"
+    ],
+    "llm_importance": 0.8
+   },
+   {
+    "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
+    "link": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+    "source": "cointelegraph.com",
+    "date": "2026-11-23",
+    "score": -0.6,
+    "tags": [
+     "ETF"
+    ],
+    "llm_importance": 0.8
+   },
+   {
+    "title": "Binance Bitcoin open interest drops nearly 40% in largest deleveraging on record - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sMnVTQnM0cHRfMUFKQjQ4NDNSX01QR2E3d2oyR1JfUExVdGdHaTlocVdHUVB4X3ExZGNqMDkxREpaazNhYUhOdnQ4RFUwQnNLNm9TTk9WaExYUjhRLWM5OFRpSDFjRV9nc3liRnR3T0JVc1lfY1BfVVZKZm5NMEE?oc=5",
+    "source": "news.google.com",
+    "date": "2026-11-23",
+    "score": -0.7,
+    "tags": [
+     "Dérivés"
+    ],
+    "llm_importance": 0.8
+   }
+  ],
+  "lecture": "Fear & Greed à 11 (peur extrême), contre 10 il y a 7 jours. Ton des 651 titres de la semaine (notés par Gemini) : plutôt négatif. Thèmes dominants : Macro / Fed, Institutionnels, Dérivés. Le score d'actualité n'entre pas encore dans le calcul de la cible (pas d'historique suffisant pour le valider) ; il est fourni à titre qualitatif."
+ },
+ "semaine_passee": {
+  "n": 7,
+  "erreur_moyenne_pct": 2.11,
+  "dans_intervalle_pct": 71.0,
+  "detail": [
+   {
+    "date": "2026-11-16",
+    "cible": 65278.0,
+    "reel": 64811.0
+   },
+   {
+    "date": "2026-11-17",
+    "cible": 64775.0,
+    "reel": 64877.0
+   },
+   {
+    "date": "2026-11-18",
+    "cible": 64840.0,
+    "reel": 62985.0
+   },
+   {
+    "date": "2026-11-19",
+    "cible": 62961.0,
+    "reel": 61914.0
+   },
+   {
+    "date": "2026-11-20",
+    "cible": 61876.0,
+    "reel": 58806.0
+   },
+   {
+    "date": "2026-11-21",
+    "cible": 58789.0,
+    "reel": 60089.0
+   },
+   {
+    "date": "2026-11-22",
+    "cible": 60044.0,
+    "reel": 61170.0
+   }
+  ]
+ },
+ "qualite_donnees": 1.0
+}
