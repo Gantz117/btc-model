@@ -1,14 +1,14 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-25",
  "resume": [
-  "Forte pression baissière sur les ETF Bitcoin aux États-Unis, marqués par des sorties massives de capitaux (notamment via BlackRock et iShares) avoisinant 1,79 milliard de dollars sur une semaine.",
-  "Correction des prix du BTC descendus brièvement jusqu'à la zone des 55 000 $ avant de rebondir au-dessus des 61 000 $, dans un contexte de forte volatilité macroéconomique liée aux marchés boursiers traditionnels et aux valeurs technologiques.",
-  "Délèvement historique sur les marchés dérivés avec une baisse notable de l'intérêt ouvert (Open Interest) sur Binance, tandis que des volumes importants de pertes réalisées ont été enregistrés.",
-  "Incidents techniques et de liquidité notables, incluant un important flash crash sur le marché canadien de Kraken (touchant des cours très bas) et des pertes de trading pour des structures institutionnelles."
+  "Le Bitcoin passe sous la barre des 60 000 $ et glisse sous 59 000 $ dans un contexte de tensions et de pression vendeuse.",
+  "Les ETF Bitcoin spot enregistrent des sorties massives (plusieurs milliards de dollars de flux sortants mensuels et sur plusieurs jours).",
+  "L'approche des données de l'indice PCE américain et des anticipations sur la politique de la Fed pèsent sur le marché.",
+  "Les mineurs et certaines structures institutionnelles font face à des pressions ou ajustent leurs portefeuilles (ventes potentielles, baisse du taux de hachage)."
  ],
- "ton_global": -0.4,
+ "ton_global": -0.6,
  "evenements_a_surveiller": [
-  "Données macroéconomiques américaines et inflation publiées pendant la semaine de Thanksgiving"
+  "Publication de l'indice des prix PCE aux États-Unis"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
