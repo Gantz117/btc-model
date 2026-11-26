@@ -1,14 +1,14 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "resume": [
-  "Le Bitcoin passe sous la barre des 60 000 $ et glisse sous 59 000 $ dans un contexte de tensions et de pression vendeuse.",
-  "Les ETF Bitcoin spot enregistrent des sorties massives (plusieurs milliards de dollars de flux sortants mensuels et sur plusieurs jours).",
-  "L'approche des données de l'indice PCE américain et des anticipations sur la politique de la Fed pèsent sur le marché.",
-  "Les mineurs et certaines structures institutionnelles font face à des pressions ou ajustent leurs portefeuilles (ventes potentielles, baisse du taux de hachage)."
+  "Expiration massive d'options Bitcoin estimée à 7 milliards de dollars sur Deribit, entraînant des couvertures et des mouvements de volatilité à court terme.",
+  "Persistance d'un sentiment baissier de fond sur le marché, marqué par une série de pertes hebdomadaires pour le Bitcoin et des sorties de capitaux record sur les ETF américains en novembre.",
+  "Révision à la baisse des prévisions de certains analystes et plateformes (comme Galaxy) qui retirent leurs prédictions de creux de marché et évoquent de potentielles baisses supplémentaires en cas de rupture de supports.",
+  "Avancées réglementaires et institutionnelles contrastées, comprenant la progression de projets de lois aux États-Unis concernant la Réserve Stratégique de Bitcoin et le lancement de nouveaux ETF spot en Suisse."
  ],
- "ton_global": -0.6,
+ "ton_global": -0.2,
  "evenements_a_surveiller": [
-  "Publication de l'indice des prix PCE aux États-Unis"
+  "Expiration des options Bitcoin de 7 milliards de dollars sur Deribit prévue ce vendredi"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
