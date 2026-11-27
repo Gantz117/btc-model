@@ -1,14 +1,14 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "resume": [
-  "Expiration massive d'options Bitcoin estimée à 7 milliards de dollars sur Deribit, entraînant des couvertures et des mouvements de volatilité à court terme.",
-  "Persistance d'un sentiment baissier de fond sur le marché, marqué par une série de pertes hebdomadaires pour le Bitcoin et des sorties de capitaux record sur les ETF américains en novembre.",
-  "Révision à la baisse des prévisions de certains analystes et plateformes (comme Galaxy) qui retirent leurs prédictions de creux de marché et évoquent de potentielles baisses supplémentaires en cas de rupture de supports.",
-  "Avancées réglementaires et institutionnelles contrastées, comprenant la progression de projets de lois aux États-Unis concernant la Réserve Stratégique de Bitcoin et le lancement de nouveaux ETF spot en Suisse."
+  "Le marché fait face à une expiration massive d'options sur Bitcoin (estimée entre 6,8 et 7,5 milliards de dollars), générant de la volatilité et des liquidations de positions courtes.",
+  "JPMorgan et divers rapports signalent des signes de capitulation (notamment la baisse de la valeur nette d'inventaire de Strategy / MicroStrategy et la pression sur les mineurs).",
+  "La liquidité globale reste sous pression avec des sorties sur les ETF Bitcoin, une baisse de la capitalisation des stablecoins et une politique de la Fed perçue comme plus hawkish.",
+  "Malgré un rebond technique au-dessus des 61 000 dollars et des liquidations de shorts, les pressions vendeuses des baleines et l'incertitude macroéconomique maintiennent le marché sous surveillance."
  ],
- "ton_global": -0.2,
+ "ton_global": -0.3,
  "evenements_a_surveiller": [
-  "Expiration des options Bitcoin de 7 milliards de dollars sur Deribit prévue ce vendredi"
+  "Expiration des options Bitcoin de fin novembre 2026"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
