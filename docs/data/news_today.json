@@ -1,14 +1,15 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "resume": [
-  "Le marché fait face à une expiration massive d'options sur Bitcoin (estimée entre 6,8 et 7,5 milliards de dollars), générant de la volatilité et des liquidations de positions courtes.",
-  "JPMorgan et divers rapports signalent des signes de capitulation (notamment la baisse de la valeur nette d'inventaire de Strategy / MicroStrategy et la pression sur les mineurs).",
-  "La liquidité globale reste sous pression avec des sorties sur les ETF Bitcoin, une baisse de la capitalisation des stablecoins et une politique de la Fed perçue comme plus hawkish.",
-  "Malgré un rebond technique au-dessus des 61 000 dollars et des liquidations de shorts, les pressions vendeuses des baleines et l'incertitude macroéconomique maintiennent le marché sous surveillance."
+  "Le Bitcoin évolue sous les 60 000 $ sur fond de sorties massives sur les ETF et d'expiration de volumes importants d'options (environ 6,8 à 7 milliards de dollars).",
+  "Les baleines continuent d'accumuler de nouveaux BTC malgré une baisse mensuelle marquée et une pression baissière persistante.",
+  "Plusieurs signaux techniques et on-chain préoccupants sont mentionnés, incluant un ratio de profit/perte au plus bas sur 11 ans et la menace imminente d'une figure de 'death cross'.",
+  "Du côté de l'adoption et de l'infrastructure, Binance a complètement levé sa suspension de retraits suite à un piratage, et la banque russe VTB ouvre le trading de Bitcoin."
  ],
- "ton_global": -0.3,
+ "ton_global": -0.35,
  "evenements_a_surveiller": [
-  "Expiration des options Bitcoin de fin novembre 2026"
+  "Expiration des options de fin novembre 2026 (environ 6,8 à 7 milliards de dollars)",
+  "Tenue du niveau de support technique autour de 58 105 $ / 55 000 $"
  ],
  "modele": "gemini-3.5-flash-lite"
 }
